@@ -27,14 +27,29 @@ export class AiService {
     instructions: string,
     input: string,
   ): Promise<string | undefined> {
-    const response = await this.client.responses.create({
-      model: 'gpt-4o-2024-08-06',
-      instructions,
-      input,
+    const answer = z.object({
+      answer: z.string(),
     });
-    if (response.output_text) {
-      return response.output_text;
+
+    const response = await this.client.responses.parse({
+      model: 'gpt-4o',
+      input: [
+        { role: 'system', content: instructions },
+        {
+          role: 'user',
+          content: input,
+        },
+      ],
+      text: {
+        format: zodTextFormat(answer, 'answer'),
+      },
+    });
+
+    const answerData = response.output_parsed as z.infer<typeof answer>;
+    if (answerData?.answer) {
+      return answerData.answer;
     }
+    return;
   }
 
   async numberResponse(
