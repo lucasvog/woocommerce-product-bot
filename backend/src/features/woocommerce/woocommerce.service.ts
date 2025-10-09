@@ -6,10 +6,12 @@ import WooCommerceRestApi, {
 import { WooCategory } from './models/WooCategory';
 import { FunctionResponse } from './models/FunctionResponse';
 import { WooTag } from './models/WooTag';
+import { AiService } from '../ai/ai.service';
+import { Tags } from 'node_modules/woocommerce-rest-ts-api/dist/src/typesANDinterfaces';
 @Injectable()
 export class WoocommerceService {
   private api: WooCommerceRestApi<WooRestApiOptions>;
-  constructor() {
+  constructor(private aiService: AiService) {
     //https://www.npmjs.com/package/woocommerce-rest-ts-api
     //https://woocommerce.github.io/woocommerce-rest-api-docs/#introduction
     this.api = new WooCommerceRestApi({
@@ -26,6 +28,38 @@ export class WoocommerceService {
     // void this.getAllTags()
     //   .then((e) => console.log(JSON.stringify(e)))
     //   .catch((e) => console.error(e));
+    this.test();
+  }
+
+  async test() {
+    //     const tags = await this.getAllTags();
+    //     if (tags.data) {
+    //       console.log(
+    //         JSON.stringify(
+    //           tags.data?.map((e) => {
+    //             return { id: e.id, name: e.name };
+    //           }),
+    //         ),
+    //       );
+    //       const sortedTags = await this.aiService.sortTagsInExistingAndNew(
+    //         'Preußischer Offizierssäbel mit Stahlscheide, mit Mängeln',
+    //         `Preußischer Offizierssäbel mit Stahlscheide, mit Mängeln
+    // Dieser dekorative Löwenkopfsäbel der preußischen leichten Kavallerie aus dem 19. Jahrhundert hat Fertigungsfehler, weshalb er im Preis reduziert ist. Die Klinge und Scheide sind beschädigt und nicht optimal verarbeitet.
+    // Der Säbel stammt aus der Epoche der preußischen Armee im 19. Jahrhundert, symbolisiert durch seinen markanten Löwenkopfschliff. Solche Säbel gehörten zur Ausrüstung der Offiziere. Quelle(n): 1
+    // Material & Verarbeitung
+    // Hauptmaterialien: Kohlenstoffstahl und Messing. Handgefertigt mit handgeschmiedeter Klinge und umwickeltem Griff. Oberfläche nicht rostfrei. Pflegehinweis: Regelmäßig mit Universalöl bearbeiten.
+    // Gesamtlänge ca. 107 cm
+    // Klingenlänge ca. 92 cm
+    // Gewicht ohne Scheide ca. 1 kg
+    // Lieferung inklusive Stahlscheide mit Ringen`,
+    //         JSON.stringify(
+    //           tags.data.map((e) => {
+    //             return { id: e.id, name: e.name };
+    //           }),
+    //         ),
+    //       );
+    //       console.log(sortedTags);
+    //     }
   }
 
   async getProducts() {
@@ -128,6 +162,40 @@ export class WoocommerceService {
     }
   }
 
+  async createTag(name: string): Promise<FunctionResponse<WooTag>> {
+    try {
+      const tagResponse = await this.api.post<WooTag>('products/tags', {
+        name: name,
+      });
+      return { data: tagResponse.data };
+    } catch (e) {
+      console.error(e);
+      return { errors: ['Error creating Tag', JSON.stringify(e)] };
+    }
+  }
+
+  async getOrCreateTag(name: string): Promise<FunctionResponse<WooTag>> {
+    try {
+      const existingTags = await this.getAllTags();
+      if (existingTags.data) {
+        const foundTag = existingTags.data.find(
+          (tag) => tag.name.toLowerCase() === name.toLowerCase(),
+        );
+        if (foundTag) {
+          return { data: foundTag };
+        }
+      }
+      return await this.createTag(name);
+    } catch (e) {
+      console.error(e);
+      return { errors: ['Error creating Tag', JSON.stringify(e)] };
+    }
+  }
+
+  // async completeAllTagsAi(productName: string, productDescription: string) {
+  //   this.aiService.textResponse("Du bist ein WooCommerce Text-Bot, der Tags ")
+  // }
+
   async createOrUpdateProduct(
     data: Partial<Products>,
   ): Promise<FunctionResponse<Products>> {
@@ -190,4 +258,43 @@ export class WoocommerceService {
   //       return {errors:["Error updating Product",JSON.stringify(e)]}
   //     }
   //   }
+
+  async getOrCreateTags(
+    productName: string,
+    productDescription: string,
+  ): Promise<Partial<Tags>[]> {
+    const tags = await this.getAllTags();
+    if (!tags.data) {
+      console.error('Could not set tags for ', productName);
+      return [];
+    }
+    let returningTags: Partial<Tags>[] = [];
+    const sortedTags = await this.aiService.sortTagsInExistingAndNew(
+      productName,
+      productDescription,
+      JSON.stringify(
+        tags.data.map((e) => {
+          return { id: e.id, name: e.name };
+        }),
+      ),
+    );
+    if (!sortedTags) {
+      console.error('Could not get and sort tags for ', productName);
+      return [];
+    }
+    returningTags = [...sortedTags.existingTags];
+    for (const newTag of sortedTags.newTags) {
+      const newTagData = await this.createTag(newTag.name);
+      if (newTagData.data) {
+        console.log('created new Tag', newTag.name);
+        returningTags.push({
+          id: newTagData.data.id,
+        });
+      }
+      if (newTagData.errors) {
+        console.error('Error creating Tag', newTag.name);
+      }
+    }
+    return returningTags;
+  }
 }

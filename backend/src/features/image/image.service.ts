@@ -21,14 +21,24 @@ export class ImageService {
     //     'http://img.battlemerchant.de/products_images/0101002722_schwert_us_kavalleriesaebel_modell_1860_schw_griff.jpg',
     // });
     // console.log('FINDING PICTURE');
-    const searchResult =
-      await this.wordpressService.findPictureByStringInDescription(
-        'http://img.battlemerchant.de/products_images/0101002722_schwert_us_kavalleriesaebel_modell_1860_schw_griff.jpg',
-      );
-    console.log(searchResult);
+    // const searchResult =
+    //   await this.wordpressService.findPictureByStringInDescription(
+    //     'http://img.battlemerchant.de/products_images/0101002722_schwert_us_kavalleriesaebel_modell_1860_schw_griff.jpg',
+    //   );
+    // console.log(searchResult);
   }
 
-  async loadUrlImageAsBuffer(url: string): Promise<Buffer> {
+  getWebpFileNameFromUrl(url: string) {
+    const urlParts = url.split('/');
+    const originalFileName = urlParts[urlParts.length - 1];
+    const fileNameWithoutExtension = originalFileName
+      .split('.')
+      .slice(0, -1)
+      .join('.');
+    return fileNameWithoutExtension + '.webp';
+  }
+
+  async loadUrlImageAsBuffer(url: string): Promise<Buffer | undefined> {
     try {
       const response = await fetch(url);
       if (!response.ok) throw new Error('Failed to fetch image');
@@ -36,16 +46,15 @@ export class ImageService {
       return Buffer.from(arrayBuffer);
     } catch (err) {
       console.error('Error loading image from URL:', err);
-      throw new InternalServerErrorException('Failed to load image');
+      return;
+      // throw new InternalServerErrorException('Failed to load image');
     }
   }
 
   async convertImageToWebPFromUrl(data: Buffer): Promise<Buffer> {
     try {
       // Dynamic imports to handle ESM modules with typing
-      const imageminModule = (await import(
-        'imagemin'
-      )) as typeof import('imagemin');
+      const imageminModule = await import('imagemin');
       const imageminWebpModule = (await import(
         'imagemin-webp'
       )) as unknown as typeof import('imagemin-webp');
