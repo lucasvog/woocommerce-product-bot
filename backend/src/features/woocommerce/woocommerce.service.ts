@@ -283,7 +283,18 @@ export class WoocommerceService {
       return [];
     }
     returningTags = [...sortedTags.existingTags];
-    for (const newTag of sortedTags.newTags) {
+    const newTagsToAdd: {
+      name: string;
+    }[] = [];
+    for (const testTag of sortedTags.newTags) {
+      const foundTag = tags.data.find((e) => e.name === testTag.name);
+      if (foundTag) {
+        returningTags.push(testTag);
+      } else {
+        newTagsToAdd.push(testTag);
+      }
+    }
+    for (const newTag of newTagsToAdd) {
       const newTagData = await this.createTag(newTag.name);
       if (newTagData.data) {
         console.log('created new Tag', newTag.name);

@@ -54,7 +54,9 @@ export class ImageService {
   async convertImageToWebPFromUrl(data: Buffer): Promise<Buffer> {
     try {
       // Dynamic imports to handle ESM modules with typing
-      const imageminModule = await import('imagemin');
+      const imageminModule = (await import(
+        'imagemin'
+      )) as unknown as typeof import('imagemin');
       const imageminWebpModule = (await import(
         'imagemin-webp'
       )) as unknown as typeof import('imagemin-webp');

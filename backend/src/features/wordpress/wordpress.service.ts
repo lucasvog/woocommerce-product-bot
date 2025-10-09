@@ -108,7 +108,7 @@ export class WordpressService {
     search: string,
   ): Promise<MediaAttachment[] | undefined> {
     const allPictures = await this.findMedia(search);
-    console.log(allPictures);
+    // console.log(allPictures);
     if (allPictures && allPictures.length > 0) {
       return allPictures
         .filter(

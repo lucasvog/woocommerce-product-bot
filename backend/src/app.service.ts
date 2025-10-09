@@ -16,9 +16,9 @@ export class AppService {
     private woocommerceService: WoocommerceService,
     private wordpressService: WordpressService,
   ) {
-    // this.generateProductforHandelsgilde();
+    this.generateProductforHandelsgildeProducs();
   }
-  async generateProductforHandelsgilde() {
+  async generateProductforHandelsgildeProducs() {
     //http://csv.battlemerchant.com/Products_back_in_stock_7_days.csv
 
     // http://csv.battlemerchant.com/Products_in_stock.csv
@@ -63,7 +63,7 @@ export class AppService {
     //     { isLocal: true },
     //   );
     const categories = await this.woocommerceService.getAllCategories();
-    console.log(providerProducts);
+    // console.log(providerProducts);
     if (!providerProducts) {
       console.error('No Products found');
       return;
@@ -75,9 +75,18 @@ export class AppService {
     const skippedProducts: string[] = [];
     //TODO: add check or metadata of importer!
     let maximumNumberOfProductsToRun = 1;
-    for (const providerProduct of providerProducts.filter(
-      (e) => e.Vatermodell === '',
-    )) {
+    for (const providerProduct of providerProducts
+      .filter((e) => e !== undefined && e.Vatermodell === '')
+      .filter(
+        (e) =>
+          e.Shopbeschreibung === undefined ||
+          e.Shopbeschreibung.toLowerCase().includes('alkohol') === false,
+      )
+      .filter(
+        (e) =>
+          e.Sicherheitshinweise === undefined ||
+          e.Sicherheitshinweise.toLowerCase().includes('scharf') === false,
+      )) {
       const foundProduct = await this.woocommerceService.getProductsBySku(
         providerProduct['Artikelnr.'],
       );
@@ -130,23 +139,19 @@ export class AppService {
       "avoid_superlatives": true,
       "use_present_tense": true
     },
-    "citations": {
-      "historical_context_requires_sources": true,
-      "min_sources": 1
-    }
   },
   "output": {
     "title": "${providerProduct.Artikelname}",
     "mode":"STRICT_HTML_ONLY_NO_MARKDOWN",
     "summary_rewrite": "Kurz zusammengefasst, umgeschrieben aus der Vorgabe – ohne Copy/Paste, neutral, 1–2 Sätze.",
     "historical_context": "Zeitliche Einordnung (Epoche/Region) + 1–2 belastbare Fakten aus der Recherche; knapper Nutzen/Verwendungszweck. ",
-    "materials_craft": {
+    "materials_craft_examples": {
       "material": "Hauptmaterialien (z. B. Rindleder 3–3,5 mm, Stahl C45, Leinen 240 g/m²)",
       "construction": "Fertigung/Techniken (z. B. handvernietet, pflanzlich gegerbt, doppelte Nähte, ölgehärtet)",
       "finish": "Oberfläche/Behandlung (z. B. brüniert, geölt, patiniert)",
       "care": "Pflegehinweise kurz (z. B. trocken lagern, einfetten, Rostschutz)"
     },
-    "details": [
+    "details_examples": [
       "Stichpunkt 1 ohne Materialbegriff",
       "Stichpunkt 2 (Maße, Passform, Systemkompatibilität)",
       "Stichpunkt 3 (Gewicht, Abmessungen, Verschlussart)",
@@ -162,7 +167,6 @@ export class AppService {
   "quality_checks": {
     "no_material_words_in_details": true,
     "has_min_details": true,
-    "historical_has_citation": true,
     "summary_not_too_long": true
   }
 }`,
@@ -289,7 +293,7 @@ export class AppService {
           'Could not create product ' + providerProduct['Artikelnr.'],
         );
       }
-      console.log('Created product', product);
+      console.log('Created product', providerProduct.Artikelname);
     }
   }
 }
