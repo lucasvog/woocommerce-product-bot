@@ -294,6 +294,7 @@ export class WoocommerceService {
         newTagsToAdd.push(testTag);
       }
     }
+
     for (const newTag of newTagsToAdd) {
       const newTagData = await this.createTag(newTag.name);
       if (newTagData.data) {

@@ -6,7 +6,29 @@ import { WordpressService } from './features/wordpress/wordpress.service';
 import { ImporterService } from './features/importer/importer.service';
 import { Products } from 'woocommerce-rest-ts-api';
 import { Images } from 'node_modules/woocommerce-rest-ts-api/dist/src/typesANDinterfaces';
-
+type InfoKey =
+  | 'Artikelnr.'
+  | 'EAN'
+  | 'Artikelname'
+  | 'Zolltarifnr.'
+  | 'Variante'
+  | 'Gewicht'
+  | 'Dein Preis'
+  | 'Kundenpreis'
+  | 'Vatermodell'
+  | 'Marke'
+  | 'Bildpfad 1'
+  | 'Bildpfad 2'
+  | 'Bildpfad 3'
+  | 'Bildpfad 4'
+  | 'Bildpfad 5'
+  | 'Bildpfad 6'
+  | 'Shopbeschreibung'
+  | 'Variantenname'
+  | 'GPSR Hersteller'
+  | 'GPSR Verantwortliche Person'
+  | 'GPSR Kontakt'
+  | 'Sicherheitshinweise';
 @Injectable()
 export class AppService {
   constructor(
@@ -16,9 +38,9 @@ export class AppService {
     private woocommerceService: WoocommerceService,
     private wordpressService: WordpressService,
   ) {
-    this.generateProductforHandelsgildeProducs();
+    this.generateProductforHandelsgilde();
   }
-  async generateProductforHandelsgildeProducs() {
+  async generateProductforHandelsgilde() {
     //http://csv.battlemerchant.com/Products_back_in_stock_7_days.csv
 
     // http://csv.battlemerchant.com/Products_in_stock.csv
@@ -28,30 +50,6 @@ export class AppService {
     // http://csv.battlemerchant.com/Produktinfo.csv
 
     const errors: string[] = [];
-
-    type InfoKey =
-      | 'Artikelnr.'
-      | 'EAN'
-      | 'Artikelname'
-      | 'Zolltarifnr.'
-      | 'Variante'
-      | 'Gewicht'
-      | 'Dein Preis'
-      | 'Kundenpreis'
-      | 'Vatermodell'
-      | 'Marke'
-      | 'Bildpfad 1'
-      | 'Bildpfad 2'
-      | 'Bildpfad 3'
-      | 'Bildpfad 4'
-      | 'Bildpfad 5'
-      | 'Bildpfad 6'
-      | 'Shopbeschreibung'
-      | 'Variantenname'
-      | 'GPSR Hersteller'
-      | 'GPSR Verantwortliche Person'
-      | 'GPSR Kontakt'
-      | 'Sicherheitshinweise';
 
     const providerProducts =
       await this.importerService.getCsvWithHeader<InfoKey>(
@@ -74,19 +72,53 @@ export class AppService {
     }
     const skippedProducts: string[] = [];
     //TODO: add check or metadata of importer!
-    let maximumNumberOfProductsToRun = 1;
-    for (const providerProduct of providerProducts
+    // let maximumNumberOfProductsToRun = 1;
+    const filteredShopBeschreibungTexts = [
+      'alkohol',
+      't-shirt',
+      'hoodie',
+      'girlie-hoodie',
+      'girlie-shirt',
+      'longsleeve-shirt',
+      'kaffee',
+    ];
+    const filderedShopBeschreibungTextsCaseSensitive = ['DVD', 'CD'];
+    const filteredSicherheitsinweiseTexts = ['scharf'];
+    const filteredProducts = providerProducts
       .filter((e) => e !== undefined && e.Vatermodell === '')
+      //filter out any products that contain any of the filteredShopBeschreibungTexts in the shopbeschreibung or sicherheitshinweise
       .filter(
         (e) =>
           e.Shopbeschreibung === undefined ||
-          e.Shopbeschreibung.toLowerCase().includes('alkohol') === false,
+          filteredShopBeschreibungTexts.every(
+            (text) => e.Shopbeschreibung.toLowerCase().includes(text) === false,
+          ),
+      )
+      .filter(
+        (e) =>
+          e.Shopbeschreibung === undefined ||
+          filderedShopBeschreibungTextsCaseSensitive.every(
+            (text) => e.Shopbeschreibung.includes(text) === false,
+          ),
       )
       .filter(
         (e) =>
           e.Sicherheitshinweise === undefined ||
-          e.Sicherheitshinweise.toLowerCase().includes('scharf') === false,
-      )) {
+          filteredSicherheitsinweiseTexts.every(
+            (text) =>
+              e.Sicherheitshinweise.toLowerCase().includes(text) === false,
+          ),
+      );
+    let index = 0;
+    for (const providerProduct of filteredProducts) {
+      index += 1;
+      console.log(
+        'Product',
+        index,
+        'of',
+        filteredProducts.length,
+        Math.round((index / filteredProducts.length) * 1000) / 10 + '%',
+      );
       const foundProduct = await this.woocommerceService.getProductsBySku(
         providerProduct['Artikelnr.'],
       );
@@ -97,11 +129,11 @@ export class AppService {
         );
         continue;
       }
-      maximumNumberOfProductsToRun--;
-      if (maximumNumberOfProductsToRun < 0) {
-        console.log('Stopping because of maximum number of products reached');
-        break;
-      }
+      // maximumNumberOfProductsToRun--;
+      // if (maximumNumberOfProductsToRun < 0) {
+      //   console.log('Stopping because of maximum number of products reached');
+      //   break;
+      // }
       console.log('Found product to generate:', providerProduct.Artikelname);
       const rewrittenDescription = await this.aiService.textResponse(
         `{
@@ -172,7 +204,7 @@ export class AppService {
 }`,
         providerProduct.Shopbeschreibung,
       );
-      console.log('DESCRIPTION:\n\n', rewrittenDescription, '\n\n');
+      console.log('DESCRIPTION: ', rewrittenDescription?.length);
       console.log('rewritting short description:', providerProduct.Artikelname);
       const shortDescription = await this.aiService.textResponse(`{
   "meta": {
@@ -210,12 +242,13 @@ export class AppService {
     "notes": "Alle Informationen stammen ausschließlich aus der Herstellerbeschreibung, ohne externe Recherche oder Ausschmückung."
   }
 }`);
-      console.log('SHORT DESCRIPTION:\n\n', rewrittenDescription, '\n\n');
+      console.log('SHORT DESCRIPTION:', rewrittenDescription?.length);
       const productCategories = await this.aiService.categoryNumberResponse(
         JSON.stringify(categories),
         providerProduct.Artikelname + '\n\n' + providerProduct.Shopbeschreibung,
       );
       if (!rewrittenDescription || !shortDescription || !productCategories) {
+        console.error('ERROR: Skipping product', providerProduct.Artikelname);
         skippedProducts.push(providerProduct['Artikelnr.']);
         continue;
       }
@@ -294,6 +327,78 @@ export class AppService {
         );
       }
       console.log('Created product', providerProduct.Artikelname);
+    }
+  }
+
+  async generateProductVariationForHandelsgilde() {
+    const errors: string[] = [];
+
+    const providerProducts =
+      await this.importerService.getCsvWithHeader<InfoKey>(
+        'http://csv.battlemerchant.com/Produktinfo.csv',
+      );
+    if (!providerProducts) {
+      console.error('No Products found');
+      return;
+    }
+    // if (!categories) {
+    //   console.error('Could not load categories');
+    //   return;
+    // }
+    // const skippedProducts: string[] = [];
+
+    const filteredProducts = providerProducts.filter(
+      (e) => e !== undefined && e.Vatermodell !== '',
+    );
+    let index = 0;
+    for (const providerProduct of filteredProducts) {
+      index += 1;
+      console.log(
+        'Product',
+        index,
+        'of',
+        filteredProducts.length,
+        Math.round((index / filteredProducts.length) * 1000) / 10 + '%',
+      );
+      const foundParentProduct = await this.woocommerceService.getProductsBySku(
+        providerProduct['Artikelnr.'],
+      );
+      if (!foundParentProduct || foundParentProduct.length <= 0) {
+        console.log('Skipped Parent Product: Could not find parent');
+        continue;
+      }
+      const images: Partial<Images>[] = [];
+      for (const imageUrl of [
+        providerProduct['Bildpfad 1'],
+        providerProduct['Bildpfad 2'],
+        providerProduct['Bildpfad 3'],
+        providerProduct['Bildpfad 4'],
+        providerProduct['Bildpfad 5'],
+        providerProduct['Bildpfad 6'],
+      ].filter((e) => typeof e === 'string' && e.length > 0)) {
+        console.log('image:', imageUrl);
+        const image = await this.wordpressService.getImageOrConvertAndUpload(
+          imageUrl,
+          {
+            alt_text: providerProduct.Artikelname,
+            fileName: this.imageService.getWebpFileNameFromUrl(imageUrl),
+            title: providerProduct.Artikelname,
+          },
+        );
+        if (image.errors) {
+          console.log('error for image:', imageUrl, image.errors);
+          errors.push(...image.errors);
+        }
+        if (image.data) {
+          console.log('success uploading image:', imageUrl);
+          images.push({
+            id: image.data.id,
+            src: image.data.source_url,
+            alt: image.data.alt_text,
+            name: image.data.title.rendered,
+          });
+        }
+      }
     }
   }
 }
