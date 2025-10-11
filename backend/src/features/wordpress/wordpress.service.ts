@@ -63,6 +63,8 @@ export class WordpressService {
         clearTimeout(timeout);
         return { errors: ['Could not upload image ' + url] };
       }
+      console.log('Success handling image', uploadedImage.link);
+      clearTimeout(timeout);
       return { data: uploadedImage };
     } catch (e) {
       console.error(e);
