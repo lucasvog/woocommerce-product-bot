@@ -34,18 +34,25 @@ export class WordpressService {
       caption?: string;
     },
   ): Promise<FunctionResponse<MediaAttachment | undefined>> {
+    const timeout = setTimeout(() => {
+      console.error('Skipped due to timeout', url);
+      return { errors: ['Skipped due to timeout', url] };
+    }, 30 * 1000);
     try {
       const searchResult = await this.findPictureByStringInDescription(url);
       if (searchResult && searchResult.length > 0) {
+        clearTimeout(timeout);
         return { data: searchResult[0] };
       }
       const loadedImage = await this.imageService.loadUrlImageAsBuffer(url);
       if (!loadedImage) {
+        clearTimeout(timeout);
         return { errors: ['Could not load image ' + url] };
       }
       const compressedImage =
         await this.imageService.convertImageToWebPFromUrl(loadedImage);
       if (!compressedImage) {
+        clearTimeout(timeout);
         return { errors: ['Could not convert image ' + url] };
       }
       const uploadedImage = await this.uploadImage(compressedImage, {
@@ -53,13 +60,14 @@ export class WordpressService {
         description: url,
       });
       if (!uploadedImage) {
+        clearTimeout(timeout);
         return { errors: ['Could not upload image ' + url] };
       }
       return { data: uploadedImage };
     } catch (e) {
       console.error(e);
     }
-
+    clearTimeout(timeout);
     return { errors: ['undefined error while getting or uploading image'] };
   }
 

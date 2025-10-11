@@ -69,6 +69,7 @@ export class WoocommerceService {
       let products: Products[] = [];
       let foundAllData = false;
       while (!foundAllData) {
+        console.log('Loading Products, page', page);
         const productsData = await this.api.getProducts({
           page: page,
           per_page,
@@ -76,11 +77,14 @@ export class WoocommerceService {
         if (productsData.data && productsData.data.length < per_page) {
           foundAllData = true;
         } else {
+          if (!productsData.data || productsData.data.length === 0) {
+            foundAllData = true;
+          }
           page += 1;
         }
         products = [...products, ...productsData.data];
       }
-
+      console.log('found products:', products.length);
       return { data: products };
     } catch (e) {
       console.error(e);

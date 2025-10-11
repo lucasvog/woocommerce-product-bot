@@ -6,6 +6,7 @@ import { WordpressService } from './features/wordpress/wordpress.service';
 import { ImporterService } from './features/importer/importer.service';
 import { Products } from 'woocommerce-rest-ts-api';
 import { Images } from 'node_modules/woocommerce-rest-ts-api/dist/src/typesANDinterfaces';
+import * as fs from 'fs';
 type InfoKey =
   | 'Artikelnr.'
   | 'EAN'
@@ -62,12 +63,17 @@ export class AppService {
     //   );
     const categories = await this.woocommerceService.getAllCategories();
     // console.log(providerProducts);
+    const allProducts = await this.woocommerceService.getProducts();
     if (!providerProducts) {
       console.error('No Products found');
       return;
     }
-    if (!categories) {
+    if (!categories.data) {
       console.error('Could not load categories');
+      return;
+    }
+    if (!allProducts.data) {
+      console.error('Could not load all Products');
       return;
     }
     const skippedProducts: string[] = [];
@@ -110,8 +116,12 @@ export class AppService {
           ),
       );
     let index = 0;
+
     for (const providerProduct of filteredProducts) {
+      fs.writeFileSync('./skipped.txt', JSON.stringify(skippedProducts));
+      fs.writeFileSync('./errors.txt', JSON.stringify(errors));
       index += 1;
+
       console.log(
         'Product',
         index,
@@ -119,10 +129,13 @@ export class AppService {
         filteredProducts.length,
         Math.round((index / filteredProducts.length) * 1000) / 10 + '%',
       );
-      const foundProduct = await this.woocommerceService.getProductsBySku(
-        providerProduct['Artikelnr.'],
+      // const foundProduct = await this.woocommerceService.getProductsBySku(
+      //   providerProduct['Artikelnr.'],
+      // );
+      const foundProduct = allProducts.data.find(
+        (e) => e.sku === providerProduct['Artikelnr.'],
       );
-      if (foundProduct && foundProduct.length > 0) {
+      if (foundProduct) {
         console.log(
           'Skipping product as it is already created:  ' +
             providerProduct.Artikelname,
@@ -135,7 +148,7 @@ export class AppService {
       //   break;
       // }
       console.log('Found product to generate:', providerProduct.Artikelname);
-      const rewrittenDescription = await this.aiService.textResponse(
+      const rewrittenDescriptionPromise = this.aiService.textResponse(
         `{
   "meta": {
     "version": "1.0",
@@ -204,9 +217,8 @@ export class AppService {
 }`,
         providerProduct.Shopbeschreibung,
       );
-      console.log('DESCRIPTION: ', rewrittenDescription?.length);
       console.log('rewritting short description:', providerProduct.Artikelname);
-      const shortDescription = await this.aiService.textResponse(`{
+      const shortDescriptionPromise = this.aiService.textResponse(`{
   "meta": {
     "version": "1.0",
     "type": "short_description",
@@ -242,6 +254,11 @@ export class AppService {
     "notes": "Alle Informationen stammen ausschließlich aus der Herstellerbeschreibung, ohne externe Recherche oder Ausschmückung."
   }
 }`);
+      const [rewrittenDescription, shortDescription] = await Promise.all([
+        rewrittenDescriptionPromise,
+        shortDescriptionPromise,
+      ]);
+      console.log('DESCRIPTION: ', rewrittenDescription?.length);
       console.log('SHORT DESCRIPTION:', rewrittenDescription?.length);
       const productCategories = await this.aiService.categoryNumberResponse(
         JSON.stringify(categories),
@@ -254,26 +271,33 @@ export class AppService {
       }
       console.log('lade Bilder hoch...');
       const images: Partial<Images>[] = [];
-      for (const imageUrl of [
+      const imageUrls = [
         providerProduct['Bildpfad 1'],
         providerProduct['Bildpfad 2'],
         providerProduct['Bildpfad 3'],
         providerProduct['Bildpfad 4'],
         providerProduct['Bildpfad 5'],
         providerProduct['Bildpfad 6'],
-      ].filter((e) => typeof e === 'string' && e.length > 0)) {
-        console.log('image:', imageUrl);
-        const image = await this.wordpressService.getImageOrConvertAndUpload(
-          imageUrl,
-          {
+      ].filter((e) => typeof e === 'string' && e.length > 0);
+
+      const imageUploadPromises = imageUrls.map((imageUrl) =>
+        this.wordpressService
+          .getImageOrConvertAndUpload(imageUrl, {
             alt_text: providerProduct.Artikelname,
             fileName: this.imageService.getWebpFileNameFromUrl(imageUrl),
             title: providerProduct.Artikelname,
-          },
-        );
+          })
+          .then((image) => ({ image, imageUrl })),
+      );
+
+      const uploadedImages = await Promise.all(imageUploadPromises);
+
+      for (const { image, imageUrl } of uploadedImages) {
         if (image.errors) {
           console.log('error for image:', imageUrl, image.errors);
           errors.push(...image.errors);
+          skippedProducts.push(providerProduct['Artikelnr.']);
+          continue;
         }
         if (image.data) {
           console.log('success uploading image:', imageUrl);
