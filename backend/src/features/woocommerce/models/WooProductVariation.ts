@@ -1,25 +1,25 @@
 // WooCommerce Product Variation Interface
 export interface WooProductVariation {
   /** 🔒 Unique identifier for the resource. */
-  readonly id: number;
+  readonly id?: number;
 
   /** 🔒 The date the variation was created, in the site's timezone. */
-  readonly date_created: string;
+  readonly date_created?: string;
 
   /** 🔒 The date the variation was created, as GMT. */
-  readonly date_created_gmt: string;
+  readonly date_created_gmt?: string;
 
   /** 🔒 The date the variation was last modified, in the site's timezone. */
-  readonly date_modified: string;
+  readonly date_modified?: string;
 
   /** 🔒 The date the variation was last modified, as GMT. */
-  readonly date_modified_gmt: string;
+  readonly date_modified_gmt?: string;
 
   /** Variation description. */
   description?: string;
 
   /** 🔒 Variation URL. */
-  readonly permalink: string;
+  readonly permalink?: string;
 
   /** Unique SKU identifier. */
   sku?: string;
@@ -49,13 +49,13 @@ export interface WooProductVariation {
   date_on_sale_to_gmt?: string;
 
   /** 🔒 Shows if the variation is currently on sale. */
-  readonly on_sale: boolean;
+  readonly on_sale?: boolean;
 
   /** Variation status (draft, pending, private, publish). */
   status?: 'draft' | 'pending' | 'private' | 'publish';
 
   /** 🔒 Shows if the variation can be purchased. */
-  readonly purchasable: boolean;
+  readonly purchasable?: boolean;
 
   /** Whether the variation is virtual. */
   virtual?: boolean;
@@ -91,10 +91,10 @@ export interface WooProductVariation {
   backorders?: 'no' | 'notify' | 'yes';
 
   /** 🔒 Shows if backorders are allowed. */
-  readonly backorders_allowed: boolean;
+  readonly backorders_allowed?: boolean;
 
   /** 🔒 Shows if the variation is currently backordered. */
-  readonly backordered: boolean;
+  readonly backordered?: boolean;
 
   /** Weight of the variation. */
   weight?: string;
@@ -143,15 +143,15 @@ export interface WooVariationDimensions {
 
 export interface WooVariationImage {
   /** Image ID. */
-  id: number;
+  id?: number;
   /** 🔒 The date the image was created (local). */
-  readonly date_created: string;
+  readonly date_created?: string;
   /** 🔒 The date the image was created (GMT). */
-  readonly date_created_gmt: string;
+  readonly date_created_gmt?: string;
   /** 🔒 The date the image was last modified (local). */
-  readonly date_modified: string;
+  readonly date_modified?: string;
   /** 🔒 The date the image was last modified (GMT). */
-  readonly date_modified_gmt: string;
+  readonly date_modified_gmt?: string;
   /** Image URL. */
   src: string;
   /** Image name. */
@@ -162,16 +162,16 @@ export interface WooVariationImage {
 
 export interface WooVariationAttribute {
   /** Attribute ID. */
-  id: number;
+  id?: number;
   /** Attribute name. */
-  name: string;
+  name?: string;
   /** Selected attribute term name. */
   option: string;
 }
 
 export interface WooVariationMeta {
   /** 🔒 Meta ID. */
-  readonly id: number;
+  readonly id?: number;
   /** Meta key. */
   key: string;
   /** Meta value. */

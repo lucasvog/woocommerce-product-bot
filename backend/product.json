@@ -1,0 +1,386 @@
+[
+  {
+    "id": 4901,
+    "name": "Lorica Segmentata (Corbridge A)",
+    "slug": "",
+    "permalink": "https://die-handelsgilde.de/?post_type=product&p=4901",
+    "date_created": "2025-10-09T21:20:00",
+    "date_created_gmt": "2025-10-09T19:20:00",
+    "date_modified": "2025-10-14T18:07:28",
+    "date_modified_gmt": "2025-10-14T16:07:28",
+    "type": "variable",
+    "status": "draft",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<h1>Lorica Segmentata (Corbridge A)</h1>\n<p>Diese Rüstung ist eine detailgetreue Nachbildung des römischen Schienenpanzers, basierend auf Funden aus der Region um Corbridge, England, aus der Zeit um Christi Geburt.</p>\n<h3>Historischer Kontext</h3>\n<p>Die Lorica Segmentata wurde hauptsächlich im Römischen Reich zur Zeit des 1. bis 3. Jahrhunderts n. Chr. getragen. Diese Rüstungsart war bei römischen Legionären beliebt für den optimalen Schutz bei gleichzeitig hoher Bewegungsfreiheit.</p>\n<h3>Material &amp; Verarbeitung</h3>\n<p>Die Hauptmaterialien dieser Rüstung umfassen robuste Metallplatten und flexible Verbindungselemente. Sie wird sorgfältig handgefertigt und besitzt eine schützende Oberfläche, die gegen Umwelteinflüsse resistent ist. Zur Pflege wird empfohlen, sie trocken zu lagern und gelegentlich zu ölen, um Rost zu vermeiden.</p>\n<ul>\n<li>Verfügbar in Größen M und L</li>\n<li>Maximaler Brustumfang 110 cm (M) oder 130 cm (L)</li>\n<li>Gewicht: ca. 11 kg (M) und 12 kg (L)</li>\n<li>Einfach zu montieren und individuell anpassbar</li>\n</ul>\n",
+    "short_description": "<p>&#8211; Römischer Schienenpanzer<br />\n&#8211; Für historische Reenactments<br />\n&#8211; Stahl, Messing, Leder<br />\n&#8211; Originalgetreues Design nach Funden aus Corbridge<br />\n&#8211; Verschiedene Größen, Gewicht angepasst</p>\n",
+    "sku": "1016385100",
+    "price": "199.99",
+    "regular_price": "",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 0,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "12.5",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 115,
+        "name": "Römer &amp; Antike",
+        "slug": "roemer-und-antike"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "id": 273,
+        "name": "Leder",
+        "slug": "leder"
+      },
+      {
+        "id": 534,
+        "name": "Replik",
+        "slug": "replik"
+      },
+      {
+        "id": 289,
+        "name": "römer",
+        "slug": "roemer"
+      },
+      {
+        "id": 170,
+        "name": "Stahl",
+        "slug": "stahl"
+      }
+    ],
+    "images": [
+      {
+        "id": 4898,
+        "date_created": "2025-10-09T23:19:37",
+        "date_created_gmt": "2025-10-09T19:19:37",
+        "date_modified": "2025-10-09T23:21:37",
+        "date_modified_gmt": "2025-10-09T19:21:37",
+        "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100_ruestung_roemer_lorica_segmentata.webp",
+        "name": "Lorica Segmentata (Corbridge A)",
+        "alt": "Lorica Segmentata (Corbridge A)",
+        "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100_ruestung_roemer_lorica_segmentata.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100_ruestung_roemer_lorica_segmentata-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100_ruestung_roemer_lorica_segmentata-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100_ruestung_roemer_lorica_segmentata-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100_ruestung_roemer_lorica_segmentata-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100_ruestung_roemer_lorica_segmentata-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100_ruestung_roemer_lorica_segmentata-1000x1400.webp 1000w",
+        "sizes": "(max-width: 1500px) 100vw, 1500px",
+        "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100_ruestung_roemer_lorica_segmentata-500x600.webp"
+      },
+      {
+        "id": 4899,
+        "date_created": "2025-10-09T23:19:43",
+        "date_created_gmt": "2025-10-09T19:19:43",
+        "date_modified": "2025-10-09T23:21:37",
+        "date_modified_gmt": "2025-10-09T19:21:37",
+        "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100b_ruestung_roemer_lorica_segmentata.webp",
+        "name": "Lorica Segmentata (Corbridge A)",
+        "alt": "Lorica Segmentata (Corbridge A)",
+        "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100b_ruestung_roemer_lorica_segmentata.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100b_ruestung_roemer_lorica_segmentata-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100b_ruestung_roemer_lorica_segmentata-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100b_ruestung_roemer_lorica_segmentata-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100b_ruestung_roemer_lorica_segmentata-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100b_ruestung_roemer_lorica_segmentata-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100b_ruestung_roemer_lorica_segmentata-1000x1400.webp 1000w",
+        "sizes": "(max-width: 1500px) 100vw, 1500px",
+        "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100b_ruestung_roemer_lorica_segmentata-500x600.webp"
+      },
+      {
+        "id": 4900,
+        "date_created": "2025-10-09T23:19:49",
+        "date_created_gmt": "2025-10-09T19:19:49",
+        "date_modified": "2025-10-09T23:21:37",
+        "date_modified_gmt": "2025-10-09T19:21:37",
+        "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100c_ruestung_roemer_lorica_segmentata.webp",
+        "name": "Lorica Segmentata (Corbridge A)",
+        "alt": "Lorica Segmentata (Corbridge A)",
+        "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100c_ruestung_roemer_lorica_segmentata.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100c_ruestung_roemer_lorica_segmentata-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100c_ruestung_roemer_lorica_segmentata-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100c_ruestung_roemer_lorica_segmentata-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100c_ruestung_roemer_lorica_segmentata-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100c_ruestung_roemer_lorica_segmentata-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100c_ruestung_roemer_lorica_segmentata-1000x1400.webp 1000w",
+        "sizes": "(max-width: 1500px) 100vw, 1500px",
+        "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100c_ruestung_roemer_lorica_segmentata-500x600.webp"
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [
+      16769,
+      16770
+    ],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>199,99&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&euro;</span></bdi></span> – <span class=\"woocommerce-Price-amount amount\"><bdi>239,99&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&euro;</span></bdi></span>",
+    "related_ids": [
+      157,
+      146,
+      189,
+      279,
+      164
+    ],
+    "meta_data": [
+      {
+        "id": 106566,
+        "key": "rank_math_internal_links_processed",
+        "value": "1"
+      },
+      {
+        "id": 106588,
+        "key": "generator",
+        "value": "importer-handelsgilde"
+      },
+      {
+        "id": 106589,
+        "key": "_unit",
+        "value": ""
+      },
+      {
+        "id": 106590,
+        "key": "_unit_price_auto",
+        "value": "no"
+      },
+      {
+        "id": 106591,
+        "key": "_sale_price_label",
+        "value": ""
+      },
+      {
+        "id": 106592,
+        "key": "_sale_price_regular_label",
+        "value": ""
+      },
+      {
+        "id": 106593,
+        "key": "_manufacturer_slug",
+        "value": ""
+      },
+      {
+        "id": 106594,
+        "key": "_warranty_attachment_id",
+        "value": ""
+      },
+      {
+        "id": 106595,
+        "key": "_safety_attachment_ids",
+        "value": []
+      },
+      {
+        "id": 106596,
+        "key": "_min_age",
+        "value": ""
+      },
+      {
+        "id": 106597,
+        "key": "_ts_gtin",
+        "value": ""
+      },
+      {
+        "id": 106598,
+        "key": "_ts_mpn",
+        "value": ""
+      },
+      {
+        "id": 106599,
+        "key": "_default_delivery_time",
+        "value": ""
+      },
+      {
+        "id": 106600,
+        "key": "_delivery_time_countries",
+        "value": []
+      },
+      {
+        "id": 106601,
+        "key": "_free_shipping",
+        "value": "no"
+      },
+      {
+        "id": 106602,
+        "key": "_service",
+        "value": "no"
+      },
+      {
+        "id": 106603,
+        "key": "_photovoltaic_system",
+        "value": "no"
+      },
+      {
+        "id": 106604,
+        "key": "_used_good",
+        "value": "no"
+      },
+      {
+        "id": 106605,
+        "key": "_defective_copy",
+        "value": "no"
+      },
+      {
+        "id": 106606,
+        "key": "_wireless_electronic_device",
+        "value": "no"
+      },
+      {
+        "id": 106607,
+        "key": "_device_contains_power_supply",
+        "value": "no"
+      },
+      {
+        "id": 106608,
+        "key": "_device_charging_supports_usb_pd",
+        "value": "no"
+      },
+      {
+        "id": 106609,
+        "key": "_is_food",
+        "value": "no"
+      },
+      {
+        "id": 106610,
+        "key": "_differential_taxation",
+        "value": "no"
+      },
+      {
+        "id": 106611,
+        "key": "_gzd_version",
+        "value": "3.20.2"
+      },
+      {
+        "id": 264310,
+        "key": "_unit_price_regular",
+        "value": ""
+      },
+      {
+        "id": 264311,
+        "key": "_unit_price_sale",
+        "value": ""
+      },
+      {
+        "id": 264312,
+        "key": "_unit_price",
+        "value": ""
+      },
+      {
+        "id": 264313,
+        "key": "_defect_description",
+        "value": ""
+      }
+    ],
+    "stock_status": "outofstock",
+    "has_options": true,
+    "post_password": "",
+    "global_unique_id": "",
+    "hs_code": "",
+    "customs_description": "",
+    "manufacture_country": "DE",
+    "shipping_dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "unit": [],
+    "unit_price": {
+      "base": "",
+      "product": "",
+      "price_auto": false,
+      "price": "",
+      "price_regular": "",
+      "price_sale": "",
+      "price_html": ""
+    },
+    "mini_desc": "",
+    "defect_description": "",
+    "min_age": "",
+    "gtin": "",
+    "mpn": "",
+    "sale_price_label": [],
+    "sale_price_regular_label": [],
+    "manufacturer": [],
+    "safety_attachment_ids": [],
+    "safety_instructions": "",
+    "delivery_time": [],
+    "country_specific_delivery_times": [],
+    "free_shipping": false,
+    "wireless_electronic_device": false,
+    "device_contains_power_supply": false,
+    "device_charging_supports_usb_pd": false,
+    "device_charging_watt_min": "",
+    "device_charging_watt_max": "",
+    "service": false,
+    "used_good": false,
+    "defective_copy": false,
+    "photovoltaic_system": false,
+    "differential_taxation": false,
+    "warranty_attachment_id": "",
+    "is_food": false,
+    "food": {
+      "deposit_type": [],
+      "deposit_quantity": 1,
+      "deposit": 0,
+      "ingredients": "",
+      "nutrient_reference_value": "",
+      "nutri_score": "",
+      "alcohol_content": "",
+      "allergen_ids": [],
+      "nutrient_ids": [
+        {
+          "term": 0,
+          "value": "",
+          "ref_value": ""
+        }
+      ],
+      "net_filling_quantity": "",
+      "drained_weight": "",
+      "description": "",
+      "distributor": "",
+      "place_of_origin": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/4901",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://die-handelsgilde.de/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  }
+]

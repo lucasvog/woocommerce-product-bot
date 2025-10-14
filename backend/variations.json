@@ -1,0 +1,522 @@
+[
+  {
+    "id": 16769,
+    "type": "variation",
+    "date_created": "2025-10-14T17:59:19",
+    "date_created_gmt": "2025-10-14T15:59:19",
+    "date_modified": "2025-10-14T17:59:19",
+    "date_modified_gmt": "2025-10-14T15:59:19",
+    "description": "",
+    "permalink": "https://die-handelsgilde.de/?post_type=product&p=4901",
+    "sku": "1016385101",
+    "global_unique_id": "",
+    "price": "199.99",
+    "regular_price": "199.99",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 0,
+    "stock_status": "outofstock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "weight": "11.5",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 4898,
+      "date_created": "2025-10-09T23:19:37",
+      "date_created_gmt": "2025-10-09T19:19:37",
+      "date_modified": "2025-10-09T23:21:37",
+      "date_modified_gmt": "2025-10-09T19:21:37",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100_ruestung_roemer_lorica_segmentata.webp",
+      "name": "Lorica Segmentata (Corbridge A)",
+      "alt": "Lorica Segmentata (Corbridge A)"
+    },
+    "attributes": [],
+    "menu_order": 0,
+    "meta_data": [
+      {
+        "id": 264333,
+        "key": "generator",
+        "value": "importer-handelsgilde"
+      },
+      {
+        "id": 264334,
+        "key": "_unit",
+        "value": ""
+      },
+      {
+        "id": 264335,
+        "key": "_unit_price_auto",
+        "value": "no"
+      },
+      {
+        "id": 264336,
+        "key": "_sale_price_label",
+        "value": ""
+      },
+      {
+        "id": 264337,
+        "key": "_sale_price_regular_label",
+        "value": ""
+      },
+      {
+        "id": 264338,
+        "key": "_manufacturer_slug",
+        "value": ""
+      },
+      {
+        "id": 264339,
+        "key": "_warranty_attachment_id",
+        "value": ""
+      },
+      {
+        "id": 264340,
+        "key": "_safety_attachment_ids",
+        "value": []
+      },
+      {
+        "id": 264341,
+        "key": "_min_age",
+        "value": ""
+      },
+      {
+        "id": 264342,
+        "key": "_default_delivery_time",
+        "value": ""
+      },
+      {
+        "id": 264343,
+        "key": "_delivery_time_countries",
+        "value": []
+      },
+      {
+        "id": 264344,
+        "key": "_free_shipping",
+        "value": "no"
+      },
+      {
+        "id": 264345,
+        "key": "_service",
+        "value": "no"
+      },
+      {
+        "id": 264346,
+        "key": "_photovoltaic_system",
+        "value": "no"
+      },
+      {
+        "id": 264347,
+        "key": "_used_good",
+        "value": "no"
+      },
+      {
+        "id": 264348,
+        "key": "_defective_copy",
+        "value": "no"
+      },
+      {
+        "id": 264349,
+        "key": "_wireless_electronic_device",
+        "value": "no"
+      },
+      {
+        "id": 264350,
+        "key": "_device_contains_power_supply",
+        "value": "no"
+      },
+      {
+        "id": 264351,
+        "key": "_device_charging_supports_usb_pd",
+        "value": "no"
+      },
+      {
+        "id": 264352,
+        "key": "_is_food",
+        "value": "no"
+      },
+      {
+        "id": 264353,
+        "key": "_differential_taxation",
+        "value": "no"
+      },
+      {
+        "id": 264354,
+        "key": "_gzd_version",
+        "value": "3.20.2"
+      }
+    ],
+    "name": "",
+    "parent_id": 4901,
+    "hs_code": "",
+    "customs_description": "",
+    "manufacture_country": "DE",
+    "shipping_dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "unit_price": {
+      "base": "",
+      "product": "",
+      "price_auto": false,
+      "price": "",
+      "price_regular": "",
+      "price_sale": "",
+      "price_html": ""
+    },
+    "mini_desc": "",
+    "defect_description": "",
+    "min_age": "",
+    "gtin": "",
+    "mpn": "",
+    "sale_price_label": [],
+    "sale_price_regular_label": [],
+    "manufacturer": [],
+    "safety_attachment_ids": [],
+    "safety_instructions": "",
+    "delivery_time": [],
+    "country_specific_delivery_times": [],
+    "free_shipping": false,
+    "wireless_electronic_device": false,
+    "device_contains_power_supply": false,
+    "device_charging_supports_usb_pd": false,
+    "device_charging_watt_min": "",
+    "device_charging_watt_max": "",
+    "service": false,
+    "used_good": false,
+    "defective_copy": false,
+    "photovoltaic_system": false,
+    "differential_taxation": false,
+    "warranty_attachment_id": "",
+    "is_food": false,
+    "food": {
+      "deposit_type": [],
+      "deposit_quantity": 1,
+      "deposit": 0,
+      "ingredients": "",
+      "nutrient_reference_value": "",
+      "nutri_score": "",
+      "alcohol_content": "",
+      "allergen_ids": [],
+      "nutrient_ids": [
+        {
+          "term": 0,
+          "value": "",
+          "ref_value": ""
+        }
+      ],
+      "net_filling_quantity": "",
+      "drained_weight": "",
+      "description": "",
+      "distributor": "",
+      "place_of_origin": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/4901/variations/16769",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/4901/variations"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/4901"
+        }
+      ]
+    }
+  },
+  {
+    "id": 16770,
+    "type": "variation",
+    "date_created": "2025-10-14T17:59:22",
+    "date_created_gmt": "2025-10-14T15:59:22",
+    "date_modified": "2025-10-14T17:59:22",
+    "date_modified_gmt": "2025-10-14T15:59:22",
+    "description": "",
+    "permalink": "https://die-handelsgilde.de/?post_type=product&p=4901",
+    "sku": "1016385102",
+    "global_unique_id": "",
+    "price": "239.99",
+    "regular_price": "239.99",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 0,
+    "stock_status": "outofstock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "weight": "12.5",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 4898,
+      "date_created": "2025-10-09T23:19:37",
+      "date_created_gmt": "2025-10-09T19:19:37",
+      "date_modified": "2025-10-09T23:21:37",
+      "date_modified_gmt": "2025-10-09T19:21:37",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1016385100_ruestung_roemer_lorica_segmentata.webp",
+      "name": "Lorica Segmentata (Corbridge A)",
+      "alt": "Lorica Segmentata (Corbridge A)"
+    },
+    "attributes": [],
+    "menu_order": 0,
+    "meta_data": [
+      {
+        "id": 264376,
+        "key": "generator",
+        "value": "importer-handelsgilde"
+      },
+      {
+        "id": 264377,
+        "key": "_unit",
+        "value": ""
+      },
+      {
+        "id": 264378,
+        "key": "_unit_price_auto",
+        "value": "no"
+      },
+      {
+        "id": 264379,
+        "key": "_sale_price_label",
+        "value": ""
+      },
+      {
+        "id": 264380,
+        "key": "_sale_price_regular_label",
+        "value": ""
+      },
+      {
+        "id": 264381,
+        "key": "_manufacturer_slug",
+        "value": ""
+      },
+      {
+        "id": 264382,
+        "key": "_warranty_attachment_id",
+        "value": ""
+      },
+      {
+        "id": 264383,
+        "key": "_safety_attachment_ids",
+        "value": []
+      },
+      {
+        "id": 264384,
+        "key": "_min_age",
+        "value": ""
+      },
+      {
+        "id": 264385,
+        "key": "_default_delivery_time",
+        "value": ""
+      },
+      {
+        "id": 264386,
+        "key": "_delivery_time_countries",
+        "value": []
+      },
+      {
+        "id": 264387,
+        "key": "_free_shipping",
+        "value": "no"
+      },
+      {
+        "id": 264388,
+        "key": "_service",
+        "value": "no"
+      },
+      {
+        "id": 264389,
+        "key": "_photovoltaic_system",
+        "value": "no"
+      },
+      {
+        "id": 264390,
+        "key": "_used_good",
+        "value": "no"
+      },
+      {
+        "id": 264391,
+        "key": "_defective_copy",
+        "value": "no"
+      },
+      {
+        "id": 264392,
+        "key": "_wireless_electronic_device",
+        "value": "no"
+      },
+      {
+        "id": 264393,
+        "key": "_device_contains_power_supply",
+        "value": "no"
+      },
+      {
+        "id": 264394,
+        "key": "_device_charging_supports_usb_pd",
+        "value": "no"
+      },
+      {
+        "id": 264395,
+        "key": "_is_food",
+        "value": "no"
+      },
+      {
+        "id": 264396,
+        "key": "_differential_taxation",
+        "value": "no"
+      },
+      {
+        "id": 264397,
+        "key": "_gzd_version",
+        "value": "3.20.2"
+      }
+    ],
+    "name": "",
+    "parent_id": 4901,
+    "hs_code": "",
+    "customs_description": "",
+    "manufacture_country": "DE",
+    "shipping_dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "unit_price": {
+      "base": "",
+      "product": "",
+      "price_auto": false,
+      "price": "",
+      "price_regular": "",
+      "price_sale": "",
+      "price_html": ""
+    },
+    "mini_desc": "",
+    "defect_description": "",
+    "min_age": "",
+    "gtin": "",
+    "mpn": "",
+    "sale_price_label": [],
+    "sale_price_regular_label": [],
+    "manufacturer": [],
+    "safety_attachment_ids": [],
+    "safety_instructions": "",
+    "delivery_time": [],
+    "country_specific_delivery_times": [],
+    "free_shipping": false,
+    "wireless_electronic_device": false,
+    "device_contains_power_supply": false,
+    "device_charging_supports_usb_pd": false,
+    "device_charging_watt_min": "",
+    "device_charging_watt_max": "",
+    "service": false,
+    "used_good": false,
+    "defective_copy": false,
+    "photovoltaic_system": false,
+    "differential_taxation": false,
+    "warranty_attachment_id": "",
+    "is_food": false,
+    "food": {
+      "deposit_type": [],
+      "deposit_quantity": 1,
+      "deposit": 0,
+      "ingredients": "",
+      "nutrient_reference_value": "",
+      "nutri_score": "",
+      "alcohol_content": "",
+      "allergen_ids": [],
+      "nutrient_ids": [
+        {
+          "term": 0,
+          "value": "",
+          "ref_value": ""
+        }
+      ],
+      "net_filling_quantity": "",
+      "drained_weight": "",
+      "description": "",
+      "distributor": "",
+      "place_of_origin": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/4901/variations/16770",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/4901/variations"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/4901"
+        }
+      ]
+    }
+  }
+]

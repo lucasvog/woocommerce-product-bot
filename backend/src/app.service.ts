@@ -7,6 +7,11 @@ import { ImporterService } from './features/importer/importer.service';
 import { Products } from 'woocommerce-rest-ts-api';
 import { Images } from 'node_modules/woocommerce-rest-ts-api/dist/src/typesANDinterfaces';
 import * as fs from 'fs';
+import { WooAttribute } from './features/woocommerce/models/WooAttribute';
+import {
+  WooProductVariation,
+  WooVariationImage,
+} from './features/woocommerce/models/WooProductVariation';
 type InfoKey =
   | 'Artikelnr.'
   | 'EAN'
@@ -39,7 +44,35 @@ export class AppService {
     private woocommerceService: WoocommerceService,
     private wordpressService: WordpressService,
   ) {
-    this.generateProductforHandelsgilde();
+    this.generateProductVariationForHandelsgilde();
+    // this.test();
+  }
+  async test() {
+    const product =
+      await this.woocommerceService.getProductsBySku('1016385100');
+    console.log(product);
+    fs.writeFileSync('./product.json', JSON.stringify(product, null, 2));
+    console.log('variations');
+    if (!product || product.length <= 0) {
+      console.log('No product found');
+      return;
+    }
+    if (!product[0].variations || product[0].variations.length <= 0) {
+      console.log('No variations found');
+      return;
+    }
+    const variations: WooProductVariation[] = [];
+    for (const variation of product[0].variations) {
+      const variationData = await this.woocommerceService.getVariation(
+        product[0].id.toString(),
+        variation.toString(),
+      );
+      if (variationData.data) {
+        variations.push(variationData.data);
+      }
+    }
+    console.log(variations);
+    fs.writeFileSync('./variations.json', JSON.stringify(variations, null, 2));
   }
   async generateProductforHandelsgilde() {
     //http://csv.battlemerchant.com/Products_back_in_stock_7_days.csv
@@ -354,6 +387,10 @@ export class AppService {
     }
   }
 
+  /**
+   * This function creates variations
+   * @returns Nothing
+   */
   async generateProductVariationForHandelsgilde() {
     const errors: string[] = [];
 
@@ -365,64 +402,237 @@ export class AppService {
       console.error('No Products found');
       return;
     }
-    // if (!categories) {
-    //   console.error('Could not load categories');
-    //   return;
-    // }
-    // const skippedProducts: string[] = [];
 
-    const filteredProducts = providerProducts.filter(
-      (e) => e !== undefined && e.Vatermodell !== '',
+    const allProductsInShop = await this.woocommerceService.getProducts();
+    if (!allProductsInShop.data) {
+      console.error('Could not load products from shop!');
+      return;
+    }
+
+    const allProductsCreatedByImporter =
+      allProductsInShop.data?.filter((e) =>
+        JSON.stringify(e.meta_data).includes('importer-handelsgilde'),
+      ) || [];
+
+    const allProductsCreatedByImporterSkus = allProductsCreatedByImporter.map(
+      (e) => e.sku,
+    );
+    console.log(
+      'All importer created Products',
+      allProductsCreatedByImporter.length,
+      allProductsCreatedByImporterSkus.length,
+    );
+
+    const filteredVariants = providerProducts.filter(
+      (e) =>
+        e !== undefined &&
+        e.Vatermodell !== '' &&
+        allProductsCreatedByImporterSkus.includes(e.Vatermodell), //filter only the ones created by the importer
     );
     let index = 0;
-    for (const providerProduct of filteredProducts) {
-      index += 1;
-      console.log(
-        'Product',
-        index,
-        'of',
-        filteredProducts.length,
-        Math.round((index / filteredProducts.length) * 1000) / 10 + '%',
-      );
-      const foundParentProduct = await this.woocommerceService.getProductsBySku(
-        providerProduct['Artikelnr.'],
-      );
-      if (!foundParentProduct || foundParentProduct.length <= 0) {
-        console.log('Skipped Parent Product: Could not find parent');
+    const variantsGroupedByParent: {
+      [parentSku: string]: Record<InfoKey, string>[];
+    } = {};
+    for (const variant of filteredVariants) {
+      if (!variantsGroupedByParent[variant.Vatermodell]) {
+        variantsGroupedByParent[variant.Vatermodell] = [];
+      }
+      variantsGroupedByParent[variant.Vatermodell].push(variant);
+    }
+    console.log(
+      'Number of parent products with variants:',
+      Object.keys(variantsGroupedByParent).length,
+    );
+    console.log('Total number of variants to create:', filteredVariants.length);
+    let maximumElementsForDebug = 100;
+    //For all parent products, get or create the attributes and then create the variations
+    for (const [parentSku, variants] of Object.entries(
+      variantsGroupedByParent,
+    )) {
+      maximumElementsForDebug--;
+      fs.writeFileSync('./errors.txt', JSON.stringify(errors, null, 2));
+      if (maximumElementsForDebug < 0) {
+        console.log('Stopping because of maximum number reached');
+        return;
+      }
+      if (variants.length <= 0) {
+        console.log('Skipping parent due to no variants');
         continue;
       }
-      const images: Partial<Images>[] = [];
-      for (const imageUrl of [
-        providerProduct['Bildpfad 1'],
-        providerProduct['Bildpfad 2'],
-        providerProduct['Bildpfad 3'],
-        providerProduct['Bildpfad 4'],
-        providerProduct['Bildpfad 5'],
-        providerProduct['Bildpfad 6'],
-      ].filter((e) => typeof e === 'string' && e.length > 0)) {
-        console.log('image:', imageUrl);
-        const image = await this.wordpressService.getImageOrConvertAndUpload(
-          imageUrl,
-          {
-            alt_text: providerProduct.Artikelname,
-            fileName: this.imageService.getWebpFileNameFromUrl(imageUrl),
-            title: providerProduct.Artikelname,
-          },
-        );
-        if (image.errors) {
-          console.log('error for image:', imageUrl, image.errors);
-          errors.push(...image.errors);
+      const foundParentProducts =
+        await this.woocommerceService.getProductsBySku(variants[0].Vatermodell);
+      if (
+        !foundParentProducts ||
+        foundParentProducts.length <= 0 ||
+        foundParentProducts.length > 1
+      ) {
+        console.log('Skipped Parent Product: Zero or more than one parent');
+        continue;
+      }
+      const foundParentProduct = foundParentProducts[0];
+      const correctVariantenNameCase = (e: string) => {
+        //this variant is all capital case, we need to convert it to normal case with first letter capital
+        const attributeName =
+          e.charAt(0).toUpperCase() + e.slice(1).toLowerCase();
+        return attributeName;
+      };
+
+      const uniqueAttributesOfVariations = Array.from(
+        new Set(variants.map((e) => correctVariantenNameCase(e.Variantenname))),
+      );
+      const attributeOptionsOfVariations = Array.from(
+        new Set(variants.map((e) => correctVariantenNameCase(e.Variante))),
+      );
+
+      console.log(
+        'For parent',
+        parentSku,
+        'found',
+        variants.length,
+        'variants with',
+        uniqueAttributesOfVariations.length,
+        'unique attributes',
+      );
+      const attributes: Partial<WooAttribute>[] = [];
+      for (const attr of uniqueAttributesOfVariations) {
+        console.log('Attribute:', attr);
+        const newAttribute =
+          await this.woocommerceService.getOrCreateAttribute(attr);
+        if (!newAttribute.data) {
+          console.log('Could not create attribute for', attr);
+          continue;
         }
-        if (image.data) {
-          console.log('success uploading image:', imageUrl);
-          images.push({
-            id: image.data.id,
-            src: image.data.source_url,
-            alt: image.data.alt_text,
-            name: image.data.title.rendered,
-          });
+        attributes.push(newAttribute.data);
+      }
+      console.log(
+        'Attributes',
+        attributes.map((attr) => ({
+          id: attr.id,
+          name: attr.name,
+        })),
+      );
+      await this.woocommerceService.updateProduct(foundParentProduct.id, {
+        type: 'variable',
+        attributes: attributes.map((attr) => ({
+          id: attr.id,
+          name: attr.name,
+          variation: true,
+          visible: true,
+          options: attributeOptionsOfVariations, // <- Das ist entscheidend!
+        })),
+        //ignore stock
+      });
+      //for each variant, create the variation
+      const allVariations: WooProductVariation[] = [];
+      for (const variant of variants) {
+        index += 1;
+        console.log(
+          'Variant',
+          index,
+          'of',
+          filteredVariants.length,
+          Math.round((index / filteredVariants.length) * 1000) / 10 + '%',
+        );
+
+        console.log('lade Bilder hoch...');
+        const images: WooVariationImage[] = [];
+        const imageUrls = [
+          variant['Bildpfad 1'],
+          variant['Bildpfad 2'],
+          variant['Bildpfad 3'],
+          variant['Bildpfad 4'],
+          variant['Bildpfad 5'],
+          variant['Bildpfad 6'],
+        ].filter((e) => typeof e === 'string' && e.length > 0);
+
+        const imageUploadPromises = imageUrls.map((imageUrl) =>
+          this.wordpressService
+            .getImageOrConvertAndUpload(imageUrl, {
+              alt_text: variant.Artikelname,
+              fileName: this.imageService.getWebpFileNameFromUrl(imageUrl),
+              title: variant.Artikelname,
+            })
+            .then((image) => ({ image, imageUrl })),
+        );
+
+        const uploadedImages = await Promise.all(imageUploadPromises);
+
+        for (const { image, imageUrl } of uploadedImages) {
+          if (image.errors) {
+            console.log('error for image:', imageUrl, image.errors);
+            errors.push(...image.errors);
+            continue;
+          }
+          if (image.data) {
+            console.log('success uploading image:', imageUrl);
+            images.push({
+              id: image.data.id,
+              src: image.data.source_url,
+              alt: image.data.alt_text,
+              name: image.data.title.rendered,
+            });
+          }
+        }
+        console.log('creating variation:');
+        const variationData =
+          await this.woocommerceService.updateOrCreateVariation(
+            foundParentProduct.id.toString(),
+            {
+              status: 'publish',
+              sku: variant['Artikelnr.'],
+              price: variant.Kundenpreis.replace(',', '.'),
+              regular_price: variant.Kundenpreis.replace(',', '.'),
+              stock_quantity: 0,
+              manage_stock: true,
+              stock_status: 'instock',
+              image: images[0],
+              weight: variant.Gewicht.replace(',', '.'),
+              meta_data: [
+                {
+                  key: 'generator',
+                  value: 'importer-handelsgilde',
+                },
+              ],
+              attributes: attributes
+                .map((attr) => {
+                  if (attr.id && attr.name) {
+                    return {
+                      id: attr.id,
+                      name: attr.name,
+                      option: variant.Variante,
+                      variation: true,
+                    };
+                  } else {
+                    return undefined;
+                  }
+                })
+                .filter((e) => e !== undefined),
+            },
+          );
+        if (variationData.errors) {
+          console.log('Could not create variation:', variationData.errors);
+          errors.push(...variationData.errors);
+        } else {
+          console.log('Created variation for', variant.Artikelname);
+          if (variationData.data) {
+            allVariations.push(variationData.data);
+          }
         }
       }
+      console.log(
+        'Updating parent product to variable and adding variants:',
+        parentSku,
+      );
+      await this.woocommerceService.updateProduct(foundParentProduct.id, {
+        type: 'variable',
+        variations: allVariations
+          .map((e) => e.id)
+          .filter((e) => e !== undefined),
+      });
     }
+    if (errors.length > 0) {
+      console.error('Errors encountered:', errors);
+    }
+    fs.writeFileSync('./errors_variations.txt', JSON.stringify(errors));
   }
 }
