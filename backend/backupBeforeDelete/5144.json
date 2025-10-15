@@ -1,0 +1,384 @@
+{
+  "id": 5144,
+  "name": "Schwerer Mittelalter-Umhang mit Kapuze, div. Farben",
+  "slug": "",
+  "permalink": "https://die-handelsgilde.de/?post_type=product&p=5144",
+  "date_created": "2025-10-09T21:59:30",
+  "date_created_gmt": "2025-10-09T19:59:30",
+  "date_modified": "2025-10-14T19:58:44",
+  "date_modified_gmt": "2025-10-14T17:58:44",
+  "type": "variable",
+  "status": "draft",
+  "featured": false,
+  "catalog_visibility": "visible",
+  "description": "<h1>Schwerer Mittelalter-Umhang mit Kapuze, div. Farben</h1>\n<p>Dieser mittelalterliche Umhang hält dich nicht nur warm, sondern schützt auch zuverlässig vor Wind und Wetter mit seiner großen Kapuze. Mit komfortabler Einheitsgröße und pflegeleichter Reinigung vereint er Funktionalität und historische Optik.</p>\n<p>Im Mittelalter war der Umhang ein beliebtes Kleidungsstück, um sich vor den rauen Elementen zu schützen. Insbesondere in Nordeuropa trug man häufig solche Umhänge, die aus dichten Stoffen gefertigt wurden.</p>\n<h3>Material &amp; Verarbeitung</h3>\n<p>Der Umhang ist aus einem speziellen Woll-Mischgewebe gefertigt, was ihm sowohl Stabilität als auch Geschmeidigkeit verleiht. Handwerklich hochwertig verarbeitet bietet er nicht nur Komfort, sondern auch Langlebigkeit. Nach dem Tragen wird eine Trockenreinigung empfohlen, um die Qualität zu erhalten.</p>\n<ul>\n<li>Einheitsgröße passend für viele Körperformen</li>\n<li>Länge: ca. 135 cm ab Schulter</li>\n<li>Mit praktischer großer Kapuze</li>\n<li>Witterungsbeständig mit robustem Design</li>\n</ul>\n",
+  "short_description": "<p>&#8211; Schwerer Mittelalter-Umhang<br />\n&#8211; Schützt vor Regen, Kälte und Wind<br />\n&#8211; Filzartiges Woll-Mischgewebe<br />\n&#8211; Große Kapuze, authentischer Look<br />\n&#8211; Einheitsgröße, verschiedene Farben</p>\n",
+  "sku": "1202600710",
+  "price": "99.99",
+  "regular_price": "",
+  "sale_price": "",
+  "date_on_sale_from": null,
+  "date_on_sale_from_gmt": null,
+  "date_on_sale_to": null,
+  "date_on_sale_to_gmt": null,
+  "on_sale": false,
+  "purchasable": true,
+  "total_sales": 0,
+  "virtual": false,
+  "downloadable": false,
+  "downloads": [],
+  "download_limit": -1,
+  "download_expiry": -1,
+  "external_url": "",
+  "button_text": "",
+  "tax_status": "taxable",
+  "tax_class": "",
+  "manage_stock": true,
+  "stock_quantity": 0,
+  "backorders": "no",
+  "backorders_allowed": false,
+  "backordered": false,
+  "low_stock_amount": null,
+  "sold_individually": false,
+  "weight": "1.8",
+  "dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "shipping_required": true,
+  "shipping_taxable": true,
+  "shipping_class": "",
+  "shipping_class_id": 0,
+  "reviews_allowed": true,
+  "average_rating": "0.00",
+  "rating_count": 0,
+  "upsell_ids": [],
+  "cross_sell_ids": [],
+  "parent_id": 0,
+  "purchase_note": "",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Mäntel &amp; Umhänge",
+      "slug": "maentel-und-umhaenge"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 641,
+      "name": "Kapuze",
+      "slug": "kapuze"
+    },
+    {
+      "id": 499,
+      "name": "Mittelalter",
+      "slug": "mittelalter"
+    },
+    {
+      "id": 398,
+      "name": "Mittelalterumhang",
+      "slug": "mittelalterumhang"
+    },
+    {
+      "id": 201,
+      "name": "Umhang",
+      "slug": "umhang"
+    }
+  ],
+  "images": [
+    {
+      "id": 5142,
+      "date_created": "2025-10-09T23:59:16",
+      "date_created_gmt": "2025-10-09T19:59:16",
+      "date_modified": "2025-10-09T23:59:30",
+      "date_modified_gmt": "2025-10-09T19:59:30",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1202600710_schwerer_umhang_kapuze_mittelalter.webp",
+      "name": "Schwerer Mittelalter-Umhang mit Kapuze, div. Farben",
+      "alt": "Schwerer Mittelalter-Umhang mit Kapuze, div. Farben",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1202600710_schwerer_umhang_kapuze_mittelalter.webp 500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1202600710_schwerer_umhang_kapuze_mittelalter-214x300.webp 214w",
+      "sizes": "(max-width: 500px) 100vw, 500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1202600710_schwerer_umhang_kapuze_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5143,
+      "date_created": "2025-10-09T23:59:20",
+      "date_created_gmt": "2025-10-09T19:59:20",
+      "date_modified": "2025-10-09T23:59:30",
+      "date_modified_gmt": "2025-10-09T19:59:30",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1202600710b_schwerer_umhang_kapuze_mittelalter.webp",
+      "name": "Schwerer Mittelalter-Umhang mit Kapuze, div. Farben",
+      "alt": "Schwerer Mittelalter-Umhang mit Kapuze, div. Farben",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1202600710b_schwerer_umhang_kapuze_mittelalter.webp 500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1202600710b_schwerer_umhang_kapuze_mittelalter-214x300.webp 214w",
+      "sizes": "(max-width: 500px) 100vw, 500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1202600710b_schwerer_umhang_kapuze_mittelalter-500x600.webp"
+    }
+  ],
+  "attributes": [
+    {
+      "id": 2,
+      "name": "Farbe",
+      "slug": "pa_farbe",
+      "position": 0,
+      "visible": true,
+      "variation": true,
+      "options": [
+        "Blau",
+        "Braun",
+        "Grau",
+        "Grün",
+        "Rot",
+        "Schwarz"
+      ]
+    }
+  ],
+  "default_attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "menu_order": 0,
+  "price_html": "",
+  "related_ids": [
+    610,
+    1964,
+    708,
+    692
+  ],
+  "meta_data": [
+    {
+      "id": 109719,
+      "key": "rank_math_internal_links_processed",
+      "value": "1"
+    },
+    {
+      "id": 109741,
+      "key": "generator",
+      "value": "importer-handelsgilde"
+    },
+    {
+      "id": 109742,
+      "key": "_unit",
+      "value": ""
+    },
+    {
+      "id": 109743,
+      "key": "_unit_price_auto",
+      "value": "no"
+    },
+    {
+      "id": 109744,
+      "key": "_sale_price_label",
+      "value": ""
+    },
+    {
+      "id": 109745,
+      "key": "_sale_price_regular_label",
+      "value": ""
+    },
+    {
+      "id": 109746,
+      "key": "_manufacturer_slug",
+      "value": ""
+    },
+    {
+      "id": 109747,
+      "key": "_warranty_attachment_id",
+      "value": ""
+    },
+    {
+      "id": 109748,
+      "key": "_safety_attachment_ids",
+      "value": []
+    },
+    {
+      "id": 109749,
+      "key": "_min_age",
+      "value": ""
+    },
+    {
+      "id": 109750,
+      "key": "_ts_gtin",
+      "value": ""
+    },
+    {
+      "id": 109751,
+      "key": "_ts_mpn",
+      "value": ""
+    },
+    {
+      "id": 109752,
+      "key": "_default_delivery_time",
+      "value": ""
+    },
+    {
+      "id": 109753,
+      "key": "_delivery_time_countries",
+      "value": []
+    },
+    {
+      "id": 109754,
+      "key": "_free_shipping",
+      "value": "no"
+    },
+    {
+      "id": 109755,
+      "key": "_service",
+      "value": "no"
+    },
+    {
+      "id": 109756,
+      "key": "_photovoltaic_system",
+      "value": "no"
+    },
+    {
+      "id": 109757,
+      "key": "_used_good",
+      "value": "no"
+    },
+    {
+      "id": 109758,
+      "key": "_defective_copy",
+      "value": "no"
+    },
+    {
+      "id": 109759,
+      "key": "_wireless_electronic_device",
+      "value": "no"
+    },
+    {
+      "id": 109760,
+      "key": "_device_contains_power_supply",
+      "value": "no"
+    },
+    {
+      "id": 109761,
+      "key": "_device_charging_supports_usb_pd",
+      "value": "no"
+    },
+    {
+      "id": 109762,
+      "key": "_is_food",
+      "value": "no"
+    },
+    {
+      "id": 109763,
+      "key": "_differential_taxation",
+      "value": "no"
+    },
+    {
+      "id": 109764,
+      "key": "_gzd_version",
+      "value": "3.20.2"
+    },
+    {
+      "id": 264774,
+      "key": "_unit_price_regular",
+      "value": ""
+    },
+    {
+      "id": 264775,
+      "key": "_unit_price_sale",
+      "value": ""
+    },
+    {
+      "id": 264776,
+      "key": "_unit_price",
+      "value": ""
+    },
+    {
+      "id": 264777,
+      "key": "_defect_description",
+      "value": ""
+    }
+  ],
+  "stock_status": "outofstock",
+  "has_options": true,
+  "post_password": "",
+  "global_unique_id": "",
+  "hs_code": "",
+  "customs_description": "",
+  "manufacture_country": "DE",
+  "shipping_dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "unit": [],
+  "unit_price": {
+    "base": "",
+    "product": "",
+    "price_auto": false,
+    "price": "",
+    "price_regular": "",
+    "price_sale": "",
+    "price_html": ""
+  },
+  "mini_desc": "",
+  "defect_description": "",
+  "min_age": "",
+  "gtin": "",
+  "mpn": "",
+  "sale_price_label": [],
+  "sale_price_regular_label": [],
+  "manufacturer": [],
+  "safety_attachment_ids": [],
+  "safety_instructions": "",
+  "delivery_time": [],
+  "country_specific_delivery_times": [],
+  "free_shipping": false,
+  "wireless_electronic_device": false,
+  "device_contains_power_supply": false,
+  "device_charging_supports_usb_pd": false,
+  "device_charging_watt_min": "",
+  "device_charging_watt_max": "",
+  "service": false,
+  "used_good": false,
+  "defective_copy": false,
+  "photovoltaic_system": false,
+  "differential_taxation": false,
+  "warranty_attachment_id": "",
+  "is_food": false,
+  "food": {
+    "deposit_type": [],
+    "deposit_quantity": 1,
+    "deposit": 0,
+    "ingredients": "",
+    "nutrient_reference_value": "",
+    "nutri_score": "",
+    "alcohol_content": "",
+    "allergen_ids": [],
+    "nutrient_ids": [
+      {
+        "term": 0,
+        "value": "",
+        "ref_value": ""
+      }
+    ],
+    "net_filling_quantity": "",
+    "drained_weight": "",
+    "description": "",
+    "distributor": "",
+    "place_of_origin": ""
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/5144",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

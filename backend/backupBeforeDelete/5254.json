@@ -1,0 +1,395 @@
+{
+  "id": 5254,
+  "name": "Gepolstertes Rüstwams mit Nesteln",
+  "slug": "",
+  "permalink": "https://die-handelsgilde.de/?post_type=product&p=5254",
+  "date_created": "2025-10-09T22:16:47",
+  "date_created_gmt": "2025-10-09T20:16:47",
+  "date_modified": "2025-10-14T20:01:03",
+  "date_modified_gmt": "2025-10-14T18:01:03",
+  "type": "variable",
+  "status": "draft",
+  "featured": false,
+  "catalog_visibility": "visible",
+  "description": "<h1>Gepolstertes Rüstwams mit Nesteln</h1>\n<p>Ein Rüstwams, auch als Aketon bekannt, ist eine gepolsterte Jacke, die im Mittelalter als Unterbekleidung zur Rüstung getragen wurde. Unser Modell ist in fünf Größen erhältlich und die Passform kann durch Nesteln individuell angepasst werden.</p>\n<h3>Historischer Kontext</h3>\n<p>Das gepolsterte Rüstwams wurde hauptsächlich in Europa während des Mittelalters benutzt. Es diente dazu, den Träger vor den Stößen und Schlägen im Kampf zu schützen und war weniger voluminös als der Gambeson.</p>\n<h3>Material &amp; Verarbeitung</h3>\n<p>Hergestellt aus robustem Segeltuch mit einer Polyesterfüllung, sind unsere Rüstwämser nicht nur langlebig, sondern auch bequem und flexibel zu tragen. Die geflochtenen Nestelbänder sorgen für eine sichere Anpassung.</p>\n<ul>\n<li>Verstellbare Brustweite durch Nesteln</li>\n<li>Angesetzter Bund für besseren Sitz</li>\n<li>Schlitze am Ärmelsaum für Bewegungsfreiheit</li>\n<li>Inklusive geflochtenen Nestelbändern</li>\n</ul>\n",
+  "short_description": "<p>&#8211; Gepolstertes Rüstwams, bekannt als Aketon<br />\n&#8211; Tragen unter Rüstungen im Mittelalter<br />\n&#8211; Segeltuch aus 100% Baumwolle, Polsterung aus 100% Polyester<br />\n&#8211; Verstellbare Brustweite durch Nestelbänder<br />\n&#8211; Inklusive geflochtene Nestelbänder, angesetzter Bund</p>\n",
+  "sku": "1216204500",
+  "price": "79.99",
+  "regular_price": "",
+  "sale_price": "",
+  "date_on_sale_from": null,
+  "date_on_sale_from_gmt": null,
+  "date_on_sale_to": null,
+  "date_on_sale_to_gmt": null,
+  "on_sale": false,
+  "purchasable": true,
+  "total_sales": 0,
+  "virtual": false,
+  "downloadable": false,
+  "downloads": [],
+  "download_limit": -1,
+  "download_expiry": -1,
+  "external_url": "",
+  "button_text": "",
+  "tax_status": "taxable",
+  "tax_class": "",
+  "manage_stock": true,
+  "stock_quantity": 0,
+  "backorders": "no",
+  "backorders_allowed": false,
+  "backordered": false,
+  "low_stock_amount": null,
+  "sold_individually": false,
+  "weight": "1.8",
+  "dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "shipping_required": true,
+  "shipping_taxable": true,
+  "shipping_class": "",
+  "shipping_class_id": 0,
+  "reviews_allowed": true,
+  "average_rating": "0.00",
+  "rating_count": 0,
+  "upsell_ids": [],
+  "cross_sell_ids": [],
+  "parent_id": 0,
+  "purchase_note": "",
+  "categories": [
+    {
+      "id": 156,
+      "name": "Gepolsterter Rüstwams",
+      "slug": "gepolsterter-ruestwams"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 656,
+      "name": "Aketon",
+      "slug": "aketon"
+    },
+    {
+      "id": 640,
+      "name": "Gambeson",
+      "slug": "gambeson"
+    },
+    {
+      "id": 159,
+      "name": "Nesteln",
+      "slug": "nesteln"
+    },
+    {
+      "id": 157,
+      "name": "Rüstwams",
+      "slug": "ruestwams"
+    }
+  ],
+  "images": [
+    {
+      "id": 5251,
+      "date_created": "2025-10-10T00:16:31",
+      "date_created_gmt": "2025-10-09T20:16:31",
+      "date_modified": "2025-10-10T00:16:47",
+      "date_modified_gmt": "2025-10-09T20:16:47",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216204500_gambeson_arming_jacket.webp",
+      "name": "Gepolstertes Rüstwams mit Nesteln",
+      "alt": "Gepolstertes Rüstwams mit Nesteln",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216204500_gambeson_arming_jacket.webp 500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216204500_gambeson_arming_jacket-214x300.webp 214w",
+      "sizes": "(max-width: 500px) 100vw, 500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216204500_gambeson_arming_jacket-500x600.webp"
+    },
+    {
+      "id": 5252,
+      "date_created": "2025-10-10T00:16:34",
+      "date_created_gmt": "2025-10-09T20:16:34",
+      "date_modified": "2025-10-10T00:16:47",
+      "date_modified_gmt": "2025-10-09T20:16:47",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216204500b_gambeson_arming_jacket.webp",
+      "name": "Gepolstertes Rüstwams mit Nesteln",
+      "alt": "Gepolstertes Rüstwams mit Nesteln",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216204500b_gambeson_arming_jacket.webp 500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216204500b_gambeson_arming_jacket-214x300.webp 214w",
+      "sizes": "(max-width: 500px) 100vw, 500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216204500b_gambeson_arming_jacket-500x600.webp"
+    },
+    {
+      "id": 5253,
+      "date_created": "2025-10-10T00:16:37",
+      "date_created_gmt": "2025-10-09T20:16:37",
+      "date_modified": "2025-10-10T00:16:47",
+      "date_modified_gmt": "2025-10-09T20:16:47",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216204500c_gambeson_arming_jacket.webp",
+      "name": "Gepolstertes Rüstwams mit Nesteln",
+      "alt": "Gepolstertes Rüstwams mit Nesteln",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216204500c_gambeson_arming_jacket.webp 500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216204500c_gambeson_arming_jacket-214x300.webp 214w",
+      "sizes": "(max-width: 500px) 100vw, 500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216204500c_gambeson_arming_jacket-500x600.webp"
+    }
+  ],
+  "attributes": [
+    {
+      "id": 1,
+      "name": "Größe",
+      "slug": "pa_groesse",
+      "position": 0,
+      "visible": true,
+      "variation": true,
+      "options": [
+        "L",
+        "M",
+        "S",
+        "Xl",
+        "Xxl"
+      ]
+    }
+  ],
+  "default_attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "menu_order": 0,
+  "price_html": "",
+  "related_ids": [
+    1316,
+    848,
+    124
+  ],
+  "meta_data": [
+    {
+      "id": 110999,
+      "key": "rank_math_internal_links_processed",
+      "value": "1"
+    },
+    {
+      "id": 111021,
+      "key": "generator",
+      "value": "importer-handelsgilde"
+    },
+    {
+      "id": 111022,
+      "key": "_unit",
+      "value": ""
+    },
+    {
+      "id": 111023,
+      "key": "_unit_price_auto",
+      "value": "no"
+    },
+    {
+      "id": 111024,
+      "key": "_sale_price_label",
+      "value": ""
+    },
+    {
+      "id": 111025,
+      "key": "_sale_price_regular_label",
+      "value": ""
+    },
+    {
+      "id": 111026,
+      "key": "_manufacturer_slug",
+      "value": ""
+    },
+    {
+      "id": 111027,
+      "key": "_warranty_attachment_id",
+      "value": ""
+    },
+    {
+      "id": 111028,
+      "key": "_safety_attachment_ids",
+      "value": []
+    },
+    {
+      "id": 111029,
+      "key": "_min_age",
+      "value": ""
+    },
+    {
+      "id": 111030,
+      "key": "_ts_gtin",
+      "value": ""
+    },
+    {
+      "id": 111031,
+      "key": "_ts_mpn",
+      "value": ""
+    },
+    {
+      "id": 111032,
+      "key": "_default_delivery_time",
+      "value": ""
+    },
+    {
+      "id": 111033,
+      "key": "_delivery_time_countries",
+      "value": []
+    },
+    {
+      "id": 111034,
+      "key": "_free_shipping",
+      "value": "no"
+    },
+    {
+      "id": 111035,
+      "key": "_service",
+      "value": "no"
+    },
+    {
+      "id": 111036,
+      "key": "_photovoltaic_system",
+      "value": "no"
+    },
+    {
+      "id": 111037,
+      "key": "_used_good",
+      "value": "no"
+    },
+    {
+      "id": 111038,
+      "key": "_defective_copy",
+      "value": "no"
+    },
+    {
+      "id": 111039,
+      "key": "_wireless_electronic_device",
+      "value": "no"
+    },
+    {
+      "id": 111040,
+      "key": "_device_contains_power_supply",
+      "value": "no"
+    },
+    {
+      "id": 111041,
+      "key": "_device_charging_supports_usb_pd",
+      "value": "no"
+    },
+    {
+      "id": 111042,
+      "key": "_is_food",
+      "value": "no"
+    },
+    {
+      "id": 111043,
+      "key": "_differential_taxation",
+      "value": "no"
+    },
+    {
+      "id": 111044,
+      "key": "_gzd_version",
+      "value": "3.20.2"
+    },
+    {
+      "id": 264878,
+      "key": "_unit_price_regular",
+      "value": ""
+    },
+    {
+      "id": 264879,
+      "key": "_unit_price_sale",
+      "value": ""
+    },
+    {
+      "id": 264880,
+      "key": "_unit_price",
+      "value": ""
+    },
+    {
+      "id": 264881,
+      "key": "_defect_description",
+      "value": ""
+    }
+  ],
+  "stock_status": "outofstock",
+  "has_options": true,
+  "post_password": "",
+  "global_unique_id": "",
+  "hs_code": "",
+  "customs_description": "",
+  "manufacture_country": "DE",
+  "shipping_dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "unit": [],
+  "unit_price": {
+    "base": "",
+    "product": "",
+    "price_auto": false,
+    "price": "",
+    "price_regular": "",
+    "price_sale": "",
+    "price_html": ""
+  },
+  "mini_desc": "",
+  "defect_description": "",
+  "min_age": "",
+  "gtin": "",
+  "mpn": "",
+  "sale_price_label": [],
+  "sale_price_regular_label": [],
+  "manufacturer": [],
+  "safety_attachment_ids": [],
+  "safety_instructions": "",
+  "delivery_time": [],
+  "country_specific_delivery_times": [],
+  "free_shipping": false,
+  "wireless_electronic_device": false,
+  "device_contains_power_supply": false,
+  "device_charging_supports_usb_pd": false,
+  "device_charging_watt_min": "",
+  "device_charging_watt_max": "",
+  "service": false,
+  "used_good": false,
+  "defective_copy": false,
+  "photovoltaic_system": false,
+  "differential_taxation": false,
+  "warranty_attachment_id": "",
+  "is_food": false,
+  "food": {
+    "deposit_type": [],
+    "deposit_quantity": 1,
+    "deposit": 0,
+    "ingredients": "",
+    "nutrient_reference_value": "",
+    "nutri_score": "",
+    "alcohol_content": "",
+    "allergen_ids": [],
+    "nutrient_ids": [
+      {
+        "term": 0,
+        "value": "",
+        "ref_value": ""
+      }
+    ],
+    "net_filling_quantity": "",
+    "drained_weight": "",
+    "description": "",
+    "distributor": "",
+    "place_of_origin": ""
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/5254",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "id": 5288,
+  "name": "Mittelalterlicher Rock, weit ausgestellt, rot",
+  "slug": "",
+  "permalink": "https://die-handelsgilde.de/?post_type=product&p=5288",
+  "date_created": "2025-10-09T22:21:44",
+  "date_created_gmt": "2025-10-09T20:21:44",
+  "date_modified": "2025-10-14T20:02:10",
+  "date_modified_gmt": "2025-10-14T18:02:10",
+  "type": "variable",
+  "status": "draft",
+  "featured": false,
+  "catalog_visibility": "visible",
+  "description": "<h1>Mittelalterlicher Rock, weit ausgestellt, rot</h1>\n<p>Eleganter Mittelalter-Rock mit weiter Schnittform und Kordelzug in der Taille. Perfekt für LARP oder historische Veranstaltungen.</p>\n<h3>Historischer Kontext</h3>\n<p>Weit ausgestellte Röcke waren im Mittelalter in Europa ab dem 12. Jahrhundert beliebt, besonders unter Frauen des Adels. Sie boten Bewegungsfreiheit und zeigten sozialen Status.</p>\n<h3>Material &amp; Verarbeitung</h3>\n<p>Stabile Verarbeitung mit eingefassten Kanten und dekorativen Holzperlen. Der Kordelzug passt sich flexibel an.</p>\n<ul>\n<li>Farbe: rot</li>\n<li>Verfügbare Größen: S, M, L, XL, XXL</li>\n<li>Gesamtlänge (Größe L): ca. 98 cm</li>\n<li>Praktische Seitentaschen für kleine Utensilien</li>\n</ul>\n",
+  "short_description": "<p>&#8211; Weiter Mittelalter-Rock<br />\n&#8211; Perfekt für historische Darstellungen<br />\n&#8211; 100% Baumwolle<br />\n&#8211; Eingezogener Kordelzug mit Holzperlen<br />\n&#8211; Praktische Innentaschen</p>\n",
+  "sku": "1216303080",
+  "price": "29.99",
+  "regular_price": "",
+  "sale_price": "",
+  "date_on_sale_from": null,
+  "date_on_sale_from_gmt": null,
+  "date_on_sale_to": null,
+  "date_on_sale_to_gmt": null,
+  "on_sale": false,
+  "purchasable": true,
+  "total_sales": 0,
+  "virtual": false,
+  "downloadable": false,
+  "downloads": [],
+  "download_limit": -1,
+  "download_expiry": -1,
+  "external_url": "",
+  "button_text": "",
+  "tax_status": "taxable",
+  "tax_class": "",
+  "manage_stock": true,
+  "stock_quantity": 0,
+  "backorders": "no",
+  "backorders_allowed": false,
+  "backordered": false,
+  "low_stock_amount": null,
+  "sold_individually": false,
+  "weight": "0.6",
+  "dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "shipping_required": true,
+  "shipping_taxable": true,
+  "shipping_class": "",
+  "shipping_class_id": 0,
+  "reviews_allowed": true,
+  "average_rating": "0.00",
+  "rating_count": 0,
+  "upsell_ids": [],
+  "cross_sell_ids": [],
+  "parent_id": 0,
+  "purchase_note": "",
+  "categories": [
+    {
+      "id": 344,
+      "name": "Röcke",
+      "slug": "roecke"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 160,
+      "name": "Baumwolle",
+      "slug": "baumwolle"
+    },
+    {
+      "id": 660,
+      "name": "Frauenmode",
+      "slug": "frauenmode"
+    },
+    {
+      "id": 499,
+      "name": "Mittelalter",
+      "slug": "mittelalter"
+    },
+    {
+      "id": 342,
+      "name": "Mittelalterlicher Rock",
+      "slug": "mittelalterlicher-rock"
+    }
+  ],
+  "images": [
+    {
+      "id": 5282,
+      "date_created": "2025-10-10T00:21:04",
+      "date_created_gmt": "2025-10-09T20:21:04",
+      "date_modified": "2025-10-10T00:21:44",
+      "date_modified_gmt": "2025-10-09T20:21:44",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080d_rock_skirt_gewandung_kleidung_mittelalter_magd_rot.webp",
+      "name": "Mittelalterlicher Rock, weit ausgestellt, rot",
+      "alt": "Mittelalterlicher Rock, weit ausgestellt, rot",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080d_rock_skirt_gewandung_kleidung_mittelalter_magd_rot.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080d_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080d_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080d_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080d_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080d_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080d_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080d_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-500x600.webp"
+    },
+    {
+      "id": 5283,
+      "date_created": "2025-10-10T00:21:10",
+      "date_created_gmt": "2025-10-09T20:21:10",
+      "date_modified": "2025-10-10T00:21:44",
+      "date_modified_gmt": "2025-10-09T20:21:44",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080b_rock_skirt_gewandung_kleidung_mittelalter_magd_rot.webp",
+      "name": "Mittelalterlicher Rock, weit ausgestellt, rot",
+      "alt": "Mittelalterlicher Rock, weit ausgestellt, rot",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080b_rock_skirt_gewandung_kleidung_mittelalter_magd_rot.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080b_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080b_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080b_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080b_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080b_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080b_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080b_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-500x600.webp"
+    },
+    {
+      "id": 5284,
+      "date_created": "2025-10-10T00:21:15",
+      "date_created_gmt": "2025-10-09T20:21:15",
+      "date_modified": "2025-10-10T00:21:44",
+      "date_modified_gmt": "2025-10-09T20:21:44",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080f_rock_skirt_gewandung_kleidung_mittelalter_magd_rot.webp",
+      "name": "Mittelalterlicher Rock, weit ausgestellt, rot",
+      "alt": "Mittelalterlicher Rock, weit ausgestellt, rot",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080f_rock_skirt_gewandung_kleidung_mittelalter_magd_rot.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080f_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080f_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080f_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080f_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080f_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080f_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080f_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-500x600.webp"
+    },
+    {
+      "id": 5285,
+      "date_created": "2025-10-10T00:21:22",
+      "date_created_gmt": "2025-10-09T20:21:22",
+      "date_modified": "2025-10-10T00:21:44",
+      "date_modified_gmt": "2025-10-09T20:21:44",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080c_rock_skirt_gewandung_kleidung_mittelalter_magd_rot.webp",
+      "name": "Mittelalterlicher Rock, weit ausgestellt, rot",
+      "alt": "Mittelalterlicher Rock, weit ausgestellt, rot",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080c_rock_skirt_gewandung_kleidung_mittelalter_magd_rot.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080c_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080c_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080c_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080c_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080c_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080c_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080c_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-500x600.webp"
+    },
+    {
+      "id": 5286,
+      "date_created": "2025-10-10T00:21:28",
+      "date_created_gmt": "2025-10-09T20:21:28",
+      "date_modified": "2025-10-10T00:21:44",
+      "date_modified_gmt": "2025-10-09T20:21:44",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080e_rock_skirt_gewandung_kleidung_mittelalter_magd_rot.webp",
+      "name": "Mittelalterlicher Rock, weit ausgestellt, rot",
+      "alt": "Mittelalterlicher Rock, weit ausgestellt, rot",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080e_rock_skirt_gewandung_kleidung_mittelalter_magd_rot.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080e_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080e_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080e_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080e_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080e_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080e_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080e_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-500x600.webp"
+    },
+    {
+      "id": 5287,
+      "date_created": "2025-10-10T00:21:34",
+      "date_created_gmt": "2025-10-09T20:21:34",
+      "date_modified": "2025-10-10T00:21:44",
+      "date_modified_gmt": "2025-10-09T20:21:44",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080_rock_skirt_gewandung_kleidung_mittelalter_magd_rot.webp",
+      "name": "Mittelalterlicher Rock, weit ausgestellt, rot",
+      "alt": "Mittelalterlicher Rock, weit ausgestellt, rot",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080_rock_skirt_gewandung_kleidung_mittelalter_magd_rot.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303080_rock_skirt_gewandung_kleidung_mittelalter_magd_rot-500x600.webp"
+    }
+  ],
+  "attributes": [
+    {
+      "id": 1,
+      "name": "Größe",
+      "slug": "pa_groesse",
+      "position": 0,
+      "visible": true,
+      "variation": true,
+      "options": [
+        "L",
+        "M",
+        "S",
+        "Xl",
+        "Xxl"
+      ]
+    }
+  ],
+  "default_attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "menu_order": 0,
+  "price_html": "",
+  "related_ids": [
+    387,
+    478,
+    838,
+    620,
+    504
+  ],
+  "meta_data": [
+    {
+      "id": 111345,
+      "key": "rank_math_internal_links_processed",
+      "value": "1"
+    },
+    {
+      "id": 111367,
+      "key": "generator",
+      "value": "importer-handelsgilde"
+    },
+    {
+      "id": 111368,
+      "key": "_unit",
+      "value": ""
+    },
+    {
+      "id": 111369,
+      "key": "_unit_price_auto",
+      "value": "no"
+    },
+    {
+      "id": 111370,
+      "key": "_sale_price_label",
+      "value": ""
+    },
+    {
+      "id": 111371,
+      "key": "_sale_price_regular_label",
+      "value": ""
+    },
+    {
+      "id": 111372,
+      "key": "_manufacturer_slug",
+      "value": ""
+    },
+    {
+      "id": 111373,
+      "key": "_warranty_attachment_id",
+      "value": ""
+    },
+    {
+      "id": 111374,
+      "key": "_safety_attachment_ids",
+      "value": []
+    },
+    {
+      "id": 111375,
+      "key": "_min_age",
+      "value": ""
+    },
+    {
+      "id": 111376,
+      "key": "_ts_gtin",
+      "value": ""
+    },
+    {
+      "id": 111377,
+      "key": "_ts_mpn",
+      "value": ""
+    },
+    {
+      "id": 111378,
+      "key": "_default_delivery_time",
+      "value": ""
+    },
+    {
+      "id": 111379,
+      "key": "_delivery_time_countries",
+      "value": []
+    },
+    {
+      "id": 111380,
+      "key": "_free_shipping",
+      "value": "no"
+    },
+    {
+      "id": 111381,
+      "key": "_service",
+      "value": "no"
+    },
+    {
+      "id": 111382,
+      "key": "_photovoltaic_system",
+      "value": "no"
+    },
+    {
+      "id": 111383,
+      "key": "_used_good",
+      "value": "no"
+    },
+    {
+      "id": 111384,
+      "key": "_defective_copy",
+      "value": "no"
+    },
+    {
+      "id": 111385,
+      "key": "_wireless_electronic_device",
+      "value": "no"
+    },
+    {
+      "id": 111386,
+      "key": "_device_contains_power_supply",
+      "value": "no"
+    },
+    {
+      "id": 111387,
+      "key": "_device_charging_supports_usb_pd",
+      "value": "no"
+    },
+    {
+      "id": 111388,
+      "key": "_is_food",
+      "value": "no"
+    },
+    {
+      "id": 111389,
+      "key": "_differential_taxation",
+      "value": "no"
+    },
+    {
+      "id": 111390,
+      "key": "_gzd_version",
+      "value": "3.20.2"
+    },
+    {
+      "id": 265080,
+      "key": "_unit_price_regular",
+      "value": ""
+    },
+    {
+      "id": 265081,
+      "key": "_unit_price_sale",
+      "value": ""
+    },
+    {
+      "id": 265082,
+      "key": "_unit_price",
+      "value": ""
+    },
+    {
+      "id": 265083,
+      "key": "_defect_description",
+      "value": ""
+    }
+  ],
+  "stock_status": "outofstock",
+  "has_options": true,
+  "post_password": "",
+  "global_unique_id": "",
+  "hs_code": "",
+  "customs_description": "",
+  "manufacture_country": "DE",
+  "shipping_dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "unit": [],
+  "unit_price": {
+    "base": "",
+    "product": "",
+    "price_auto": false,
+    "price": "",
+    "price_regular": "",
+    "price_sale": "",
+    "price_html": ""
+  },
+  "mini_desc": "",
+  "defect_description": "",
+  "min_age": "",
+  "gtin": "",
+  "mpn": "",
+  "sale_price_label": [],
+  "sale_price_regular_label": [],
+  "manufacturer": [],
+  "safety_attachment_ids": [],
+  "safety_instructions": "",
+  "delivery_time": [],
+  "country_specific_delivery_times": [],
+  "free_shipping": false,
+  "wireless_electronic_device": false,
+  "device_contains_power_supply": false,
+  "device_charging_supports_usb_pd": false,
+  "device_charging_watt_min": "",
+  "device_charging_watt_max": "",
+  "service": false,
+  "used_good": false,
+  "defective_copy": false,
+  "photovoltaic_system": false,
+  "differential_taxation": false,
+  "warranty_attachment_id": "",
+  "is_food": false,
+  "food": {
+    "deposit_type": [],
+    "deposit_quantity": 1,
+    "deposit": 0,
+    "ingredients": "",
+    "nutrient_reference_value": "",
+    "nutri_score": "",
+    "alcohol_content": "",
+    "allergen_ids": [],
+    "nutrient_ids": [
+      {
+        "term": 0,
+        "value": "",
+        "ref_value": ""
+      }
+    ],
+    "net_filling_quantity": "",
+    "drained_weight": "",
+    "description": "",
+    "distributor": "",
+    "place_of_origin": ""
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/5288",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

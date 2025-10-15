@@ -1,0 +1,446 @@
+{
+  "id": 7174,
+  "name": "Ärmelloses Überkleid Jarle, Trägerkleid, braun/schwarz",
+  "slug": "",
+  "permalink": "https://die-handelsgilde.de/?post_type=product&p=7174",
+  "date_created": "2025-10-10T18:52:08",
+  "date_created_gmt": "2025-10-10T16:52:08",
+  "date_modified": "2025-10-14T20:56:17",
+  "date_modified_gmt": "2025-10-14T18:56:17",
+  "type": "variable",
+  "status": "draft",
+  "featured": false,
+  "catalog_visibility": "visible",
+  "description": "<h1>Ärmelloses Überkleid Jarle, Trägerkleid, braun/schwarz</h1>\n<p>Dieses mittelalterliche Kleid für den Sommer ist locker geschnitten und lässt sich dank seitlicher Schnürungen anpassen. Das Design mit schwarzen Streifen betont eine schlanke Silhouette und bietet Flexibilität, sowohl an warmen als auch an kühleren Tagen, wenn es über anderen Kleidungsstücken getragen wird.</p>\n<h3>Material &amp; Verarbeitung</h3>\n<p>Das Kleid besteht zu 100% aus Baumwolle und wurde im Schonwaschgang bei 40°C maschinenwaschbar konzipiert. Es ist nicht trocknergeeignet, so bleibt die Qualität lange erhalten.</p>\n<ul>\n<li>Größen erhältlich: S bis XXL</li>\n<li>Gesamtlänge in M: ca. 150 cm</li>\n<li>Brustumfang: S - 88 cm, M - 96 cm, L - 104 cm, XL - 116 cm, XXL - 128 cm</li>\n<li>Farbe: braun mit schwarzen Akzenten (weitere Farben verfügbar)</li>\n</ul>\n<h4>Historischer Kontext</h4>\n<p>Inspiriert von mittelalterlichen Gewändern, passt dieses Kleid in die Zeit der Renaissance, als solche trägerlosen Überkleider populär waren. Ursprünglich für Praktikabilität und Flexibilität konzipiert, boten sie eine modische Möglichkeit, sich an die wechselnden Jahreszeiten anzupassen.</p>\n",
+  "short_description": "<p>Mittelalterliches Ärmelloses Überkleid<br />\nGeeignet für Sommer und kühlere Tage<br />\n100% Baumwolle, handgearbeitet<br />\nIndividuell anpassbare Schnürung<br />\nErhältlich in verschiedenen Größen und Farben</p>\n",
+  "sku": "1280023330",
+  "price": "39.99",
+  "regular_price": "",
+  "sale_price": "",
+  "date_on_sale_from": null,
+  "date_on_sale_from_gmt": null,
+  "date_on_sale_to": null,
+  "date_on_sale_to_gmt": null,
+  "on_sale": false,
+  "purchasable": true,
+  "total_sales": 0,
+  "virtual": false,
+  "downloadable": false,
+  "downloads": [],
+  "download_limit": -1,
+  "download_expiry": -1,
+  "external_url": "",
+  "button_text": "",
+  "tax_status": "taxable",
+  "tax_class": "",
+  "manage_stock": true,
+  "stock_quantity": 0,
+  "backorders": "no",
+  "backorders_allowed": false,
+  "backordered": false,
+  "low_stock_amount": null,
+  "sold_individually": false,
+  "weight": "0.7",
+  "dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "shipping_required": true,
+  "shipping_taxable": true,
+  "shipping_class": "",
+  "shipping_class_id": 0,
+  "reviews_allowed": true,
+  "average_rating": "0.00",
+  "rating_count": 0,
+  "upsell_ids": [],
+  "cross_sell_ids": [],
+  "parent_id": 0,
+  "purchase_note": "",
+  "categories": [
+    {
+      "id": 77,
+      "name": "Edeldamen-Kleider",
+      "slug": "edeldamen-kleider"
+    },
+    {
+      "id": 76,
+      "name": "Kleider &amp; Röcke",
+      "slug": "kleider-und-roecke"
+    },
+    {
+      "id": 60,
+      "name": "Traditionelle Gewandung",
+      "slug": "traditionelle-gewandung"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 752,
+      "name": "ärmellos",
+      "slug": "aermellos"
+    },
+    {
+      "id": 792,
+      "name": "ärmelloses Überkleid",
+      "slug": "aermelloses-ueberkleid"
+    },
+    {
+      "id": 727,
+      "name": "Battle-Merchant",
+      "slug": "battle-merchant"
+    },
+    {
+      "id": 804,
+      "name": "Trägerkleid",
+      "slug": "traegerkleid"
+    }
+  ],
+  "images": [
+    {
+      "id": 7168,
+      "date_created": "2025-10-10T20:51:24",
+      "date_created_gmt": "2025-10-10T16:51:24",
+      "date_modified": "2025-10-10T20:52:08",
+      "date_modified_gmt": "2025-10-10T16:52:08",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330c_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz.webp",
+      "name": "Ärmelloses Überkleid Jarle, Trägerkleid, braun/schwarz",
+      "alt": "Ärmelloses Überkleid Jarle, Trägerkleid, braun/schwarz",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330c_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330c_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330c_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330c_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330c_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330c_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330c_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330c_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-500x600.webp"
+    },
+    {
+      "id": 7169,
+      "date_created": "2025-10-10T20:51:31",
+      "date_created_gmt": "2025-10-10T16:51:31",
+      "date_modified": "2025-10-10T20:52:08",
+      "date_modified_gmt": "2025-10-10T16:52:08",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330d_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz.webp",
+      "name": "Ärmelloses Überkleid Jarle, Trägerkleid, braun/schwarz",
+      "alt": "Ärmelloses Überkleid Jarle, Trägerkleid, braun/schwarz",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330d_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330d_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330d_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330d_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330d_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330d_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330d_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330d_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-500x600.webp"
+    },
+    {
+      "id": 7170,
+      "date_created": "2025-10-10T20:51:37",
+      "date_created_gmt": "2025-10-10T16:51:37",
+      "date_modified": "2025-10-10T20:52:08",
+      "date_modified_gmt": "2025-10-10T16:52:08",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330b_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz.webp",
+      "name": "Ärmelloses Überkleid Jarle, Trägerkleid, braun/schwarz",
+      "alt": "Ärmelloses Überkleid Jarle, Trägerkleid, braun/schwarz",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330b_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330b_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330b_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330b_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330b_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330b_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330b_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330b_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-500x600.webp"
+    },
+    {
+      "id": 7171,
+      "date_created": "2025-10-10T20:51:43",
+      "date_created_gmt": "2025-10-10T16:51:43",
+      "date_modified": "2025-10-10T20:52:08",
+      "date_modified_gmt": "2025-10-10T16:52:08",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330e_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz.webp",
+      "name": "Ärmelloses Überkleid Jarle, Trägerkleid, braun/schwarz",
+      "alt": "Ärmelloses Überkleid Jarle, Trägerkleid, braun/schwarz",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330e_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330e_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330e_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330e_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330e_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330e_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330e_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330e_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-500x600.webp"
+    },
+    {
+      "id": 7172,
+      "date_created": "2025-10-10T20:51:49",
+      "date_created_gmt": "2025-10-10T16:51:49",
+      "date_modified": "2025-10-10T20:52:08",
+      "date_modified_gmt": "2025-10-10T16:52:08",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330j_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz.webp",
+      "name": "Ärmelloses Überkleid Jarle, Trägerkleid, braun/schwarz",
+      "alt": "Ärmelloses Überkleid Jarle, Trägerkleid, braun/schwarz",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330j_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330j_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330j_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330j_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330j_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330j_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330j_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330j_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-500x600.webp"
+    },
+    {
+      "id": 7173,
+      "date_created": "2025-10-10T20:51:55",
+      "date_created_gmt": "2025-10-10T16:51:55",
+      "date_modified": "2025-10-10T20:52:08",
+      "date_modified_gmt": "2025-10-10T16:52:08",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330h_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz.webp",
+      "name": "Ärmelloses Überkleid Jarle, Trägerkleid, braun/schwarz",
+      "alt": "Ärmelloses Überkleid Jarle, Trägerkleid, braun/schwarz",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330h_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330h_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330h_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330h_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330h_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330h_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330h_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1280023330h_ueberkleid_aermellos_jarle_mittelalter_dress_traegerkleid_gewandung_braun_schwarz-500x600.webp"
+    }
+  ],
+  "attributes": [
+    {
+      "id": 1,
+      "name": "Größe",
+      "slug": "pa_groesse",
+      "position": 0,
+      "visible": true,
+      "variation": true,
+      "options": [
+        "L",
+        "M",
+        "S",
+        "Xl",
+        "Xxl"
+      ]
+    }
+  ],
+  "default_attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "menu_order": 0,
+  "price_html": "",
+  "related_ids": [
+    455,
+    400,
+    415,
+    540,
+    586
+  ],
+  "meta_data": [
+    {
+      "id": 131517,
+      "key": "rank_math_internal_links_processed",
+      "value": "1"
+    },
+    {
+      "id": 131539,
+      "key": "generator",
+      "value": "importer-handelsgilde"
+    },
+    {
+      "id": 131540,
+      "key": "_unit",
+      "value": ""
+    },
+    {
+      "id": 131541,
+      "key": "_unit_price_auto",
+      "value": "no"
+    },
+    {
+      "id": 131542,
+      "key": "_sale_price_label",
+      "value": ""
+    },
+    {
+      "id": 131543,
+      "key": "_sale_price_regular_label",
+      "value": ""
+    },
+    {
+      "id": 131544,
+      "key": "_manufacturer_slug",
+      "value": ""
+    },
+    {
+      "id": 131545,
+      "key": "_warranty_attachment_id",
+      "value": ""
+    },
+    {
+      "id": 131546,
+      "key": "_safety_attachment_ids",
+      "value": []
+    },
+    {
+      "id": 131547,
+      "key": "_min_age",
+      "value": ""
+    },
+    {
+      "id": 131548,
+      "key": "_ts_gtin",
+      "value": ""
+    },
+    {
+      "id": 131549,
+      "key": "_ts_mpn",
+      "value": ""
+    },
+    {
+      "id": 131550,
+      "key": "_default_delivery_time",
+      "value": ""
+    },
+    {
+      "id": 131551,
+      "key": "_delivery_time_countries",
+      "value": []
+    },
+    {
+      "id": 131552,
+      "key": "_free_shipping",
+      "value": "no"
+    },
+    {
+      "id": 131553,
+      "key": "_service",
+      "value": "no"
+    },
+    {
+      "id": 131554,
+      "key": "_photovoltaic_system",
+      "value": "no"
+    },
+    {
+      "id": 131555,
+      "key": "_used_good",
+      "value": "no"
+    },
+    {
+      "id": 131556,
+      "key": "_defective_copy",
+      "value": "no"
+    },
+    {
+      "id": 131557,
+      "key": "_wireless_electronic_device",
+      "value": "no"
+    },
+    {
+      "id": 131558,
+      "key": "_device_contains_power_supply",
+      "value": "no"
+    },
+    {
+      "id": 131559,
+      "key": "_device_charging_supports_usb_pd",
+      "value": "no"
+    },
+    {
+      "id": 131560,
+      "key": "_is_food",
+      "value": "no"
+    },
+    {
+      "id": 131561,
+      "key": "_differential_taxation",
+      "value": "no"
+    },
+    {
+      "id": 131562,
+      "key": "_gzd_version",
+      "value": "3.20.2"
+    },
+    {
+      "id": 309224,
+      "key": "_unit_price_regular",
+      "value": ""
+    },
+    {
+      "id": 309225,
+      "key": "_unit_price_sale",
+      "value": ""
+    },
+    {
+      "id": 309226,
+      "key": "_unit_price",
+      "value": ""
+    },
+    {
+      "id": 309227,
+      "key": "_defect_description",
+      "value": ""
+    }
+  ],
+  "stock_status": "outofstock",
+  "has_options": true,
+  "post_password": "",
+  "global_unique_id": "",
+  "hs_code": "",
+  "customs_description": "",
+  "manufacture_country": "DE",
+  "shipping_dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "unit": [],
+  "unit_price": {
+    "base": "",
+    "product": "",
+    "price_auto": false,
+    "price": "",
+    "price_regular": "",
+    "price_sale": "",
+    "price_html": ""
+  },
+  "mini_desc": "",
+  "defect_description": "",
+  "min_age": "",
+  "gtin": "",
+  "mpn": "",
+  "sale_price_label": [],
+  "sale_price_regular_label": [],
+  "manufacturer": [],
+  "safety_attachment_ids": [],
+  "safety_instructions": "",
+  "delivery_time": [],
+  "country_specific_delivery_times": [],
+  "free_shipping": false,
+  "wireless_electronic_device": false,
+  "device_contains_power_supply": false,
+  "device_charging_supports_usb_pd": false,
+  "device_charging_watt_min": "",
+  "device_charging_watt_max": "",
+  "service": false,
+  "used_good": false,
+  "defective_copy": false,
+  "photovoltaic_system": false,
+  "differential_taxation": false,
+  "warranty_attachment_id": "",
+  "is_food": false,
+  "food": {
+    "deposit_type": [],
+    "deposit_quantity": 1,
+    "deposit": 0,
+    "ingredients": "",
+    "nutrient_reference_value": "",
+    "nutri_score": "",
+    "alcohol_content": "",
+    "allergen_ids": [],
+    "nutrient_ids": [
+      {
+        "term": 0,
+        "value": "",
+        "ref_value": ""
+      }
+    ],
+    "net_filling_quantity": "",
+    "drained_weight": "",
+    "description": "",
+    "distributor": "",
+    "place_of_origin": ""
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/7174",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

@@ -1,0 +1,428 @@
+{
+  "id": 5218,
+  "name": "Sporran, Kilt-Tasche, Verschiedene Farben",
+  "slug": "",
+  "permalink": "https://die-handelsgilde.de/?post_type=product&p=5218",
+  "date_created": "2025-10-09T22:11:40",
+  "date_created_gmt": "2025-10-09T20:11:40",
+  "date_modified": "2025-10-14T19:59:54",
+  "date_modified_gmt": "2025-10-14T17:59:54",
+  "type": "variable",
+  "status": "draft",
+  "featured": false,
+  "catalog_visibility": "visible",
+  "description": "<h1>Sporran, Kilt-Tasche, Verschiedene Farben</h1>\n<p>Der Sporran ist eine stilvolle Lösung, um Kleinigkeiten zu verstauen, während du deinen Kilt trägst. Er ist funktional und dekorativ zugleich.</p>\n<h3>Historischer Kontext</h3>\n<p>Der Sporran stammt aus Schottland und ist seit dem 18. Jahrhundert fester Bestandteil der traditionell schottischen Männertracht. Ursprünglich diente er dazu, alltägliche Gegenstände aufzubewahren, da Kilts keine Taschen haben.</p>\n<h3>Material &amp; Verarbeitung</h3>\n<p>Hochwertiges Rindleder sorgt für Robustheit und Langlebigkeit. Handarbeit mit keltischen Verzierungen und drei Tasseln als dekorative Elemente. Der Verschluss erfolgt über einen Stift, gesichert durch eine Kette. Um die Kette und den Lederriemen zu pflegen, solltest du sie regelmäßig einfetten.</p>\n<ul>\n<li>Praktisch und dekorativ zugleich</li>\n<li>Ca. 20 cm hoch und 17,5 cm breit</li>\n<li>Stiftverschluss mit Kette, individuell einstellbar</li>\n<li>Enthält eine umstellbare Umhängekette</li>\n</ul>\n",
+  "short_description": "<p>Kilt-Tasche für traditionelle Outfits<br />\nWird am Gürtel oder Kette getragen<br />\n100% Leder, handgefertigt mit keltischen Designs<br />\nMit drei Tasseln und Kettenverschluss<br />\nErhältlich in Braun mit Zopfmuster oder Schwarz mit Prägung</p>\n",
+  "sku": "1212700700",
+  "price": "79.99",
+  "regular_price": "",
+  "sale_price": "",
+  "date_on_sale_from": null,
+  "date_on_sale_from_gmt": null,
+  "date_on_sale_to": null,
+  "date_on_sale_to_gmt": null,
+  "on_sale": false,
+  "purchasable": true,
+  "total_sales": 0,
+  "virtual": false,
+  "downloadable": false,
+  "downloads": [],
+  "download_limit": -1,
+  "download_expiry": -1,
+  "external_url": "",
+  "button_text": "",
+  "tax_status": "taxable",
+  "tax_class": "",
+  "manage_stock": true,
+  "stock_quantity": 0,
+  "backorders": "no",
+  "backorders_allowed": false,
+  "backordered": false,
+  "low_stock_amount": null,
+  "sold_individually": false,
+  "weight": "0.5",
+  "dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "shipping_required": true,
+  "shipping_taxable": true,
+  "shipping_class": "",
+  "shipping_class_id": 0,
+  "reviews_allowed": true,
+  "average_rating": "0.00",
+  "rating_count": 0,
+  "upsell_ids": [],
+  "cross_sell_ids": [],
+  "parent_id": 0,
+  "purchase_note": "",
+  "categories": [
+    {
+      "id": 382,
+      "name": "Schottenröcke/Kilts",
+      "slug": "schottenroecke-kilts"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 372,
+      "name": "Kilt",
+      "slug": "kilt"
+    },
+    {
+      "id": 273,
+      "name": "Leder",
+      "slug": "leder"
+    },
+    {
+      "id": 376,
+      "name": "Sporran",
+      "slug": "sporran"
+    }
+  ],
+  "images": [
+    {
+      "id": 5212,
+      "date_created": "2025-10-10T00:10:59",
+      "date_created_gmt": "2025-10-09T20:10:59",
+      "date_modified": "2025-10-10T00:11:40",
+      "date_modified_gmt": "2025-10-09T20:11:40",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700_sporran_tasche_bag_schottenrock_schotten_mittelalter.webp",
+      "name": "Sporran, Kilt-Tasche, Verschiedene Farben",
+      "alt": "Sporran, Kilt-Tasche, Verschiedene Farben",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700_sporran_tasche_bag_schottenrock_schotten_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700_sporran_tasche_bag_schottenrock_schotten_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700_sporran_tasche_bag_schottenrock_schotten_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700_sporran_tasche_bag_schottenrock_schotten_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700_sporran_tasche_bag_schottenrock_schotten_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700_sporran_tasche_bag_schottenrock_schotten_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700_sporran_tasche_bag_schottenrock_schotten_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700_sporran_tasche_bag_schottenrock_schotten_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5213,
+      "date_created": "2025-10-10T00:11:05",
+      "date_created_gmt": "2025-10-09T20:11:05",
+      "date_modified": "2025-10-10T00:11:40",
+      "date_modified_gmt": "2025-10-09T20:11:40",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700b_sporran_tasche_bag_schottenrock_schotten_mittelalter.webp",
+      "name": "Sporran, Kilt-Tasche, Verschiedene Farben",
+      "alt": "Sporran, Kilt-Tasche, Verschiedene Farben",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700b_sporran_tasche_bag_schottenrock_schotten_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700b_sporran_tasche_bag_schottenrock_schotten_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700b_sporran_tasche_bag_schottenrock_schotten_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700b_sporran_tasche_bag_schottenrock_schotten_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700b_sporran_tasche_bag_schottenrock_schotten_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700b_sporran_tasche_bag_schottenrock_schotten_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700b_sporran_tasche_bag_schottenrock_schotten_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700b_sporran_tasche_bag_schottenrock_schotten_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5214,
+      "date_created": "2025-10-10T00:11:11",
+      "date_created_gmt": "2025-10-09T20:11:11",
+      "date_modified": "2025-10-10T00:11:40",
+      "date_modified_gmt": "2025-10-09T20:11:40",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700c_sporran_tasche_bag_schottenrock_schotten_mittelalter.webp",
+      "name": "Sporran, Kilt-Tasche, Verschiedene Farben",
+      "alt": "Sporran, Kilt-Tasche, Verschiedene Farben",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700c_sporran_tasche_bag_schottenrock_schotten_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700c_sporran_tasche_bag_schottenrock_schotten_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700c_sporran_tasche_bag_schottenrock_schotten_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700c_sporran_tasche_bag_schottenrock_schotten_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700c_sporran_tasche_bag_schottenrock_schotten_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700c_sporran_tasche_bag_schottenrock_schotten_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700c_sporran_tasche_bag_schottenrock_schotten_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700c_sporran_tasche_bag_schottenrock_schotten_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5215,
+      "date_created": "2025-10-10T00:11:17",
+      "date_created_gmt": "2025-10-09T20:11:17",
+      "date_modified": "2025-10-10T00:11:40",
+      "date_modified_gmt": "2025-10-09T20:11:40",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700d_sporran_tasche_bag_schottenrock_schotten_mittelalter.webp",
+      "name": "Sporran, Kilt-Tasche, Verschiedene Farben",
+      "alt": "Sporran, Kilt-Tasche, Verschiedene Farben",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700d_sporran_tasche_bag_schottenrock_schotten_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700d_sporran_tasche_bag_schottenrock_schotten_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700d_sporran_tasche_bag_schottenrock_schotten_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700d_sporran_tasche_bag_schottenrock_schotten_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700d_sporran_tasche_bag_schottenrock_schotten_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700d_sporran_tasche_bag_schottenrock_schotten_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700d_sporran_tasche_bag_schottenrock_schotten_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700d_sporran_tasche_bag_schottenrock_schotten_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5216,
+      "date_created": "2025-10-10T00:11:24",
+      "date_created_gmt": "2025-10-09T20:11:24",
+      "date_modified": "2025-10-10T00:11:40",
+      "date_modified_gmt": "2025-10-09T20:11:40",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700e_sporran_tasche_bag_schottenrock_schotten_mittelalter.webp",
+      "name": "Sporran, Kilt-Tasche, Verschiedene Farben",
+      "alt": "Sporran, Kilt-Tasche, Verschiedene Farben",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700e_sporran_tasche_bag_schottenrock_schotten_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700e_sporran_tasche_bag_schottenrock_schotten_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700e_sporran_tasche_bag_schottenrock_schotten_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700e_sporran_tasche_bag_schottenrock_schotten_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700e_sporran_tasche_bag_schottenrock_schotten_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700e_sporran_tasche_bag_schottenrock_schotten_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700e_sporran_tasche_bag_schottenrock_schotten_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700e_sporran_tasche_bag_schottenrock_schotten_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5217,
+      "date_created": "2025-10-10T00:11:30",
+      "date_created_gmt": "2025-10-09T20:11:30",
+      "date_modified": "2025-10-10T00:11:40",
+      "date_modified_gmt": "2025-10-09T20:11:40",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700f_sporran_tasche_bag_schottenrock_schotten_mittelalter.webp",
+      "name": "Sporran, Kilt-Tasche, Verschiedene Farben",
+      "alt": "Sporran, Kilt-Tasche, Verschiedene Farben",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700f_sporran_tasche_bag_schottenrock_schotten_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700f_sporran_tasche_bag_schottenrock_schotten_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700f_sporran_tasche_bag_schottenrock_schotten_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700f_sporran_tasche_bag_schottenrock_schotten_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700f_sporran_tasche_bag_schottenrock_schotten_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700f_sporran_tasche_bag_schottenrock_schotten_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700f_sporran_tasche_bag_schottenrock_schotten_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1212700700f_sporran_tasche_bag_schottenrock_schotten_mittelalter-500x600.webp"
+    }
+  ],
+  "attributes": [
+    {
+      "id": 2,
+      "name": "Farbe",
+      "slug": "pa_farbe",
+      "position": 0,
+      "visible": true,
+      "variation": true,
+      "options": [
+        "Braun",
+        "Schwarz"
+      ]
+    }
+  ],
+  "default_attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "menu_order": 0,
+  "price_html": "",
+  "related_ids": [
+    1987,
+    1839,
+    1290,
+    1980,
+    2005
+  ],
+  "meta_data": [
+    {
+      "id": 110603,
+      "key": "rank_math_internal_links_processed",
+      "value": "1"
+    },
+    {
+      "id": 110625,
+      "key": "generator",
+      "value": "importer-handelsgilde"
+    },
+    {
+      "id": 110626,
+      "key": "_unit",
+      "value": ""
+    },
+    {
+      "id": 110627,
+      "key": "_unit_price_auto",
+      "value": "no"
+    },
+    {
+      "id": 110628,
+      "key": "_sale_price_label",
+      "value": ""
+    },
+    {
+      "id": 110629,
+      "key": "_sale_price_regular_label",
+      "value": ""
+    },
+    {
+      "id": 110630,
+      "key": "_manufacturer_slug",
+      "value": ""
+    },
+    {
+      "id": 110631,
+      "key": "_warranty_attachment_id",
+      "value": ""
+    },
+    {
+      "id": 110632,
+      "key": "_safety_attachment_ids",
+      "value": []
+    },
+    {
+      "id": 110633,
+      "key": "_min_age",
+      "value": ""
+    },
+    {
+      "id": 110634,
+      "key": "_ts_gtin",
+      "value": ""
+    },
+    {
+      "id": 110635,
+      "key": "_ts_mpn",
+      "value": ""
+    },
+    {
+      "id": 110636,
+      "key": "_default_delivery_time",
+      "value": ""
+    },
+    {
+      "id": 110637,
+      "key": "_delivery_time_countries",
+      "value": []
+    },
+    {
+      "id": 110638,
+      "key": "_free_shipping",
+      "value": "no"
+    },
+    {
+      "id": 110639,
+      "key": "_service",
+      "value": "no"
+    },
+    {
+      "id": 110640,
+      "key": "_photovoltaic_system",
+      "value": "no"
+    },
+    {
+      "id": 110641,
+      "key": "_used_good",
+      "value": "no"
+    },
+    {
+      "id": 110642,
+      "key": "_defective_copy",
+      "value": "no"
+    },
+    {
+      "id": 110643,
+      "key": "_wireless_electronic_device",
+      "value": "no"
+    },
+    {
+      "id": 110644,
+      "key": "_device_contains_power_supply",
+      "value": "no"
+    },
+    {
+      "id": 110645,
+      "key": "_device_charging_supports_usb_pd",
+      "value": "no"
+    },
+    {
+      "id": 110646,
+      "key": "_is_food",
+      "value": "no"
+    },
+    {
+      "id": 110647,
+      "key": "_differential_taxation",
+      "value": "no"
+    },
+    {
+      "id": 110648,
+      "key": "_gzd_version",
+      "value": "3.20.2"
+    },
+    {
+      "id": 264848,
+      "key": "_unit_price_regular",
+      "value": ""
+    },
+    {
+      "id": 264849,
+      "key": "_unit_price_sale",
+      "value": ""
+    },
+    {
+      "id": 264850,
+      "key": "_unit_price",
+      "value": ""
+    },
+    {
+      "id": 264851,
+      "key": "_defect_description",
+      "value": ""
+    }
+  ],
+  "stock_status": "outofstock",
+  "has_options": true,
+  "post_password": "",
+  "global_unique_id": "",
+  "hs_code": "",
+  "customs_description": "",
+  "manufacture_country": "DE",
+  "shipping_dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "unit": [],
+  "unit_price": {
+    "base": "",
+    "product": "",
+    "price_auto": false,
+    "price": "",
+    "price_regular": "",
+    "price_sale": "",
+    "price_html": ""
+  },
+  "mini_desc": "",
+  "defect_description": "",
+  "min_age": "",
+  "gtin": "",
+  "mpn": "",
+  "sale_price_label": [],
+  "sale_price_regular_label": [],
+  "manufacturer": [],
+  "safety_attachment_ids": [],
+  "safety_instructions": "",
+  "delivery_time": [],
+  "country_specific_delivery_times": [],
+  "free_shipping": false,
+  "wireless_electronic_device": false,
+  "device_contains_power_supply": false,
+  "device_charging_supports_usb_pd": false,
+  "device_charging_watt_min": "",
+  "device_charging_watt_max": "",
+  "service": false,
+  "used_good": false,
+  "defective_copy": false,
+  "photovoltaic_system": false,
+  "differential_taxation": false,
+  "warranty_attachment_id": "",
+  "is_food": false,
+  "food": {
+    "deposit_type": [],
+    "deposit_quantity": 1,
+    "deposit": 0,
+    "ingredients": "",
+    "nutrient_reference_value": "",
+    "nutri_score": "",
+    "alcohol_content": "",
+    "allergen_ids": [],
+    "nutrient_ids": [
+      {
+        "term": 0,
+        "value": "",
+        "ref_value": ""
+      }
+    ],
+    "net_filling_quantity": "",
+    "drained_weight": "",
+    "description": "",
+    "distributor": "",
+    "place_of_origin": ""
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/5218",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

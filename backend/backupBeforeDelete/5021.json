@@ -1,0 +1,391 @@
+{
+  "id": 5021,
+  "name": "Mittelalterliche Panzerhandschuhe, Schlacht von Visby, 14. Jh., versch. Farben",
+  "slug": "",
+  "permalink": "https://die-handelsgilde.de/?post_type=product&p=5021",
+  "date_created": "2025-10-09T21:40:02",
+  "date_created_gmt": "2025-10-09T19:40:02",
+  "date_modified": "2025-10-15T13:21:04",
+  "date_modified_gmt": "2025-10-15T11:21:04",
+  "type": "variable",
+  "status": "draft",
+  "featured": false,
+  "catalog_visibility": "visible",
+  "description": "<h1>Mittelalterliche Panzerhandschuhe, Schlacht von Visby, 14. Jh., versch. Farben</h1>\n<p>Diese Panzerhandschuhe orientieren sich an Funden von der Schlacht bei Visby und bieten eine robuste Kombination aus Schutz und Beweglichkeit. Ideal für Reenactment und LARP, passen sie perfekt in späte Mittelalterszenarien.</p>\n<h3>Historischer Kontext</h3>\n<p>Im 14. Jahrhundert kämpfen Inselbewohner Gotlands gegen die dänische Eroberung. Der Fund stammt aus der Schlacht bei Visby 1361, einem entscheidenden historischen Moment in Nordeuropa.</p>\n<h3>Material &amp; Verarbeitung</h3>\n<p>Hergestellt aus dickem Leder und Stahl, sind die Handschuhe handvernietet und bieten durch die verstellbare Lederschnalle einen guten Sitz. Die Oberfläche ist anfällig für Rost, also regelmäßig ölen.</p>\n<ul>\n<li>Einheitsgröße, passt Händen Größe 9 bis 10</li>\n<li>Gewicht pro Paar: ca. 1750 g</li>\n<li>Erhältlich in Schwarz oder Braun</li>\n<li>Verstellbarer Lederriemen für individuelle Passform</li>\n</ul>\n",
+  "short_description": "<p>&#8211; Mittelalterliche Panzerhandschuhe<br />\n&#8211; Geeignet für Reenactment und LARP<br />\n&#8211; 2 mm Leder, 1,2 mm Stahl, handvernietet<br />\n&#8211; Verstellbare Manschette mit Messingschnalle<br />\n&#8211; Erhältlich in Schwarz und Braun</p>\n",
+  "sku": "1064000060-TO-DELETE-TO-DELETE",
+  "price": "209.99",
+  "regular_price": "",
+  "sale_price": "",
+  "date_on_sale_from": null,
+  "date_on_sale_from_gmt": null,
+  "date_on_sale_to": null,
+  "date_on_sale_to_gmt": null,
+  "on_sale": false,
+  "purchasable": true,
+  "total_sales": 0,
+  "virtual": false,
+  "downloadable": false,
+  "downloads": [],
+  "download_limit": -1,
+  "download_expiry": -1,
+  "external_url": "",
+  "button_text": "",
+  "tax_status": "taxable",
+  "tax_class": "",
+  "manage_stock": true,
+  "stock_quantity": 0,
+  "backorders": "no",
+  "backorders_allowed": false,
+  "backordered": false,
+  "low_stock_amount": null,
+  "sold_individually": false,
+  "weight": "2.2",
+  "dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "shipping_required": true,
+  "shipping_taxable": true,
+  "shipping_class": "",
+  "shipping_class_id": 0,
+  "reviews_allowed": true,
+  "average_rating": "0.00",
+  "rating_count": 0,
+  "upsell_ids": [],
+  "cross_sell_ids": [],
+  "parent_id": 0,
+  "purchase_note": "",
+  "categories": [
+    {
+      "id": 44,
+      "name": "Handschuhe &amp; Panzerhandschuhe",
+      "slug": "handschuhe-und-panzerhandschuhe"
+    },
+    {
+      "id": 118,
+      "name": "Reenactment",
+      "slug": "reenactment"
+    },
+    {
+      "id": 111,
+      "name": "Spätmittelalter (1300–1500)",
+      "slug": "spaetmittelalter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 539,
+      "name": "14. Jahrhundert",
+      "slug": "14-jahrhundert"
+    },
+    {
+      "id": 599,
+      "name": "Ersatzteil",
+      "slug": "ersatzteil"
+    },
+    {
+      "id": 174,
+      "name": "Handschuhe",
+      "slug": "handschuhe"
+    },
+    {
+      "id": 593,
+      "name": "LARP",
+      "slug": "larp"
+    }
+  ],
+  "images": [
+    {
+      "id": 5019,
+      "date_created": "2025-10-09T23:39:48",
+      "date_created_gmt": "2025-10-09T19:39:48",
+      "date_modified": "2025-10-09T23:40:02",
+      "date_modified_gmt": "2025-10-09T19:40:02",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000061_plattenhandschuhe_panzerhandschuhe_visby_schwarz_ruestung_mittelalter.webp",
+      "name": "Mittelalterliche Panzerhandschuhe, Schlacht von Visby, 14. Jh., versch. Farben",
+      "alt": "Mittelalterliche Panzerhandschuhe, Schlacht von Visby, 14. Jh., versch. Farben",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000061_plattenhandschuhe_panzerhandschuhe_visby_schwarz_ruestung_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000061_plattenhandschuhe_panzerhandschuhe_visby_schwarz_ruestung_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000061_plattenhandschuhe_panzerhandschuhe_visby_schwarz_ruestung_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000061_plattenhandschuhe_panzerhandschuhe_visby_schwarz_ruestung_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000061_plattenhandschuhe_panzerhandschuhe_visby_schwarz_ruestung_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000061_plattenhandschuhe_panzerhandschuhe_visby_schwarz_ruestung_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000061_plattenhandschuhe_panzerhandschuhe_visby_schwarz_ruestung_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000061_plattenhandschuhe_panzerhandschuhe_visby_schwarz_ruestung_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5020,
+      "date_created": "2025-10-09T23:39:53",
+      "date_created_gmt": "2025-10-09T19:39:53",
+      "date_modified": "2025-10-09T23:40:02",
+      "date_modified_gmt": "2025-10-09T19:40:02",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000062_panzerhandschuhe_plattenhandschuhe_visby_braun_ruestung_mittelalter.webp",
+      "name": "Mittelalterliche Panzerhandschuhe, Schlacht von Visby, 14. Jh., versch. Farben",
+      "alt": "Mittelalterliche Panzerhandschuhe, Schlacht von Visby, 14. Jh., versch. Farben",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000062_panzerhandschuhe_plattenhandschuhe_visby_braun_ruestung_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000062_panzerhandschuhe_plattenhandschuhe_visby_braun_ruestung_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000062_panzerhandschuhe_plattenhandschuhe_visby_braun_ruestung_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000062_panzerhandschuhe_plattenhandschuhe_visby_braun_ruestung_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000062_panzerhandschuhe_plattenhandschuhe_visby_braun_ruestung_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000062_panzerhandschuhe_plattenhandschuhe_visby_braun_ruestung_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000062_panzerhandschuhe_plattenhandschuhe_visby_braun_ruestung_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1064000062_panzerhandschuhe_plattenhandschuhe_visby_braun_ruestung_mittelalter-500x600.webp"
+    }
+  ],
+  "attributes": [
+    {
+      "id": 2,
+      "name": "Farbe",
+      "slug": "pa_farbe",
+      "position": 0,
+      "visible": true,
+      "variation": true,
+      "options": [
+        "Braun",
+        "Schwarz"
+      ]
+    }
+  ],
+  "default_attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "menu_order": 0,
+  "price_html": "",
+  "related_ids": [
+    1835,
+    282,
+    1869,
+    1836,
+    1859
+  ],
+  "meta_data": [
+    {
+      "id": 108135,
+      "key": "rank_math_internal_links_processed",
+      "value": "1"
+    },
+    {
+      "id": 108157,
+      "key": "generator",
+      "value": "importer-handelsgilde"
+    },
+    {
+      "id": 108158,
+      "key": "_unit",
+      "value": ""
+    },
+    {
+      "id": 108159,
+      "key": "_unit_price_auto",
+      "value": "no"
+    },
+    {
+      "id": 108160,
+      "key": "_sale_price_label",
+      "value": ""
+    },
+    {
+      "id": 108161,
+      "key": "_sale_price_regular_label",
+      "value": ""
+    },
+    {
+      "id": 108162,
+      "key": "_manufacturer_slug",
+      "value": ""
+    },
+    {
+      "id": 108163,
+      "key": "_warranty_attachment_id",
+      "value": ""
+    },
+    {
+      "id": 108164,
+      "key": "_safety_attachment_ids",
+      "value": []
+    },
+    {
+      "id": 108165,
+      "key": "_min_age",
+      "value": ""
+    },
+    {
+      "id": 108166,
+      "key": "_ts_gtin",
+      "value": ""
+    },
+    {
+      "id": 108167,
+      "key": "_ts_mpn",
+      "value": ""
+    },
+    {
+      "id": 108168,
+      "key": "_default_delivery_time",
+      "value": ""
+    },
+    {
+      "id": 108169,
+      "key": "_delivery_time_countries",
+      "value": []
+    },
+    {
+      "id": 108170,
+      "key": "_free_shipping",
+      "value": "no"
+    },
+    {
+      "id": 108171,
+      "key": "_service",
+      "value": "no"
+    },
+    {
+      "id": 108172,
+      "key": "_photovoltaic_system",
+      "value": "no"
+    },
+    {
+      "id": 108173,
+      "key": "_used_good",
+      "value": "no"
+    },
+    {
+      "id": 108174,
+      "key": "_defective_copy",
+      "value": "no"
+    },
+    {
+      "id": 108175,
+      "key": "_wireless_electronic_device",
+      "value": "no"
+    },
+    {
+      "id": 108176,
+      "key": "_device_contains_power_supply",
+      "value": "no"
+    },
+    {
+      "id": 108177,
+      "key": "_device_charging_supports_usb_pd",
+      "value": "no"
+    },
+    {
+      "id": 108178,
+      "key": "_is_food",
+      "value": "no"
+    },
+    {
+      "id": 108179,
+      "key": "_differential_taxation",
+      "value": "no"
+    },
+    {
+      "id": 108180,
+      "key": "_gzd_version",
+      "value": "3.20.2"
+    },
+    {
+      "id": 264519,
+      "key": "_unit_price_regular",
+      "value": ""
+    },
+    {
+      "id": 264520,
+      "key": "_unit_price_sale",
+      "value": ""
+    },
+    {
+      "id": 264521,
+      "key": "_unit_price",
+      "value": ""
+    },
+    {
+      "id": 264522,
+      "key": "_defect_description",
+      "value": ""
+    }
+  ],
+  "stock_status": "outofstock",
+  "has_options": true,
+  "post_password": "",
+  "global_unique_id": "",
+  "hs_code": "",
+  "customs_description": "",
+  "manufacture_country": "DE",
+  "shipping_dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "unit": [],
+  "unit_price": {
+    "base": "",
+    "product": "",
+    "price_auto": false,
+    "price": "",
+    "price_regular": "",
+    "price_sale": "",
+    "price_html": ""
+  },
+  "mini_desc": "",
+  "defect_description": "",
+  "min_age": "",
+  "gtin": "",
+  "mpn": "",
+  "sale_price_label": [],
+  "sale_price_regular_label": [],
+  "manufacturer": [],
+  "safety_attachment_ids": [],
+  "safety_instructions": "",
+  "delivery_time": [],
+  "country_specific_delivery_times": [],
+  "free_shipping": false,
+  "wireless_electronic_device": false,
+  "device_contains_power_supply": false,
+  "device_charging_supports_usb_pd": false,
+  "device_charging_watt_min": "",
+  "device_charging_watt_max": "",
+  "service": false,
+  "used_good": false,
+  "defective_copy": false,
+  "photovoltaic_system": false,
+  "differential_taxation": false,
+  "warranty_attachment_id": "",
+  "is_food": false,
+  "food": {
+    "deposit_type": [],
+    "deposit_quantity": 1,
+    "deposit": 0,
+    "ingredients": "",
+    "nutrient_reference_value": "",
+    "nutri_score": "",
+    "alcohol_content": "",
+    "allergen_ids": [],
+    "nutrient_ids": [
+      {
+        "term": 0,
+        "value": "",
+        "ref_value": ""
+      }
+    ],
+    "net_filling_quantity": "",
+    "drained_weight": "",
+    "description": "",
+    "distributor": "",
+    "place_of_origin": ""
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/5021",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

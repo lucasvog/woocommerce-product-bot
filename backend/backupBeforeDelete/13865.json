@@ -1,0 +1,409 @@
+{
+  "id": 13865,
+  "name": "Ringkragen Warrior aus Stahl",
+  "slug": "",
+  "permalink": "https://die-handelsgilde.de/?post_type=product&p=13865",
+  "date_created": "2025-10-11T17:36:59",
+  "date_created_gmt": "2025-10-11T15:36:59",
+  "date_modified": "2025-10-14T21:51:06",
+  "date_modified_gmt": "2025-10-14T19:51:06",
+  "type": "variable",
+  "status": "draft",
+  "featured": false,
+  "catalog_visibility": "visible",
+  "description": "<h1>Ringkragen Warrior aus Stahl</h1>\n<p>Der Ringkragen Warrior ist ein robustes Stück aus einer Kombination von Brust- und Rückenstück, das sich gut für LARP-Abenteuer eignet. Er kann dank angenieteter Riemen individuell angepasst werden und hat Befestigungen für Schulterrüstungen. Klare Kanten sorgen für Sicherheit im Spiel.</p>\n<h3>Material &amp; Verarbeitung</h3>\n<p>Der Ringkragen verwendet Stahl in Kombination mit anderen hochwertigen Komponenten. Präzise Vernietungen sorgen für Stabilität, während die Oberfläche speziell behandelt wird, um sie vor Umwelteinflüssen zu schützen. Regelmäßige Pflege verlängert die Lebensdauer erheblich.</p>\n<ul>\n<li>Individuelle Anpassung durch Riemen möglich</li>\n<li>Kragen geeignet für die Befestigung von zusätzlicher Rüstung</li>\n<li>Verfügbare Größen: S bis XL</li>\n<li>Gewicht variiert je nach Größe (450 g bis 650 g)</li>\n</ul>\n",
+  "short_description": "<p>Ringkragen aus Stahl<br />Verwendung für LARP<br />Material 1 mm Stahl, vegetabil gegerbtes Leder<br />Individuell anpassbare Verschlüsse<br />Erhältlich in Größen S, M/L/XL</p>\n",
+  "sku": "IF-200210",
+  "price": "39.99",
+  "regular_price": "",
+  "sale_price": "",
+  "date_on_sale_from": null,
+  "date_on_sale_from_gmt": null,
+  "date_on_sale_to": null,
+  "date_on_sale_to_gmt": null,
+  "on_sale": false,
+  "purchasable": true,
+  "total_sales": 0,
+  "virtual": false,
+  "downloadable": false,
+  "downloads": [],
+  "download_limit": -1,
+  "download_expiry": -1,
+  "external_url": "",
+  "button_text": "",
+  "tax_status": "taxable",
+  "tax_class": "",
+  "manage_stock": true,
+  "stock_quantity": 0,
+  "backorders": "no",
+  "backorders_allowed": false,
+  "backordered": false,
+  "low_stock_amount": null,
+  "sold_individually": false,
+  "weight": "0.95",
+  "dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "shipping_required": true,
+  "shipping_taxable": true,
+  "shipping_class": "",
+  "shipping_class_id": 0,
+  "reviews_allowed": true,
+  "average_rating": "0.00",
+  "rating_count": 0,
+  "upsell_ids": [],
+  "cross_sell_ids": [],
+  "parent_id": 0,
+  "purchase_note": "",
+  "categories": [
+    {
+      "id": 177,
+      "name": "Kragen",
+      "slug": "kragen"
+    },
+    {
+      "id": 142,
+      "name": "Oberkörper",
+      "slug": "oberkoerper"
+    },
+    {
+      "id": 40,
+      "name": "Plattenrüstungen",
+      "slug": "plattenruestungen"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2348,
+      "name": "Mittelalterrüstung",
+      "slug": "mittelalterruestung"
+    },
+    {
+      "id": 293,
+      "name": "pfeil",
+      "slug": "pfeil"
+    },
+    {
+      "id": 178,
+      "name": "Ringkragen",
+      "slug": "ringkragen"
+    },
+    {
+      "id": 592,
+      "name": "Schlips",
+      "slug": "schlips"
+    },
+    {
+      "id": 218,
+      "name": "Zweihandschwert",
+      "slug": "zweihandschwert"
+    }
+  ],
+  "images": [
+    {
+      "id": 13862,
+      "date_created": "2025-10-11T19:36:32",
+      "date_created_gmt": "2025-10-11T15:36:32",
+      "date_modified": "2025-10-11T19:36:59",
+      "date_modified_gmt": "2025-10-11T15:36:59",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210_larp_epic_armoury_neck_plate_warrior.webp",
+      "name": "Ringkragen Warrior aus Stahl",
+      "alt": "Ringkragen Warrior aus Stahl",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210_larp_epic_armoury_neck_plate_warrior.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210_larp_epic_armoury_neck_plate_warrior-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210_larp_epic_armoury_neck_plate_warrior-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210_larp_epic_armoury_neck_plate_warrior-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210_larp_epic_armoury_neck_plate_warrior-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210_larp_epic_armoury_neck_plate_warrior-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210_larp_epic_armoury_neck_plate_warrior-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210_larp_epic_armoury_neck_plate_warrior-500x600.webp"
+    },
+    {
+      "id": 13864,
+      "date_created": "2025-10-11T19:36:33",
+      "date_created_gmt": "2025-10-11T15:36:33",
+      "date_modified": "2025-10-11T19:36:59",
+      "date_modified_gmt": "2025-10-11T15:36:59",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210b_larp_epic_armoury_neck_plate_warrior.webp",
+      "name": "Ringkragen Warrior aus Stahl",
+      "alt": "Ringkragen Warrior aus Stahl",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210b_larp_epic_armoury_neck_plate_warrior.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210b_larp_epic_armoury_neck_plate_warrior-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210b_larp_epic_armoury_neck_plate_warrior-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210b_larp_epic_armoury_neck_plate_warrior-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210b_larp_epic_armoury_neck_plate_warrior-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210b_larp_epic_armoury_neck_plate_warrior-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210b_larp_epic_armoury_neck_plate_warrior-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210b_larp_epic_armoury_neck_plate_warrior-500x600.webp"
+    },
+    {
+      "id": 13863,
+      "date_created": "2025-10-11T19:36:32",
+      "date_created_gmt": "2025-10-11T15:36:32",
+      "date_modified": "2025-10-11T19:36:59",
+      "date_modified_gmt": "2025-10-11T15:36:59",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210c_larp_epic_armoury_neck_plate_warrior.webp",
+      "name": "Ringkragen Warrior aus Stahl",
+      "alt": "Ringkragen Warrior aus Stahl",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210c_larp_epic_armoury_neck_plate_warrior.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210c_larp_epic_armoury_neck_plate_warrior-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210c_larp_epic_armoury_neck_plate_warrior-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210c_larp_epic_armoury_neck_plate_warrior-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210c_larp_epic_armoury_neck_plate_warrior-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210c_larp_epic_armoury_neck_plate_warrior-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210c_larp_epic_armoury_neck_plate_warrior-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/if-200210c_larp_epic_armoury_neck_plate_warrior-500x600.webp"
+    }
+  ],
+  "attributes": [
+    {
+      "id": 1,
+      "name": "Größe",
+      "slug": "pa_groesse",
+      "position": 0,
+      "visible": true,
+      "variation": true,
+      "options": [
+        "M/l/xl",
+        "S"
+      ]
+    }
+  ],
+  "default_attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "menu_order": 0,
+  "price_html": "",
+  "related_ids": [
+    915,
+    200,
+    918,
+    230,
+    262
+  ],
+  "meta_data": [
+    {
+      "id": 224916,
+      "key": "rank_math_internal_links_processed",
+      "value": "1"
+    },
+    {
+      "id": 224938,
+      "key": "generator",
+      "value": "importer-handelsgilde"
+    },
+    {
+      "id": 224939,
+      "key": "_unit",
+      "value": ""
+    },
+    {
+      "id": 224940,
+      "key": "_unit_price_auto",
+      "value": "no"
+    },
+    {
+      "id": 224941,
+      "key": "_sale_price_label",
+      "value": ""
+    },
+    {
+      "id": 224942,
+      "key": "_sale_price_regular_label",
+      "value": ""
+    },
+    {
+      "id": 224943,
+      "key": "_manufacturer_slug",
+      "value": ""
+    },
+    {
+      "id": 224944,
+      "key": "_warranty_attachment_id",
+      "value": ""
+    },
+    {
+      "id": 224945,
+      "key": "_safety_attachment_ids",
+      "value": []
+    },
+    {
+      "id": 224946,
+      "key": "_min_age",
+      "value": ""
+    },
+    {
+      "id": 224947,
+      "key": "_ts_gtin",
+      "value": ""
+    },
+    {
+      "id": 224948,
+      "key": "_ts_mpn",
+      "value": ""
+    },
+    {
+      "id": 224949,
+      "key": "_default_delivery_time",
+      "value": ""
+    },
+    {
+      "id": 224950,
+      "key": "_delivery_time_countries",
+      "value": []
+    },
+    {
+      "id": 224951,
+      "key": "_free_shipping",
+      "value": "no"
+    },
+    {
+      "id": 224952,
+      "key": "_service",
+      "value": "no"
+    },
+    {
+      "id": 224953,
+      "key": "_photovoltaic_system",
+      "value": "no"
+    },
+    {
+      "id": 224954,
+      "key": "_used_good",
+      "value": "no"
+    },
+    {
+      "id": 224955,
+      "key": "_defective_copy",
+      "value": "no"
+    },
+    {
+      "id": 224956,
+      "key": "_wireless_electronic_device",
+      "value": "no"
+    },
+    {
+      "id": 224957,
+      "key": "_device_contains_power_supply",
+      "value": "no"
+    },
+    {
+      "id": 224958,
+      "key": "_device_charging_supports_usb_pd",
+      "value": "no"
+    },
+    {
+      "id": 224959,
+      "key": "_is_food",
+      "value": "no"
+    },
+    {
+      "id": 224960,
+      "key": "_differential_taxation",
+      "value": "no"
+    },
+    {
+      "id": 224961,
+      "key": "_gzd_version",
+      "value": "3.20.2"
+    },
+    {
+      "id": 351574,
+      "key": "_unit_price_regular",
+      "value": ""
+    },
+    {
+      "id": 351575,
+      "key": "_unit_price_sale",
+      "value": ""
+    },
+    {
+      "id": 351576,
+      "key": "_unit_price",
+      "value": ""
+    },
+    {
+      "id": 351577,
+      "key": "_defect_description",
+      "value": ""
+    }
+  ],
+  "stock_status": "outofstock",
+  "has_options": true,
+  "post_password": "",
+  "global_unique_id": "",
+  "hs_code": "",
+  "customs_description": "",
+  "manufacture_country": "DE",
+  "shipping_dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "unit": [],
+  "unit_price": {
+    "base": "",
+    "product": "",
+    "price_auto": false,
+    "price": "",
+    "price_regular": "",
+    "price_sale": "",
+    "price_html": ""
+  },
+  "mini_desc": "",
+  "defect_description": "",
+  "min_age": "",
+  "gtin": "",
+  "mpn": "",
+  "sale_price_label": [],
+  "sale_price_regular_label": [],
+  "manufacturer": [],
+  "safety_attachment_ids": [],
+  "safety_instructions": "",
+  "delivery_time": [],
+  "country_specific_delivery_times": [],
+  "free_shipping": false,
+  "wireless_electronic_device": false,
+  "device_contains_power_supply": false,
+  "device_charging_supports_usb_pd": false,
+  "device_charging_watt_min": "",
+  "device_charging_watt_max": "",
+  "service": false,
+  "used_good": false,
+  "defective_copy": false,
+  "photovoltaic_system": false,
+  "differential_taxation": false,
+  "warranty_attachment_id": "",
+  "is_food": false,
+  "food": {
+    "deposit_type": [],
+    "deposit_quantity": 1,
+    "deposit": 0,
+    "ingredients": "",
+    "nutrient_reference_value": "",
+    "nutri_score": "",
+    "alcohol_content": "",
+    "allergen_ids": [],
+    "nutrient_ids": [
+      {
+        "term": 0,
+        "value": "",
+        "ref_value": ""
+      }
+    ],
+    "net_filling_quantity": "",
+    "drained_weight": "",
+    "description": "",
+    "distributor": "",
+    "place_of_origin": ""
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/13865",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "id": 5321,
+  "name": "Langarm-Tunika aus Baumwolle, rot",
+  "slug": "",
+  "permalink": "https://die-handelsgilde.de/?post_type=product&p=5321",
+  "date_created": "2025-10-09T22:26:30",
+  "date_created_gmt": "2025-10-09T20:26:30",
+  "date_modified": "2025-10-14T20:03:14",
+  "date_modified_gmt": "2025-10-14T18:03:14",
+  "type": "variable",
+  "status": "draft",
+  "featured": false,
+  "catalog_visibility": "visible",
+  "description": "<h1>Langarm-Tunika aus Baumwolle, rot</h1>\n<p>Diese langärmelige Tunika eignet sich ideal für historische Darstellungen von Römern sowie das Re-enactment des Früh- und Hochmittelalters. In fünf Größen verfügbar, ist sie ein vielseitiges Kleidungsstück für Kostümveranstaltungen.</p>\n<h3>Historischer Kontext</h3>\n<p>Im alten Rom war die Tunika ein grundlegendes Kleidungsstück, das von verschiedenen Bevölkerungsschichten getragen wurde. Auch im Mittelalter war sie weit verbreitet und diente als Bestandteil der Alltags- und Arbeitskleidung.</p>\n<h3>Material &amp; Verarbeitung</h3>\n<p>Diese Tunika ist aus robuster Baumwolle hergestellt und pflegeleicht. Bei 40°C im Schonwaschgang waschen, aber nicht im Trockner behandeln, um die Form zu bewahren. Die Nähte sind doppelt ausgeführt, um die Haltbarkeit zu erhöhen.</p>\n<ul>\n<li>Farbauswahl: leuchtendes Rot</li>\n<li>Erhältliche Größen: S bis XXL</li>\n<li>Ideal für Kostüm- und Theateraufführungen</li>\n<li>Historisch inspiriertes Design</li>\n</ul>\n",
+  "short_description": "<p>&#8211; Langarm-Tunika für historische Darstellungen<br />\n&#8211; Geeignet für Römer und Mittelalter Reenactment<br />\n&#8211; 100% Baumwolle<br />\n&#8211; Maschinenwaschbar bei 40°C, Schonwaschgang<br />\n&#8211; Verschiedene Größen verfügbar, Farbe Rot</p>\n",
+  "sku": "1216601630",
+  "price": "29.99",
+  "regular_price": "",
+  "sale_price": "",
+  "date_on_sale_from": null,
+  "date_on_sale_from_gmt": null,
+  "date_on_sale_to": null,
+  "date_on_sale_to_gmt": null,
+  "on_sale": false,
+  "purchasable": true,
+  "total_sales": 0,
+  "virtual": false,
+  "downloadable": false,
+  "downloads": [],
+  "download_limit": -1,
+  "download_expiry": -1,
+  "external_url": "",
+  "button_text": "",
+  "tax_status": "taxable",
+  "tax_class": "",
+  "manage_stock": true,
+  "stock_quantity": 0,
+  "backorders": "no",
+  "backorders_allowed": false,
+  "backordered": false,
+  "low_stock_amount": null,
+  "sold_individually": false,
+  "weight": "0.32",
+  "dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "shipping_required": true,
+  "shipping_taxable": true,
+  "shipping_class": "",
+  "shipping_class_id": 0,
+  "reviews_allowed": true,
+  "average_rating": "0.00",
+  "rating_count": 0,
+  "upsell_ids": [],
+  "cross_sell_ids": [],
+  "parent_id": 0,
+  "purchase_note": "",
+  "categories": [
+    {
+      "id": 109,
+      "name": "Frühmittelalter (500–1000)",
+      "slug": "fruehmittelalter"
+    },
+    {
+      "id": 110,
+      "name": "Hochmittelalter (1000–1300)",
+      "slug": "hochmittelalter"
+    },
+    {
+      "id": 62,
+      "name": "Mittelalterliche Tuniken",
+      "slug": "mittelalterliche-tuniken"
+    },
+    {
+      "id": 115,
+      "name": "Römer &amp; Antike",
+      "slug": "roemer-und-antike"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 160,
+      "name": "Baumwolle",
+      "slug": "baumwolle"
+    },
+    {
+      "id": 566,
+      "name": "Reenactment",
+      "slug": "reenactment"
+    },
+    {
+      "id": 289,
+      "name": "römer",
+      "slug": "roemer"
+    },
+    {
+      "id": 193,
+      "name": "Tunika",
+      "slug": "tunika"
+    }
+  ],
+  "images": [
+    {
+      "id": 5316,
+      "date_created": "2025-10-10T00:26:00",
+      "date_created_gmt": "2025-10-09T20:26:00",
+      "date_modified": "2025-10-10T00:26:30",
+      "date_modified_gmt": "2025-10-09T20:26:30",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630b_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter.webp",
+      "name": "Langarm-Tunika aus Baumwolle, rot",
+      "alt": "Langarm-Tunika aus Baumwolle, rot",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630b_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630b_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630b_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630b_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630b_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630b_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630b_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630b_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5317,
+      "date_created": "2025-10-10T00:26:05",
+      "date_created_gmt": "2025-10-09T20:26:05",
+      "date_modified": "2025-10-10T00:26:30",
+      "date_modified_gmt": "2025-10-09T20:26:30",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630c_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter.webp",
+      "name": "Langarm-Tunika aus Baumwolle, rot",
+      "alt": "Langarm-Tunika aus Baumwolle, rot",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630c_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630c_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630c_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630c_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630c_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630c_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630c_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630c_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5318,
+      "date_created": "2025-10-10T00:26:11",
+      "date_created_gmt": "2025-10-09T20:26:11",
+      "date_modified": "2025-10-10T00:26:30",
+      "date_modified_gmt": "2025-10-09T20:26:30",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630d_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter.webp",
+      "name": "Langarm-Tunika aus Baumwolle, rot",
+      "alt": "Langarm-Tunika aus Baumwolle, rot",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630d_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630d_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630d_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630d_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630d_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630d_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630d_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630d_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5319,
+      "date_created": "2025-10-10T00:26:15",
+      "date_created_gmt": "2025-10-09T20:26:15",
+      "date_modified": "2025-10-10T00:26:30",
+      "date_modified_gmt": "2025-10-09T20:26:30",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630e_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter.webp",
+      "name": "Langarm-Tunika aus Baumwolle, rot",
+      "alt": "Langarm-Tunika aus Baumwolle, rot",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630e_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630e_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630e_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630e_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630e_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630e_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630e_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630e_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5320,
+      "date_created": "2025-10-10T00:26:21",
+      "date_created_gmt": "2025-10-09T20:26:21",
+      "date_modified": "2025-10-10T00:26:30",
+      "date_modified_gmt": "2025-10-09T20:26:30",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630f_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter.webp",
+      "name": "Langarm-Tunika aus Baumwolle, rot",
+      "alt": "Langarm-Tunika aus Baumwolle, rot",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630f_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630f_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630f_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630f_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630f_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630f_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630f_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216601630f_langarmtunika_tunika_baumwolle_rot_gewandung_mittelalter-500x600.webp"
+    }
+  ],
+  "attributes": [
+    {
+      "id": 1,
+      "name": "Größe",
+      "slug": "pa_groesse",
+      "position": 0,
+      "visible": true,
+      "variation": true,
+      "options": [
+        "L",
+        "M",
+        "S",
+        "Xl",
+        "Xxl"
+      ]
+    }
+  ],
+  "default_attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "menu_order": 0,
+  "price_html": "",
+  "related_ids": [
+    692,
+    1301,
+    744,
+    708,
+    455
+  ],
+  "meta_data": [
+    {
+      "id": 111687,
+      "key": "rank_math_internal_links_processed",
+      "value": "1"
+    },
+    {
+      "id": 111709,
+      "key": "generator",
+      "value": "importer-handelsgilde"
+    },
+    {
+      "id": 111710,
+      "key": "_unit",
+      "value": ""
+    },
+    {
+      "id": 111711,
+      "key": "_unit_price_auto",
+      "value": "no"
+    },
+    {
+      "id": 111712,
+      "key": "_sale_price_label",
+      "value": ""
+    },
+    {
+      "id": 111713,
+      "key": "_sale_price_regular_label",
+      "value": ""
+    },
+    {
+      "id": 111714,
+      "key": "_manufacturer_slug",
+      "value": ""
+    },
+    {
+      "id": 111715,
+      "key": "_warranty_attachment_id",
+      "value": ""
+    },
+    {
+      "id": 111716,
+      "key": "_safety_attachment_ids",
+      "value": []
+    },
+    {
+      "id": 111717,
+      "key": "_min_age",
+      "value": ""
+    },
+    {
+      "id": 111718,
+      "key": "_ts_gtin",
+      "value": ""
+    },
+    {
+      "id": 111719,
+      "key": "_ts_mpn",
+      "value": ""
+    },
+    {
+      "id": 111720,
+      "key": "_default_delivery_time",
+      "value": ""
+    },
+    {
+      "id": 111721,
+      "key": "_delivery_time_countries",
+      "value": []
+    },
+    {
+      "id": 111722,
+      "key": "_free_shipping",
+      "value": "no"
+    },
+    {
+      "id": 111723,
+      "key": "_service",
+      "value": "no"
+    },
+    {
+      "id": 111724,
+      "key": "_photovoltaic_system",
+      "value": "no"
+    },
+    {
+      "id": 111725,
+      "key": "_used_good",
+      "value": "no"
+    },
+    {
+      "id": 111726,
+      "key": "_defective_copy",
+      "value": "no"
+    },
+    {
+      "id": 111727,
+      "key": "_wireless_electronic_device",
+      "value": "no"
+    },
+    {
+      "id": 111728,
+      "key": "_device_contains_power_supply",
+      "value": "no"
+    },
+    {
+      "id": 111729,
+      "key": "_device_charging_supports_usb_pd",
+      "value": "no"
+    },
+    {
+      "id": 111730,
+      "key": "_is_food",
+      "value": "no"
+    },
+    {
+      "id": 111731,
+      "key": "_differential_taxation",
+      "value": "no"
+    },
+    {
+      "id": 111732,
+      "key": "_gzd_version",
+      "value": "3.20.2"
+    },
+    {
+      "id": 265105,
+      "key": "_unit_price_regular",
+      "value": ""
+    },
+    {
+      "id": 265106,
+      "key": "_unit_price_sale",
+      "value": ""
+    },
+    {
+      "id": 265107,
+      "key": "_unit_price",
+      "value": ""
+    },
+    {
+      "id": 265108,
+      "key": "_defect_description",
+      "value": ""
+    }
+  ],
+  "stock_status": "outofstock",
+  "has_options": true,
+  "post_password": "",
+  "global_unique_id": "",
+  "hs_code": "",
+  "customs_description": "",
+  "manufacture_country": "DE",
+  "shipping_dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "unit": [],
+  "unit_price": {
+    "base": "",
+    "product": "",
+    "price_auto": false,
+    "price": "",
+    "price_regular": "",
+    "price_sale": "",
+    "price_html": ""
+  },
+  "mini_desc": "",
+  "defect_description": "",
+  "min_age": "",
+  "gtin": "",
+  "mpn": "",
+  "sale_price_label": [],
+  "sale_price_regular_label": [],
+  "manufacturer": [],
+  "safety_attachment_ids": [],
+  "safety_instructions": "",
+  "delivery_time": [],
+  "country_specific_delivery_times": [],
+  "free_shipping": false,
+  "wireless_electronic_device": false,
+  "device_contains_power_supply": false,
+  "device_charging_supports_usb_pd": false,
+  "device_charging_watt_min": "",
+  "device_charging_watt_max": "",
+  "service": false,
+  "used_good": false,
+  "defective_copy": false,
+  "photovoltaic_system": false,
+  "differential_taxation": false,
+  "warranty_attachment_id": "",
+  "is_food": false,
+  "food": {
+    "deposit_type": [],
+    "deposit_quantity": 1,
+    "deposit": 0,
+    "ingredients": "",
+    "nutrient_reference_value": "",
+    "nutri_score": "",
+    "alcohol_content": "",
+    "allergen_ids": [],
+    "nutrient_ids": [
+      {
+        "term": 0,
+        "value": "",
+        "ref_value": ""
+      }
+    ],
+    "net_filling_quantity": "",
+    "drained_weight": "",
+    "description": "",
+    "distributor": "",
+    "place_of_origin": ""
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/5321",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "id": 4832,
+  "name": "Kettenhemd, unvernietet, 9mm ID, verzinkt",
+  "slug": "",
+  "permalink": "https://die-handelsgilde.de/?post_type=product&p=4832",
+  "date_created": "2025-10-09T21:08:42",
+  "date_created_gmt": "2025-10-09T19:08:42",
+  "date_modified": "2025-10-14T21:30:49",
+  "date_modified_gmt": "2025-10-14T19:30:49",
+  "type": "variable",
+  "status": "draft",
+  "featured": false,
+  "catalog_visibility": "visible",
+  "description": "<h1>Kettenhemd, unvernietet, 9mm ID, verzinkt</h1>\n<p>Dieses Kettenhemd wird aus galvanisch verzinkten Ringen von 9 mm Innendurchmesser gefertigt. Es eignet sich hervorragend für Mittelalter- und LARP-Einsteiger.</p>\n<h3>Geschichtlicher Kontext</h3>\n<p>Kettenhemden sind seit dem 4. Jahrhundert v. Chr. bekannt und wurden im Mittelalter weit verbreitet getragen. Sie boten einen guten Schutz bei hoher Beweglichkeit, ideal für die Krieger der damaligen Zeit.</p>\n<h3>Material &amp; Verarbeitung</h3>\n<p>- Hauptmaterial: Kohlenstoffstahl<br />- Konstruktion: 4 in 1 handgeflochten<br />- Finish: Verzinkt und leicht eingeölt<br />- Pflege: Trocken lagern, bei Bedarf einfetten</p>\n<ul>\n<li>Innendurchmesser der Ringe ca. 9 mm</li>\n<li>Erhältlich in den Größen L, XL, XXL</li>\n<li>Gewichte: L ca. 8,7 kg, XL ca. 10,8 kg, XXL ca. 14 kg</li>\n<li>Perfekt für Mittelalter und LARP geeignet</li>\n</ul>\n",
+  "short_description": "<p>Mittelalterliches Kettenhemd<br />\nFür Reenactment und LARP<br />\nGalvanisch verzinkte Kohlenstoffstahlringe<br />\n4-in-1 Handgeflochten<br />\nErhältlich in L, XL, XXL</p>\n",
+  "sku": "0501011220",
+  "price": "139.99",
+  "regular_price": "",
+  "sale_price": "",
+  "date_on_sale_from": null,
+  "date_on_sale_from_gmt": null,
+  "date_on_sale_to": null,
+  "date_on_sale_to_gmt": null,
+  "on_sale": false,
+  "purchasable": true,
+  "total_sales": 0,
+  "virtual": false,
+  "downloadable": false,
+  "downloads": [],
+  "download_limit": -1,
+  "download_expiry": -1,
+  "external_url": "",
+  "button_text": "",
+  "tax_status": "taxable",
+  "tax_class": "",
+  "manage_stock": true,
+  "stock_quantity": 0,
+  "backorders": "no",
+  "backorders_allowed": false,
+  "backordered": false,
+  "low_stock_amount": null,
+  "sold_individually": false,
+  "weight": "16.7",
+  "dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "shipping_required": true,
+  "shipping_taxable": true,
+  "shipping_class": "",
+  "shipping_class_id": 0,
+  "reviews_allowed": true,
+  "average_rating": "0.00",
+  "rating_count": 0,
+  "upsell_ids": [],
+  "cross_sell_ids": [],
+  "parent_id": 0,
+  "purchase_note": "",
+  "categories": [
+    {
+      "id": 35,
+      "name": "Kettenhemden",
+      "slug": "kettenhemden"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 164,
+      "name": "Kettenhemd",
+      "slug": "kettenhemd"
+    },
+    {
+      "id": 162,
+      "name": "Kettenkragen",
+      "slug": "kettenkragen"
+    },
+    {
+      "id": 499,
+      "name": "Mittelalter",
+      "slug": "mittelalter"
+    },
+    {
+      "id": 166,
+      "name": "unvernietet",
+      "slug": "unvernietet"
+    }
+  ],
+  "images": [
+    {
+      "id": 4829,
+      "date_created": "2025-10-09T23:08:20",
+      "date_created_gmt": "2025-10-09T19:08:20",
+      "date_modified": "2025-10-09T23:08:42",
+      "date_modified_gmt": "2025-10-09T19:08:42",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220_kettenhemd_langarm_verzinkt_unvernietet.webp",
+      "name": "Kettenhemd, unvernietet, 9mm ID, verzinkt",
+      "alt": "Kettenhemd, unvernietet, 9mm ID, verzinkt",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220_kettenhemd_langarm_verzinkt_unvernietet.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220_kettenhemd_langarm_verzinkt_unvernietet-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220_kettenhemd_langarm_verzinkt_unvernietet-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220_kettenhemd_langarm_verzinkt_unvernietet-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220_kettenhemd_langarm_verzinkt_unvernietet-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220_kettenhemd_langarm_verzinkt_unvernietet-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220_kettenhemd_langarm_verzinkt_unvernietet-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220_kettenhemd_langarm_verzinkt_unvernietet-500x600.webp"
+    },
+    {
+      "id": 4830,
+      "date_created": "2025-10-09T23:08:28",
+      "date_created_gmt": "2025-10-09T19:08:28",
+      "date_modified": "2025-10-09T23:08:42",
+      "date_modified_gmt": "2025-10-09T19:08:42",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220b_kettenhemd_langarm_verzinkt_unvernietet.webp",
+      "name": "Kettenhemd, unvernietet, 9mm ID, verzinkt",
+      "alt": "Kettenhemd, unvernietet, 9mm ID, verzinkt",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220b_kettenhemd_langarm_verzinkt_unvernietet.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220b_kettenhemd_langarm_verzinkt_unvernietet-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220b_kettenhemd_langarm_verzinkt_unvernietet-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220b_kettenhemd_langarm_verzinkt_unvernietet-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220b_kettenhemd_langarm_verzinkt_unvernietet-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220b_kettenhemd_langarm_verzinkt_unvernietet-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220b_kettenhemd_langarm_verzinkt_unvernietet-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220b_kettenhemd_langarm_verzinkt_unvernietet-500x600.webp"
+    },
+    {
+      "id": 4831,
+      "date_created": "2025-10-09T23:08:34",
+      "date_created_gmt": "2025-10-09T19:08:34",
+      "date_modified": "2025-10-09T23:08:42",
+      "date_modified_gmt": "2025-10-09T19:08:42",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220c_kettenhemd_langarm_verzinkt_unvernietet.webp",
+      "name": "Kettenhemd, unvernietet, 9mm ID, verzinkt",
+      "alt": "Kettenhemd, unvernietet, 9mm ID, verzinkt",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220c_kettenhemd_langarm_verzinkt_unvernietet.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220c_kettenhemd_langarm_verzinkt_unvernietet-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220c_kettenhemd_langarm_verzinkt_unvernietet-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220c_kettenhemd_langarm_verzinkt_unvernietet-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220c_kettenhemd_langarm_verzinkt_unvernietet-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220c_kettenhemd_langarm_verzinkt_unvernietet-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220c_kettenhemd_langarm_verzinkt_unvernietet-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/0501011220c_kettenhemd_langarm_verzinkt_unvernietet-500x600.webp"
+    }
+  ],
+  "attributes": [
+    {
+      "id": 1,
+      "name": "Größe",
+      "slug": "pa_groesse",
+      "position": 0,
+      "visible": true,
+      "variation": true,
+      "options": [
+        "L",
+        "Xl",
+        "Xxl"
+      ]
+    }
+  ],
+  "default_attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "menu_order": 0,
+  "price_html": "",
+  "related_ids": [
+    169,
+    1417,
+    1416,
+    157,
+    177
+  ],
+  "meta_data": [
+    {
+      "id": 105662,
+      "key": "rank_math_internal_links_processed",
+      "value": "1"
+    },
+    {
+      "id": 105684,
+      "key": "generator",
+      "value": "importer-handelsgilde"
+    },
+    {
+      "id": 105685,
+      "key": "_unit",
+      "value": ""
+    },
+    {
+      "id": 105686,
+      "key": "_unit_price_auto",
+      "value": "no"
+    },
+    {
+      "id": 105687,
+      "key": "_sale_price_label",
+      "value": ""
+    },
+    {
+      "id": 105688,
+      "key": "_sale_price_regular_label",
+      "value": ""
+    },
+    {
+      "id": 105689,
+      "key": "_manufacturer_slug",
+      "value": ""
+    },
+    {
+      "id": 105690,
+      "key": "_warranty_attachment_id",
+      "value": ""
+    },
+    {
+      "id": 105691,
+      "key": "_safety_attachment_ids",
+      "value": []
+    },
+    {
+      "id": 105692,
+      "key": "_min_age",
+      "value": ""
+    },
+    {
+      "id": 105693,
+      "key": "_ts_gtin",
+      "value": ""
+    },
+    {
+      "id": 105694,
+      "key": "_ts_mpn",
+      "value": ""
+    },
+    {
+      "id": 105695,
+      "key": "_default_delivery_time",
+      "value": ""
+    },
+    {
+      "id": 105696,
+      "key": "_delivery_time_countries",
+      "value": []
+    },
+    {
+      "id": 105697,
+      "key": "_free_shipping",
+      "value": "no"
+    },
+    {
+      "id": 105698,
+      "key": "_service",
+      "value": "no"
+    },
+    {
+      "id": 105699,
+      "key": "_photovoltaic_system",
+      "value": "no"
+    },
+    {
+      "id": 105700,
+      "key": "_used_good",
+      "value": "no"
+    },
+    {
+      "id": 105701,
+      "key": "_defective_copy",
+      "value": "no"
+    },
+    {
+      "id": 105702,
+      "key": "_wireless_electronic_device",
+      "value": "no"
+    },
+    {
+      "id": 105703,
+      "key": "_device_contains_power_supply",
+      "value": "no"
+    },
+    {
+      "id": 105704,
+      "key": "_device_charging_supports_usb_pd",
+      "value": "no"
+    },
+    {
+      "id": 105705,
+      "key": "_is_food",
+      "value": "no"
+    },
+    {
+      "id": 105706,
+      "key": "_differential_taxation",
+      "value": "no"
+    },
+    {
+      "id": 105707,
+      "key": "_gzd_version",
+      "value": "3.20.2"
+    },
+    {
+      "id": 334840,
+      "key": "_unit_price_regular",
+      "value": ""
+    },
+    {
+      "id": 334841,
+      "key": "_unit_price_sale",
+      "value": ""
+    },
+    {
+      "id": 334842,
+      "key": "_unit_price",
+      "value": ""
+    },
+    {
+      "id": 334843,
+      "key": "_defect_description",
+      "value": ""
+    }
+  ],
+  "stock_status": "outofstock",
+  "has_options": true,
+  "post_password": "",
+  "global_unique_id": "",
+  "hs_code": "",
+  "customs_description": "",
+  "manufacture_country": "DE",
+  "shipping_dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "unit": [],
+  "unit_price": {
+    "base": "",
+    "product": "",
+    "price_auto": false,
+    "price": "",
+    "price_regular": "",
+    "price_sale": "",
+    "price_html": ""
+  },
+  "mini_desc": "",
+  "defect_description": "",
+  "min_age": "",
+  "gtin": "",
+  "mpn": "",
+  "sale_price_label": [],
+  "sale_price_regular_label": [],
+  "manufacturer": [],
+  "safety_attachment_ids": [],
+  "safety_instructions": "",
+  "delivery_time": [],
+  "country_specific_delivery_times": [],
+  "free_shipping": false,
+  "wireless_electronic_device": false,
+  "device_contains_power_supply": false,
+  "device_charging_supports_usb_pd": false,
+  "device_charging_watt_min": "",
+  "device_charging_watt_max": "",
+  "service": false,
+  "used_good": false,
+  "defective_copy": false,
+  "photovoltaic_system": false,
+  "differential_taxation": false,
+  "warranty_attachment_id": "",
+  "is_food": false,
+  "food": {
+    "deposit_type": [],
+    "deposit_quantity": 1,
+    "deposit": 0,
+    "ingredients": "",
+    "nutrient_reference_value": "",
+    "nutri_score": "",
+    "alcohol_content": "",
+    "allergen_ids": [],
+    "nutrient_ids": [
+      {
+        "term": 0,
+        "value": "",
+        "ref_value": ""
+      }
+    ],
+    "net_filling_quantity": "",
+    "drained_weight": "",
+    "description": "",
+    "distributor": "",
+    "place_of_origin": ""
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/4832",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

@@ -255,6 +255,20 @@ export class WoocommerceService {
     }
   }
 
+  async deleteProduct(productId: number) {
+    try {
+      await this.api.delete(
+        `products/${productId}`,
+        { force: true },
+        { id: productId },
+      );
+      return { data: true };
+    } catch (e) {
+      console.error(e);
+      return { errors: ['Error deleting Product', JSON.stringify(e)] };
+    }
+  }
+
   //   async createProductVariation(): Promise<FunctionResponse<Products>> {
   //     try {
   //       const product = await this.api.(data);
@@ -393,6 +407,17 @@ export class WoocommerceService {
     } catch (e) {
       console.error(e);
       return { errors: ['Error fetching Variation', JSON.stringify(e)] };
+    }
+  }
+
+  async getProduct(
+    id: number,
+  ): Promise<FunctionResponse<Products | undefined>> {
+    try {
+      return this.api.getProduct(id);
+    } catch (e) {
+      console.error(e);
+      return { errors: ['Error fetching Product', JSON.stringify(e)] };
     }
   }
 }

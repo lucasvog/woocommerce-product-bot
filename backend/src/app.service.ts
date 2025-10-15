@@ -12,6 +12,7 @@ import {
   WooProductVariation,
   WooVariationImage,
 } from './features/woocommerce/models/WooProductVariation';
+import { extractHtmlTable } from './helper/tableHelper';
 type InfoKey =
   | 'Artikelnr.'
   | 'EAN'
@@ -44,8 +45,11 @@ export class AppService {
     private woocommerceService: WoocommerceService,
     private wordpressService: WordpressService,
   ) {
-    this.generateProductVariationForHandelsgilde();
+    // this.generateProductVariationForHandelsgilde();
     // this.test();
+    // this.updateDuplicateElements();
+    // this.addTablesFromBattleMerchant();
+    this.setAllToLive();
   }
   async test() {
     const product =
@@ -444,17 +448,17 @@ export class AppService {
       Object.keys(variantsGroupedByParent).length,
     );
     console.log('Total number of variants to create:', filteredVariants.length);
-    let maximumElementsForDebug = 100;
+    // let maximumElementsForDebug = 100;
     //For all parent products, get or create the attributes and then create the variations
     for (const [parentSku, variants] of Object.entries(
       variantsGroupedByParent,
     )) {
-      maximumElementsForDebug--;
+      // maximumElementsForDebug--;
       fs.writeFileSync('./errors.txt', JSON.stringify(errors, null, 2));
-      if (maximumElementsForDebug < 0) {
-        console.log('Stopping because of maximum number reached');
-        return;
-      }
+      // if (maximumElementsForDebug < 0) {
+      //   console.log('Stopping because of maximum number reached');
+      //   return;
+      // }
       if (variants.length <= 0) {
         console.log('Skipping parent due to no variants');
         continue;
@@ -634,5 +638,258 @@ export class AppService {
       console.error('Errors encountered:', errors);
     }
     fs.writeFileSync('./errors_variations.txt', JSON.stringify(errors));
+  }
+
+  async updateDuplicateElements() {
+    const ids = Array.from(
+      new Set([
+        5021, 5021, 5028, 5028, 5124, 5124, 5124, 5124, 5124, 5124, 5128, 5128,
+        5128, 5128, 5128, 5128, 5133, 5133, 5133, 5133, 5133, 5133, 5137, 5141,
+        5141, 5141, 5141, 5141, 5141, 5144, 5144, 5144, 5144, 5144, 5144, 5147,
+        5147, 5150, 5183, 5183, 5183, 5183, 5183, 5183, 5190, 5190, 5190, 5190,
+        5190, 5190, 5197, 5197, 5197, 5197, 5197, 5197, 5204, 5204, 5211, 5211,
+        5211, 5218, 5218, 5225, 5225, 5225, 5225, 5225, 5229, 5229, 5229, 5229,
+        5229, 5236, 5236, 5236, 5236, 5236, 5243, 5243, 5243, 5243, 5243, 5250,
+        5250, 5250, 5250, 5250, 5254, 5254, 5254, 5254, 5254, 5267, 5267, 5267,
+        5267, 5267, 5274, 5274, 5274, 5274, 5274, 5281, 5281, 5281, 5281, 5281,
+        5288, 5288, 5288, 5288, 5288, 5294, 5294, 5294, 5294, 5294, 5301, 5301,
+        5301, 5301, 5301, 5308, 5308, 5308, 5308, 5308, 5315, 5315, 5315, 5315,
+        5315, 5321, 5321, 5321, 5321, 5321, 5535, 5535, 5535, 5535, 5535, 5562,
+        5562, 5573, 5573, 5573, 5573, 5573, 5573, 5580, 5580, 5580, 5580, 5580,
+        5580, 5580, 5713, 5713, 5713, 5713, 5713, 5713, 5713, 5718, 5718, 5718,
+        5718, 5718, 5718, 5718, 5809, 5809, 5857, 5857, 5857, 5857, 5857, 5857,
+        5914, 5914, 5914, 5921, 5921, 5921, 5979, 5979, 5979, 5979, 5979, 5990,
+        5990, 5990, 5990, 5990, 5997, 5997, 6153, 6153, 6153, 6153, 6153, 6153,
+        6279, 6279, 6279, 6279, 6372, 6372, 6372, 6372, 6379, 6379, 6379, 6379,
+        6386, 6386, 6386, 6386, 6489, 6489, 6489, 6489, 6503, 6503, 6503, 6503,
+        6572, 6572, 6572, 6599, 6599, 6599, 6599, 6599, 6626, 6626, 6626, 6626,
+        6626, 6654, 6654, 6654, 6654, 6654, 6992, 6992, 6992, 6992, 6992, 7083,
+        7083, 7083, 7083, 7083, 7090, 7090, 7090, 7090, 7090, 7097, 7097, 7097,
+        7097, 7097, 7174, 7174, 7174, 7174, 7174, 7257, 7257, 7257, 7257, 7257,
+        7257, 7294, 7294, 7294, 7294, 7294, 9232, 9232, 9232, 4832, 4832, 4832,
+        4835, 4835, 4835, 4865, 4865, 4865, 12220, 12655, 12655, 12655, 12729,
+        12729, 12729, 13865, 13865, 15002, 15002, 15002, 15002, 15005, 15005,
+        15043, 15043, 15043, 15043, 15043, 15057, 15057, 15057, 15057, 15057,
+        15709, 15709, 15709, 15709, 15709, 15709, 15709, 15709, 15775, 15775,
+        15775, 15775, 15775, 15775, 15775, 15775, 15853, 15853, 15919, 15919,
+        16096, 16096,
+      ]),
+    );
+    const skippedProducts: number[] = [];
+    for (const id of ids) {
+      fs.writeFileSync(
+        './skipped-update.txt',
+        JSON.stringify(skippedProducts, null, 2),
+      );
+      const newProductData = await this.woocommerceService.getProduct(id);
+      if (!newProductData || !newProductData.data) {
+        console.log('Could not find product with id', id);
+        continue;
+      }
+      const newProduct = newProductData.data;
+      const matchingOtherProducts =
+        await this.woocommerceService.searchProducts(newProduct.name);
+      if (!matchingOtherProducts) {
+        console.log('No matching products found for', newProduct.name);
+        skippedProducts.push(id);
+        continue;
+      }
+      const exactMatches = matchingOtherProducts.filter(
+        (otherProduct) =>
+          otherProduct.name === newProduct.name &&
+          otherProduct.variations.length > 0 &&
+          otherProduct.id !== newProduct.id,
+      );
+      console.log(
+        'Found',
+        newProduct.id,
+        newProduct.name,
+        'products with name',
+        exactMatches.map((e) => e.id),
+      );
+      if (exactMatches.length <= 0 || exactMatches.length > 1) {
+        console.log('Zero or more than one matches, skipping');
+        skippedProducts.push(id);
+        continue;
+      }
+      const exactMatch = exactMatches[0];
+      fs.writeFileSync(
+        `./backupBeforeDelete/${id.toString()}.json`,
+        JSON.stringify(newProduct, null, 2),
+      );
+      try {
+        await this.woocommerceService.updateProduct(newProduct.id, {
+          sku: newProduct.sku + '-TO-DELETE',
+        });
+        const foundProductData = await this.woocommerceService.getProduct(id);
+        if (!foundProductData.data) {
+          console.error('Error re-finding product');
+          continue;
+        }
+        const foundProduct = foundProductData.data;
+        if (foundProduct.sku.includes('-TO-DELETE')) {
+          console.log('Deleting ', foundProduct.name, foundProduct.sku);
+          await this.woocommerceService.deleteProduct(id);
+        }
+
+        console.log('Deleted product with id', id);
+        console.log('Updating product', exactMatch.id);
+        await this.woocommerceService.updateProduct(exactMatch.id, {
+          sku: newProduct.sku,
+        });
+      } catch (e) {
+        console.error(e);
+        skippedProducts.push(id);
+      }
+    }
+    fs.writeFileSync(
+      './skipped-update.txt',
+      JSON.stringify(skippedProducts, null, 2),
+    );
+  }
+
+  async addTablesFromBattleMerchant() {
+    const errors: string[] = [];
+
+    const providerProducts =
+      await this.importerService.getCsvWithHeader<InfoKey>(
+        'http://csv.battlemerchant.com/Produktinfo.csv',
+      );
+    if (!providerProducts) {
+      console.error('No Products found');
+      return;
+    }
+
+    const filteredVariants = providerProducts.filter(
+      (e) => e !== undefined && e.Vatermodell !== '',
+    );
+
+    const variantsGroupedByParent: {
+      [parentSku: string]: Record<InfoKey, string>[];
+    } = {};
+
+    for (const variant of filteredVariants) {
+      if (!variantsGroupedByParent[variant.Vatermodell]) {
+        variantsGroupedByParent[variant.Vatermodell] = [];
+      }
+      variantsGroupedByParent[variant.Vatermodell].push(variant);
+    }
+    let html = '';
+    let index = 0;
+    const length = Object.entries(variantsGroupedByParent).length;
+    for (const [parentSku, variants] of Object.entries(
+      variantsGroupedByParent,
+    )) {
+      index += 1;
+      console.log(
+        '----------',
+        index,
+        Math.round((index / length) * 100) + '%',
+      );
+      if (variants.length <= 0) {
+        console.error('No variants for product', parentSku);
+        continue;
+      }
+      console.info('Handling Product', parentSku);
+      const parentInShopData =
+        await this.woocommerceService.getProductsBySku(parentSku);
+      if (!parentInShopData || parentInShopData.length <= 0) {
+        console.error('Cannot get parent', parentInShopData);
+        continue;
+      }
+      const parentInShop = parentInShopData[0];
+      if (
+        !JSON.stringify(parentInShop.meta_data).includes(
+          'importer-handelsgilde',
+        )
+      ) {
+        console.error('Not from Importer, skipping', parentSku);
+        continue;
+      }
+      const parentFromProviderData = providerProducts.filter(
+        (e) => e['Artikelnr.'] === parentSku,
+      );
+      if (
+        parentFromProviderData.length <= 0 ||
+        parentFromProviderData.length > 1
+      ) {
+        console.error('Unclear number of found results', parentSku);
+        continue;
+      }
+      const parentFromProvider = parentFromProviderData[0];
+      const tableInProduct = extractHtmlTable(parentInShop.description);
+      if (tableInProduct !== undefined) {
+        console.log('Product already has a table', parentSku);
+        continue;
+      }
+      const tableInProvider = extractHtmlTable(
+        parentFromProvider.Shopbeschreibung,
+      );
+      if (tableInProvider === undefined) {
+        console.log(
+          'Could not find provider Table',
+          parentSku,
+          parentFromProvider.Shopbeschreibung.toLowerCase().includes('<table'),
+        );
+        continue;
+      }
+      await this.woocommerceService.updateProduct(parentInShop.id, {
+        description:
+          parentInShop.description + '<br><br>' + tableInProvider + '<br>',
+      });
+      console.log('SUCCESS', parentSku);
+      html += '<br><br>' + tableInProvider;
+      fs.writeFileSync('./allData.html', html);
+      //now: the shop item does not have a table, but the parent has
+    }
+    console.log('Finished!');
+  }
+
+  async setAllToLive() {
+    const errors: string[] = [];
+
+    const providerProducts =
+      await this.importerService.getCsvWithHeader<InfoKey>(
+        'http://csv.battlemerchant.com/Produktinfo.csv',
+      );
+    if (!providerProducts) {
+      console.error('No Products found');
+      return;
+    }
+
+    const allProductsInShop = await this.woocommerceService.getProducts();
+    if (!allProductsInShop.data) {
+      console.error('Could not load products from shop!');
+      return;
+    }
+
+    const allDrafts = allProductsInShop.data.filter(
+      (e) => e.status === 'draft',
+    );
+
+    // Batch updates in chunks of 10
+    const batchSize = 10;
+    for (let i = 0; i < allDrafts.length; i += batchSize) {
+      const batch = allDrafts.slice(i, i + batchSize);
+      console.log(i, 'batch', allDrafts.length);
+      await Promise.all(
+        batch.map(async (draft) => {
+          try {
+            await this.woocommerceService.updateProduct(draft.id, {
+              status: 'publish',
+            });
+          } catch (err) {
+            console.error(`Failed to update product ${draft.id}:`, err);
+            errors.push(draft.id.toString());
+          }
+        }),
+      );
+    }
+    console.log('Finish');
+    if (errors.length) {
+      console.warn(`Failed to update ${errors.length} products:`, errors);
+    } else {
+      console.log('All drafts successfully set to live.');
+    }
   }
 }

@@ -1,0 +1,405 @@
+{
+  "id": 15709,
+  "name": "Spätmittelalterlicher Schnallenschuh",
+  "slug": "",
+  "permalink": "https://die-handelsgilde.de/?post_type=product&p=15709",
+  "date_created": "2025-10-11T22:44:51",
+  "date_created_gmt": "2025-10-11T20:44:51",
+  "date_modified": "2025-10-14T22:00:39",
+  "date_modified_gmt": "2025-10-14T20:00:39",
+  "type": "variable",
+  "status": "draft",
+  "featured": false,
+  "catalog_visibility": "visible",
+  "description": "<h1>Spätmittelalterlicher Schnallenschuh</h1>\n<p>Diese Halbstiefel im spätmittelalterlichen Stil sind aus hochwertigem Material gefertigt und bieten flexible Tragestile mit einem hoch- oder umschlagbaren Schaft.</p>\n<h3>Historischer Kontext</h3>\n<p>Die Schnallenschuhe stammen aus dem Spätmittelalter, etwa 1300–1500. Sie wurden in Mitteleuropa getragen und bieten festen Halt durch um den Knöchel verlaufende Riemen.</p>\n<h3>Material &amp; Verarbeitung</h3>\n<p>Hergestellt aus Rindleder mit doppelter Nagelung für Stabilität. Die Oberfläche ist geglättet und strapazierfähig. Regelmäßiges Einfetten hilft, sie in bestem Zustand zu halten.</p>\n<ul>\n<li>Schafthöhe variabel tragbar</li>\n<li>Größen verfügbar: 40 - 47</li>\n<li>Knöchelriemen für besseren Halt</li>\n<li>Schusterempfehlung: Gummisohlen als Option</li>\n</ul>\n",
+  "short_description": "<p>&#8211; Spätmittelalterlicher Schnallenschuh<br />\n&#8211; Ideal für Reenactment und historische Events<br />\n&#8211; Helles Rindsleder, fest vernietet<br />\n&#8211; Individuell verstellbarer Schaft und Messing-Schnallen<br />\n&#8211; Erhältlich in Größen 40 bis 47, empfindlich auf modernen Untergründen</p>\n",
+  "sku": "ULF-FW-09",
+  "price": "74.99",
+  "regular_price": "",
+  "sale_price": "",
+  "date_on_sale_from": null,
+  "date_on_sale_from_gmt": null,
+  "date_on_sale_to": null,
+  "date_on_sale_to_gmt": null,
+  "on_sale": false,
+  "purchasable": true,
+  "total_sales": 0,
+  "virtual": false,
+  "downloadable": false,
+  "downloads": [],
+  "download_limit": -1,
+  "download_expiry": -1,
+  "external_url": "",
+  "button_text": "",
+  "tax_status": "taxable",
+  "tax_class": "",
+  "manage_stock": true,
+  "stock_quantity": 0,
+  "backorders": "no",
+  "backorders_allowed": false,
+  "backordered": false,
+  "low_stock_amount": null,
+  "sold_individually": false,
+  "weight": "1",
+  "dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "shipping_required": true,
+  "shipping_taxable": true,
+  "shipping_class": "",
+  "shipping_class_id": 0,
+  "reviews_allowed": true,
+  "average_rating": "0.00",
+  "rating_count": 0,
+  "upsell_ids": [],
+  "cross_sell_ids": [],
+  "parent_id": 0,
+  "purchase_note": "",
+  "categories": [
+    {
+      "id": 208,
+      "name": "Schuhe &amp; Stiefel",
+      "slug": "schuhe-stiefel"
+    },
+    {
+      "id": 111,
+      "name": "Spätmittelalter (1300–1500)",
+      "slug": "spaetmittelalter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 539,
+      "name": "14. Jahrhundert",
+      "slug": "14-jahrhundert"
+    },
+    {
+      "id": 1912,
+      "name": "historische Schuhe",
+      "slug": "historische-schuhe"
+    },
+    {
+      "id": 270,
+      "name": "Schnallenschuhe",
+      "slug": "schnallenschuhe"
+    },
+    {
+      "id": 655,
+      "name": "Spätmittelalter",
+      "slug": "spaetmittelalter"
+    }
+  ],
+  "images": [
+    {
+      "id": 15706,
+      "date_created": "2025-10-12T00:44:20",
+      "date_created_gmt": "2025-10-11T20:44:20",
+      "date_modified": "2025-10-12T00:44:51",
+      "date_modified_gmt": "2025-10-11T20:44:51",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09_ulfberth_lederstiefel_ankle_boots_mittelalter.webp",
+      "name": "Spätmittelalterlicher Schnallenschuh",
+      "alt": "Spätmittelalterlicher Schnallenschuh",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09_ulfberth_lederstiefel_ankle_boots_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09_ulfberth_lederstiefel_ankle_boots_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09_ulfberth_lederstiefel_ankle_boots_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09_ulfberth_lederstiefel_ankle_boots_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09_ulfberth_lederstiefel_ankle_boots_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09_ulfberth_lederstiefel_ankle_boots_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09_ulfberth_lederstiefel_ankle_boots_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09_ulfberth_lederstiefel_ankle_boots_mittelalter-500x600.webp"
+    },
+    {
+      "id": 15708,
+      "date_created": "2025-10-12T00:44:21",
+      "date_created_gmt": "2025-10-11T20:44:21",
+      "date_modified": "2025-10-12T00:44:51",
+      "date_modified_gmt": "2025-10-11T20:44:51",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09b_ulfberth_lederstiefel_ankle_boots_mittelalter.webp",
+      "name": "Spätmittelalterlicher Schnallenschuh",
+      "alt": "Spätmittelalterlicher Schnallenschuh",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09b_ulfberth_lederstiefel_ankle_boots_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09b_ulfberth_lederstiefel_ankle_boots_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09b_ulfberth_lederstiefel_ankle_boots_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09b_ulfberth_lederstiefel_ankle_boots_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09b_ulfberth_lederstiefel_ankle_boots_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09b_ulfberth_lederstiefel_ankle_boots_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09b_ulfberth_lederstiefel_ankle_boots_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09b_ulfberth_lederstiefel_ankle_boots_mittelalter-500x600.webp"
+    },
+    {
+      "id": 15707,
+      "date_created": "2025-10-12T00:44:20",
+      "date_created_gmt": "2025-10-11T20:44:20",
+      "date_modified": "2025-10-12T00:44:51",
+      "date_modified_gmt": "2025-10-11T20:44:51",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09c_ulfberth_lederstiefel_ankle_boots_mittelalter.webp",
+      "name": "Spätmittelalterlicher Schnallenschuh",
+      "alt": "Spätmittelalterlicher Schnallenschuh",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09c_ulfberth_lederstiefel_ankle_boots_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09c_ulfberth_lederstiefel_ankle_boots_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09c_ulfberth_lederstiefel_ankle_boots_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09c_ulfberth_lederstiefel_ankle_boots_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09c_ulfberth_lederstiefel_ankle_boots_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09c_ulfberth_lederstiefel_ankle_boots_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09c_ulfberth_lederstiefel_ankle_boots_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/ULF-FW-09c_ulfberth_lederstiefel_ankle_boots_mittelalter-500x600.webp"
+    }
+  ],
+  "attributes": [
+    {
+      "id": 1,
+      "name": "Größe",
+      "slug": "pa_groesse",
+      "position": 0,
+      "visible": true,
+      "variation": true,
+      "options": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47"
+      ]
+    }
+  ],
+  "default_attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "menu_order": 0,
+  "price_html": "",
+  "related_ids": [
+    270,
+    97,
+    440,
+    540,
+    455
+  ],
+  "meta_data": [
+    {
+      "id": 250279,
+      "key": "rank_math_internal_links_processed",
+      "value": "1"
+    },
+    {
+      "id": 250301,
+      "key": "generator",
+      "value": "importer-handelsgilde"
+    },
+    {
+      "id": 250302,
+      "key": "_unit",
+      "value": ""
+    },
+    {
+      "id": 250303,
+      "key": "_unit_price_auto",
+      "value": "no"
+    },
+    {
+      "id": 250304,
+      "key": "_sale_price_label",
+      "value": ""
+    },
+    {
+      "id": 250305,
+      "key": "_sale_price_regular_label",
+      "value": ""
+    },
+    {
+      "id": 250306,
+      "key": "_manufacturer_slug",
+      "value": ""
+    },
+    {
+      "id": 250307,
+      "key": "_warranty_attachment_id",
+      "value": ""
+    },
+    {
+      "id": 250308,
+      "key": "_safety_attachment_ids",
+      "value": []
+    },
+    {
+      "id": 250309,
+      "key": "_min_age",
+      "value": ""
+    },
+    {
+      "id": 250310,
+      "key": "_ts_gtin",
+      "value": ""
+    },
+    {
+      "id": 250311,
+      "key": "_ts_mpn",
+      "value": ""
+    },
+    {
+      "id": 250312,
+      "key": "_default_delivery_time",
+      "value": ""
+    },
+    {
+      "id": 250313,
+      "key": "_delivery_time_countries",
+      "value": []
+    },
+    {
+      "id": 250314,
+      "key": "_free_shipping",
+      "value": "no"
+    },
+    {
+      "id": 250315,
+      "key": "_service",
+      "value": "no"
+    },
+    {
+      "id": 250316,
+      "key": "_photovoltaic_system",
+      "value": "no"
+    },
+    {
+      "id": 250317,
+      "key": "_used_good",
+      "value": "no"
+    },
+    {
+      "id": 250318,
+      "key": "_defective_copy",
+      "value": "no"
+    },
+    {
+      "id": 250319,
+      "key": "_wireless_electronic_device",
+      "value": "no"
+    },
+    {
+      "id": 250320,
+      "key": "_device_contains_power_supply",
+      "value": "no"
+    },
+    {
+      "id": 250321,
+      "key": "_device_charging_supports_usb_pd",
+      "value": "no"
+    },
+    {
+      "id": 250322,
+      "key": "_is_food",
+      "value": "no"
+    },
+    {
+      "id": 250323,
+      "key": "_differential_taxation",
+      "value": "no"
+    },
+    {
+      "id": 250324,
+      "key": "_gzd_version",
+      "value": "3.20.2"
+    },
+    {
+      "id": 358958,
+      "key": "_unit_price_regular",
+      "value": ""
+    },
+    {
+      "id": 358959,
+      "key": "_unit_price_sale",
+      "value": ""
+    },
+    {
+      "id": 358960,
+      "key": "_unit_price",
+      "value": ""
+    },
+    {
+      "id": 358961,
+      "key": "_defect_description",
+      "value": ""
+    }
+  ],
+  "stock_status": "outofstock",
+  "has_options": true,
+  "post_password": "",
+  "global_unique_id": "",
+  "hs_code": "",
+  "customs_description": "",
+  "manufacture_country": "DE",
+  "shipping_dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "unit": [],
+  "unit_price": {
+    "base": "",
+    "product": "",
+    "price_auto": false,
+    "price": "",
+    "price_regular": "",
+    "price_sale": "",
+    "price_html": ""
+  },
+  "mini_desc": "",
+  "defect_description": "",
+  "min_age": "",
+  "gtin": "",
+  "mpn": "",
+  "sale_price_label": [],
+  "sale_price_regular_label": [],
+  "manufacturer": [],
+  "safety_attachment_ids": [],
+  "safety_instructions": "",
+  "delivery_time": [],
+  "country_specific_delivery_times": [],
+  "free_shipping": false,
+  "wireless_electronic_device": false,
+  "device_contains_power_supply": false,
+  "device_charging_supports_usb_pd": false,
+  "device_charging_watt_min": "",
+  "device_charging_watt_max": "",
+  "service": false,
+  "used_good": false,
+  "defective_copy": false,
+  "photovoltaic_system": false,
+  "differential_taxation": false,
+  "warranty_attachment_id": "",
+  "is_food": false,
+  "food": {
+    "deposit_type": [],
+    "deposit_quantity": 1,
+    "deposit": 0,
+    "ingredients": "",
+    "nutrient_reference_value": "",
+    "nutri_score": "",
+    "alcohol_content": "",
+    "allergen_ids": [],
+    "nutrient_ids": [
+      {
+        "term": 0,
+        "value": "",
+        "ref_value": ""
+      }
+    ],
+    "net_filling_quantity": "",
+    "drained_weight": "",
+    "description": "",
+    "distributor": "",
+    "place_of_origin": ""
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/15709",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}
