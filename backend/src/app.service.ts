@@ -49,7 +49,8 @@ export class AppService {
     // this.test();
     // this.updateDuplicateElements();
     // this.addTablesFromBattleMerchant();
-    this.setAllToLive();
+    // this.setAllToLive();
+    console.log('FINISH');
   }
   async test() {
     const product =
@@ -749,7 +750,7 @@ export class AppService {
   }
 
   async addTablesFromBattleMerchant() {
-    const errors: string[] = [];
+    // const errors: string[] = [];
 
     const providerProducts =
       await this.importerService.getCsvWithHeader<InfoKey>(
