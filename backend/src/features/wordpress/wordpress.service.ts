@@ -25,6 +25,12 @@ export class WordpressService {
     });
   }
 
+  /**
+   * Takes an url of an image and searches for it. If found, return the image. If not, fetch the image and uploads it
+   * @param url url string of the source image
+   * @param options filename, title, ...
+   * @returns
+   */
   async getImageOrConvertAndUpload(
     url: string,
     options: {
