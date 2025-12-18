@@ -54,4 +54,14 @@ export class ImporterService {
       console.error('Could not read local file', e);
     }
   }
+
+  async readJsonFromUrl<T>(url: string): Promise<T | undefined> {
+    try {
+      const response = await axios.get<T>(url);
+      return response.data;
+    } catch (error) {
+      console.error('Error fetching JSON from URL:', error);
+      return;
+    }
+  }
 }

@@ -1,0 +1,441 @@
+{
+  "id": 7294,
+  "name": "Mittelalterkleid Eleanor, blau/blaugrau",
+  "slug": "",
+  "permalink": "https://die-handelsgilde.de/?post_type=product&p=7294",
+  "date_created": "2025-10-10T19:10:50",
+  "date_created_gmt": "2025-10-10T17:10:50",
+  "date_modified": "2025-10-14T20:59:39",
+  "date_modified_gmt": "2025-10-14T18:59:39",
+  "type": "variable",
+  "status": "draft",
+  "featured": false,
+  "catalog_visibility": "visible",
+  "description": "<h1>Mittelalterkleid Eleanor, blau/blaugrau</h1>\n<p>Das mittelalterliche Kleid Eleanor im zweifarbigen Lagenlook bietet eine enge Passform mit Schnürungen vorne und hinten. Für eine lockere Passform empfiehlt sich eine größere Größe. Die spitz zulaufenden Ärmel verleihen ihm Eleganz.</p>\n<h3>Material &amp; Verarbeitung</h3>\n<p>Das Kleid besteht aus hochwertigen Materialien und wird mit Augenmerk auf historische Genauigkeit gefertigt.</p>\n<ul>\n<li>Erhältlich in Größen S bis XXL</li>\n<li>Farbkombination: Blau/Blaugrau</li>\n<li>Gesamtlänge Größe M: ca. 145 cm</li>\n<li>Pflege: Maschinenwäsche bei 40°C, nicht für den Trockner geeignet</li>\n</ul>\n",
+  "short_description": "<p>Kleid – Mittelalterliches Design<br />\nZweifarbiger Lagenlook – Ideal für Historische Veranstaltungen<br />\n100% Baumwolle – Handgefertigt mit Sorgfalt<br />\nSpitz zulaufende Ärmel – Eleganter Abschluss<br />\nErhältlich in S, M, L, XL, XXL – Farbe Blau/Blaugrau</p>\n",
+  "sku": "1280024150",
+  "price": "49.99",
+  "regular_price": "",
+  "sale_price": "",
+  "date_on_sale_from": null,
+  "date_on_sale_from_gmt": null,
+  "date_on_sale_to": null,
+  "date_on_sale_to_gmt": null,
+  "on_sale": false,
+  "purchasable": true,
+  "total_sales": 0,
+  "virtual": false,
+  "downloadable": false,
+  "downloads": [],
+  "download_limit": -1,
+  "download_expiry": -1,
+  "external_url": "",
+  "button_text": "",
+  "tax_status": "taxable",
+  "tax_class": "",
+  "manage_stock": true,
+  "stock_quantity": 0,
+  "backorders": "no",
+  "backorders_allowed": false,
+  "backordered": false,
+  "low_stock_amount": null,
+  "sold_individually": false,
+  "weight": "0",
+  "dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "shipping_required": true,
+  "shipping_taxable": true,
+  "shipping_class": "",
+  "shipping_class_id": 0,
+  "reviews_allowed": true,
+  "average_rating": "0.00",
+  "rating_count": 0,
+  "upsell_ids": [],
+  "cross_sell_ids": [],
+  "parent_id": 0,
+  "purchase_note": "",
+  "categories": [
+    {
+      "id": 147,
+      "name": "Damen-Gewandungen",
+      "slug": "damen-gewandungen"
+    },
+    {
+      "id": 76,
+      "name": "Kleider &amp; Röcke",
+      "slug": "kleider-und-roecke"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 160,
+      "name": "Baumwolle",
+      "slug": "baumwolle"
+    },
+    {
+      "id": 183,
+      "name": "Kleid",
+      "slug": "kleid"
+    },
+    {
+      "id": 499,
+      "name": "Mittelalter",
+      "slug": "mittelalter"
+    },
+    {
+      "id": 189,
+      "name": "Mittelalterkleid",
+      "slug": "mittelalterkleid"
+    }
+  ],
+  "images": [
+    {
+      "id": 7288,
+      "date_created": "2025-10-10T21:10:06",
+      "date_created_gmt": "2025-10-10T17:10:06",
+      "date_modified": "2025-10-10T21:10:50",
+      "date_modified_gmt": "2025-10-10T17:10:50",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415b_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung.webp",
+      "name": "Mittelalterkleid Eleanor, blau/blaugrau",
+      "alt": "Mittelalterkleid Eleanor, blau/blaugrau",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415b_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415b_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415b_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415b_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415b_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415b_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415b_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415b_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-500x600.webp"
+    },
+    {
+      "id": 7289,
+      "date_created": "2025-10-10T21:10:13",
+      "date_created_gmt": "2025-10-10T17:10:13",
+      "date_modified": "2025-10-10T21:10:50",
+      "date_modified_gmt": "2025-10-10T17:10:50",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415c_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung.webp",
+      "name": "Mittelalterkleid Eleanor, blau/blaugrau",
+      "alt": "Mittelalterkleid Eleanor, blau/blaugrau",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415c_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415c_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415c_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415c_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415c_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415c_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415c_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415c_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-500x600.webp"
+    },
+    {
+      "id": 7290,
+      "date_created": "2025-10-10T21:10:20",
+      "date_created_gmt": "2025-10-10T17:10:20",
+      "date_modified": "2025-10-10T21:10:50",
+      "date_modified_gmt": "2025-10-10T17:10:50",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415d_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung.webp",
+      "name": "Mittelalterkleid Eleanor, blau/blaugrau",
+      "alt": "Mittelalterkleid Eleanor, blau/blaugrau",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415d_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415d_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415d_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415d_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415d_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415d_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415d_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415d_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-500x600.webp"
+    },
+    {
+      "id": 7291,
+      "date_created": "2025-10-10T21:10:26",
+      "date_created_gmt": "2025-10-10T17:10:26",
+      "date_modified": "2025-10-10T21:10:50",
+      "date_modified_gmt": "2025-10-10T17:10:50",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415n_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung.webp",
+      "name": "Mittelalterkleid Eleanor, blau/blaugrau",
+      "alt": "Mittelalterkleid Eleanor, blau/blaugrau",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415n_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415n_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415n_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415n_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415n_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415n_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415n_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415n_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-500x600.webp"
+    },
+    {
+      "id": 7292,
+      "date_created": "2025-10-10T21:10:33",
+      "date_created_gmt": "2025-10-10T17:10:33",
+      "date_modified": "2025-10-10T21:10:50",
+      "date_modified_gmt": "2025-10-10T17:10:50",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415l_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung.webp",
+      "name": "Mittelalterkleid Eleanor, blau/blaugrau",
+      "alt": "Mittelalterkleid Eleanor, blau/blaugrau",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415l_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415l_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415l_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415l_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415l_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415l_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415l_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415l_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-500x600.webp"
+    },
+    {
+      "id": 7293,
+      "date_created": "2025-10-10T21:10:39",
+      "date_created_gmt": "2025-10-10T17:10:39",
+      "date_modified": "2025-10-10T21:10:50",
+      "date_modified_gmt": "2025-10-10T17:10:50",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415i_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung.webp",
+      "name": "Mittelalterkleid Eleanor, blau/blaugrau",
+      "alt": "Mittelalterkleid Eleanor, blau/blaugrau",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415i_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415i_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415i_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415i_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415i_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415i_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415i_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/128002415i_mittelalterkleid_kleid_mittelalter_dress_geandung_kleidung-500x600.webp"
+    }
+  ],
+  "attributes": [
+    {
+      "id": 1,
+      "name": "Größe",
+      "slug": "pa_groesse",
+      "position": 0,
+      "visible": true,
+      "variation": true,
+      "options": [
+        "L",
+        "M",
+        "S",
+        "Xl",
+        "Xxl"
+      ]
+    }
+  ],
+  "default_attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "menu_order": 0,
+  "price_html": "",
+  "related_ids": [
+    440,
+    527,
+    1961,
+    2074,
+    2062
+  ],
+  "meta_data": [
+    {
+      "id": 132794,
+      "key": "rank_math_internal_links_processed",
+      "value": "1"
+    },
+    {
+      "id": 132816,
+      "key": "generator",
+      "value": "importer-handelsgilde"
+    },
+    {
+      "id": 132817,
+      "key": "_unit",
+      "value": ""
+    },
+    {
+      "id": 132818,
+      "key": "_unit_price_auto",
+      "value": "no"
+    },
+    {
+      "id": 132819,
+      "key": "_sale_price_label",
+      "value": ""
+    },
+    {
+      "id": 132820,
+      "key": "_sale_price_regular_label",
+      "value": ""
+    },
+    {
+      "id": 132821,
+      "key": "_manufacturer_slug",
+      "value": ""
+    },
+    {
+      "id": 132822,
+      "key": "_warranty_attachment_id",
+      "value": ""
+    },
+    {
+      "id": 132823,
+      "key": "_safety_attachment_ids",
+      "value": []
+    },
+    {
+      "id": 132824,
+      "key": "_min_age",
+      "value": ""
+    },
+    {
+      "id": 132825,
+      "key": "_ts_gtin",
+      "value": ""
+    },
+    {
+      "id": 132826,
+      "key": "_ts_mpn",
+      "value": ""
+    },
+    {
+      "id": 132827,
+      "key": "_default_delivery_time",
+      "value": ""
+    },
+    {
+      "id": 132828,
+      "key": "_delivery_time_countries",
+      "value": []
+    },
+    {
+      "id": 132829,
+      "key": "_free_shipping",
+      "value": "no"
+    },
+    {
+      "id": 132830,
+      "key": "_service",
+      "value": "no"
+    },
+    {
+      "id": 132831,
+      "key": "_photovoltaic_system",
+      "value": "no"
+    },
+    {
+      "id": 132832,
+      "key": "_used_good",
+      "value": "no"
+    },
+    {
+      "id": 132833,
+      "key": "_defective_copy",
+      "value": "no"
+    },
+    {
+      "id": 132834,
+      "key": "_wireless_electronic_device",
+      "value": "no"
+    },
+    {
+      "id": 132835,
+      "key": "_device_contains_power_supply",
+      "value": "no"
+    },
+    {
+      "id": 132836,
+      "key": "_device_charging_supports_usb_pd",
+      "value": "no"
+    },
+    {
+      "id": 132837,
+      "key": "_is_food",
+      "value": "no"
+    },
+    {
+      "id": 132838,
+      "key": "_differential_taxation",
+      "value": "no"
+    },
+    {
+      "id": 132839,
+      "key": "_gzd_version",
+      "value": "3.20.2"
+    },
+    {
+      "id": 312029,
+      "key": "_unit_price_regular",
+      "value": ""
+    },
+    {
+      "id": 312030,
+      "key": "_unit_price_sale",
+      "value": ""
+    },
+    {
+      "id": 312031,
+      "key": "_unit_price",
+      "value": ""
+    },
+    {
+      "id": 312032,
+      "key": "_defect_description",
+      "value": ""
+    }
+  ],
+  "stock_status": "outofstock",
+  "has_options": true,
+  "post_password": "",
+  "global_unique_id": "",
+  "hs_code": "",
+  "customs_description": "",
+  "manufacture_country": "DE",
+  "shipping_dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "unit": [],
+  "unit_price": {
+    "base": "",
+    "product": "",
+    "price_auto": false,
+    "price": "",
+    "price_regular": "",
+    "price_sale": "",
+    "price_html": ""
+  },
+  "mini_desc": "",
+  "defect_description": "",
+  "min_age": "",
+  "gtin": "",
+  "mpn": "",
+  "sale_price_label": [],
+  "sale_price_regular_label": [],
+  "manufacturer": [],
+  "safety_attachment_ids": [],
+  "safety_instructions": "",
+  "delivery_time": [],
+  "country_specific_delivery_times": [],
+  "free_shipping": false,
+  "wireless_electronic_device": false,
+  "device_contains_power_supply": false,
+  "device_charging_supports_usb_pd": false,
+  "device_charging_watt_min": "",
+  "device_charging_watt_max": "",
+  "service": false,
+  "used_good": false,
+  "defective_copy": false,
+  "photovoltaic_system": false,
+  "differential_taxation": false,
+  "warranty_attachment_id": "",
+  "is_food": false,
+  "food": {
+    "deposit_type": [],
+    "deposit_quantity": 1,
+    "deposit": 0,
+    "ingredients": "",
+    "nutrient_reference_value": "",
+    "nutri_score": "",
+    "alcohol_content": "",
+    "allergen_ids": [],
+    "nutrient_ids": [
+      {
+        "term": 0,
+        "value": "",
+        "ref_value": ""
+      }
+    ],
+    "net_filling_quantity": "",
+    "drained_weight": "",
+    "description": "",
+    "distributor": "",
+    "place_of_origin": ""
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/7294",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

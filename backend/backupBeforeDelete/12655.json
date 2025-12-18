@@ -1,0 +1,436 @@
+{
+  "id": 12655,
+  "name": "Gürtel Sindri aus Fettleder, braun",
+  "slug": "",
+  "permalink": "https://die-handelsgilde.de/?post_type=product&p=12655",
+  "date_created": "2025-10-11T14:09:07",
+  "date_created_gmt": "2025-10-11T12:09:07",
+  "date_modified": "2025-10-14T21:41:51",
+  "date_modified_gmt": "2025-10-14T19:41:51",
+  "type": "variable",
+  "status": "draft",
+  "featured": false,
+  "catalog_visibility": "visible",
+  "description": "<h1>Gürtel Sindri aus Fettleder, braun</h1>\n<p>Der \"Sindri\" Gürtel aus robustem Fettleder ist perfekt für LARP, Cosplay oder Reenactments. Mit seinem einzigartigen Used-Look setzt er stilvolle Akzente für mittelalterliche oder Wikinger-Kostüme.</p>\n<h3>Historischer Kontext</h3>\n<p>Dieser Gürteltyp lehnt sich an mittelalterliche Designs an, die Funktionalität und Anpassung vereinen. In der damaligen Zeit wurden Gürtel häufig zur Befestigung von Werkzeugen und Taschen genutzt, ähnlich wie dieser Doppelgürtel mit seinen praktischen Ringen.</p>\n<h3>Material &amp; Verarbeitung</h3>\n<p>Der Gürtel besteht aus dickem Fettleder, das resistent gegen Abnutzung ist. Die Fertigung umfasst stabile Schlaufen und integrierte Metallringe, während die Schnallen ein antikes Finish haben. Lagere den Gürtel trocken und fette ihn bei Bedarf ein, um die Qualität zu erhalten.</p>\n<ul>\n<li>Integrierte Ringe für Befestigungen</li>\n<li>Erhältliche Größen: S/M, L/XL, XXL</li>\n<li>Gewicht variiert je nach Größe (ca. 360-490 g)</li>\n<li>Ideal für mittelalterliche Gewänder</li>\n</ul>\n",
+  "short_description": "<p>Mittelalterlicher Ledergürtel<br />\nGeeignet für LARP und Reenactment<br />\nBüffelleder, robuste Verarbeitung<br />\nEinzigartiger Used-Look<br />\nErhältliche Größen: S/M, L/XL, XXL</p>\n",
+  "sku": "BM-LP-74",
+  "price": "79.99",
+  "regular_price": "",
+  "sale_price": "",
+  "date_on_sale_from": null,
+  "date_on_sale_from_gmt": null,
+  "date_on_sale_to": null,
+  "date_on_sale_to_gmt": null,
+  "on_sale": false,
+  "purchasable": true,
+  "total_sales": 0,
+  "virtual": false,
+  "downloadable": false,
+  "downloads": [],
+  "download_limit": -1,
+  "download_expiry": -1,
+  "external_url": "",
+  "button_text": "",
+  "tax_status": "taxable",
+  "tax_class": "",
+  "manage_stock": true,
+  "stock_quantity": 0,
+  "backorders": "no",
+  "backorders_allowed": false,
+  "backordered": false,
+  "low_stock_amount": null,
+  "sold_individually": false,
+  "weight": "0.55",
+  "dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "shipping_required": true,
+  "shipping_taxable": true,
+  "shipping_class": "",
+  "shipping_class_id": 0,
+  "reviews_allowed": true,
+  "average_rating": "0.00",
+  "rating_count": 0,
+  "upsell_ids": [],
+  "cross_sell_ids": [],
+  "parent_id": 0,
+  "purchase_note": "",
+  "categories": [
+    {
+      "id": 83,
+      "name": "Gürtel &amp; Riemen",
+      "slug": "guertel-und-riemen"
+    },
+    {
+      "id": 84,
+      "name": "Ledergürtel mit Messingschnallen",
+      "slug": "lederguertel-mit-messingschnallen"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2033,
+      "name": "Cosplay",
+      "slug": "cosplay"
+    },
+    {
+      "id": 373,
+      "name": "Kiltnadel",
+      "slug": "kiltnadel"
+    },
+    {
+      "id": 593,
+      "name": "LARP",
+      "slug": "larp"
+    },
+    {
+      "id": 2022,
+      "name": "Mittelalter Kostüm",
+      "slug": "mittelalter-kostuem"
+    }
+  ],
+  "images": [
+    {
+      "id": 12649,
+      "date_created": "2025-10-11T16:08:44",
+      "date_created_gmt": "2025-10-11T12:08:44",
+      "date_modified": "2025-10-11T16:09:07",
+      "date_modified_gmt": "2025-10-11T12:09:07",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74_guertel_fettleder_braun_mittelalter.webp",
+      "name": "Gürtel Sindri aus Fettleder, braun",
+      "alt": "Gürtel Sindri aus Fettleder, braun",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74_guertel_fettleder_braun_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74_guertel_fettleder_braun_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74_guertel_fettleder_braun_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74_guertel_fettleder_braun_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74_guertel_fettleder_braun_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74_guertel_fettleder_braun_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74_guertel_fettleder_braun_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74_guertel_fettleder_braun_mittelalter-500x600.webp"
+    },
+    {
+      "id": 12651,
+      "date_created": "2025-10-11T16:08:44",
+      "date_created_gmt": "2025-10-11T12:08:44",
+      "date_modified": "2025-10-11T16:09:07",
+      "date_modified_gmt": "2025-10-11T12:09:07",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74c_guertel_fettleder_braun_mittelalter.webp",
+      "name": "Gürtel Sindri aus Fettleder, braun",
+      "alt": "Gürtel Sindri aus Fettleder, braun",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74c_guertel_fettleder_braun_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74c_guertel_fettleder_braun_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74c_guertel_fettleder_braun_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74c_guertel_fettleder_braun_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74c_guertel_fettleder_braun_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74c_guertel_fettleder_braun_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74c_guertel_fettleder_braun_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74c_guertel_fettleder_braun_mittelalter-500x600.webp"
+    },
+    {
+      "id": 12653,
+      "date_created": "2025-10-11T16:08:44",
+      "date_created_gmt": "2025-10-11T12:08:44",
+      "date_modified": "2025-10-11T16:09:07",
+      "date_modified_gmt": "2025-10-11T12:09:07",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74b_guertel_fettleder_braun_mittelalter.webp",
+      "name": "Gürtel Sindri aus Fettleder, braun",
+      "alt": "Gürtel Sindri aus Fettleder, braun",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74b_guertel_fettleder_braun_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74b_guertel_fettleder_braun_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74b_guertel_fettleder_braun_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74b_guertel_fettleder_braun_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74b_guertel_fettleder_braun_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74b_guertel_fettleder_braun_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74b_guertel_fettleder_braun_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74b_guertel_fettleder_braun_mittelalter-500x600.webp"
+    },
+    {
+      "id": 12654,
+      "date_created": "2025-10-11T16:08:45",
+      "date_created_gmt": "2025-10-11T12:08:45",
+      "date_modified": "2025-10-11T16:09:07",
+      "date_modified_gmt": "2025-10-11T12:09:07",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74g_guertel_fettleder_braun_mittelalter.webp",
+      "name": "Gürtel Sindri aus Fettleder, braun",
+      "alt": "Gürtel Sindri aus Fettleder, braun",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74g_guertel_fettleder_braun_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74g_guertel_fettleder_braun_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74g_guertel_fettleder_braun_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74g_guertel_fettleder_braun_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74g_guertel_fettleder_braun_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74g_guertel_fettleder_braun_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74g_guertel_fettleder_braun_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74g_guertel_fettleder_braun_mittelalter-500x600.webp"
+    },
+    {
+      "id": 12650,
+      "date_created": "2025-10-11T16:08:44",
+      "date_created_gmt": "2025-10-11T12:08:44",
+      "date_modified": "2025-10-11T16:09:07",
+      "date_modified_gmt": "2025-10-11T12:09:07",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74f_guertel_fettleder_braun_mittelalter.webp",
+      "name": "Gürtel Sindri aus Fettleder, braun",
+      "alt": "Gürtel Sindri aus Fettleder, braun",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74f_guertel_fettleder_braun_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74f_guertel_fettleder_braun_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74f_guertel_fettleder_braun_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74f_guertel_fettleder_braun_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74f_guertel_fettleder_braun_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74f_guertel_fettleder_braun_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74f_guertel_fettleder_braun_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74f_guertel_fettleder_braun_mittelalter-500x600.webp"
+    },
+    {
+      "id": 12652,
+      "date_created": "2025-10-11T16:08:44",
+      "date_created_gmt": "2025-10-11T12:08:44",
+      "date_modified": "2025-10-11T16:09:07",
+      "date_modified_gmt": "2025-10-11T12:09:07",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74d_guertel_fettleder_braun_mittelalter.webp",
+      "name": "Gürtel Sindri aus Fettleder, braun",
+      "alt": "Gürtel Sindri aus Fettleder, braun",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74d_guertel_fettleder_braun_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74d_guertel_fettleder_braun_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74d_guertel_fettleder_braun_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74d_guertel_fettleder_braun_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74d_guertel_fettleder_braun_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74d_guertel_fettleder_braun_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74d_guertel_fettleder_braun_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/bm-lp-74d_guertel_fettleder_braun_mittelalter-500x600.webp"
+    }
+  ],
+  "attributes": [
+    {
+      "id": 1,
+      "name": "Größe",
+      "slug": "pa_groesse",
+      "position": 0,
+      "visible": true,
+      "variation": true,
+      "options": [
+        "L/xl",
+        "S/m",
+        "Xxl"
+      ]
+    }
+  ],
+  "default_attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "menu_order": 0,
+  "price_html": "",
+  "related_ids": [
+    961,
+    2005
+  ],
+  "meta_data": [
+    {
+      "id": 207077,
+      "key": "rank_math_internal_links_processed",
+      "value": "1"
+    },
+    {
+      "id": 207099,
+      "key": "generator",
+      "value": "importer-handelsgilde"
+    },
+    {
+      "id": 207100,
+      "key": "_unit",
+      "value": ""
+    },
+    {
+      "id": 207101,
+      "key": "_unit_price_auto",
+      "value": "no"
+    },
+    {
+      "id": 207102,
+      "key": "_sale_price_label",
+      "value": ""
+    },
+    {
+      "id": 207103,
+      "key": "_sale_price_regular_label",
+      "value": ""
+    },
+    {
+      "id": 207104,
+      "key": "_manufacturer_slug",
+      "value": ""
+    },
+    {
+      "id": 207105,
+      "key": "_warranty_attachment_id",
+      "value": ""
+    },
+    {
+      "id": 207106,
+      "key": "_safety_attachment_ids",
+      "value": []
+    },
+    {
+      "id": 207107,
+      "key": "_min_age",
+      "value": ""
+    },
+    {
+      "id": 207108,
+      "key": "_ts_gtin",
+      "value": ""
+    },
+    {
+      "id": 207109,
+      "key": "_ts_mpn",
+      "value": ""
+    },
+    {
+      "id": 207110,
+      "key": "_default_delivery_time",
+      "value": ""
+    },
+    {
+      "id": 207111,
+      "key": "_delivery_time_countries",
+      "value": []
+    },
+    {
+      "id": 207112,
+      "key": "_free_shipping",
+      "value": "no"
+    },
+    {
+      "id": 207113,
+      "key": "_service",
+      "value": "no"
+    },
+    {
+      "id": 207114,
+      "key": "_photovoltaic_system",
+      "value": "no"
+    },
+    {
+      "id": 207115,
+      "key": "_used_good",
+      "value": "no"
+    },
+    {
+      "id": 207116,
+      "key": "_defective_copy",
+      "value": "no"
+    },
+    {
+      "id": 207117,
+      "key": "_wireless_electronic_device",
+      "value": "no"
+    },
+    {
+      "id": 207118,
+      "key": "_device_contains_power_supply",
+      "value": "no"
+    },
+    {
+      "id": 207119,
+      "key": "_device_charging_supports_usb_pd",
+      "value": "no"
+    },
+    {
+      "id": 207120,
+      "key": "_is_food",
+      "value": "no"
+    },
+    {
+      "id": 207121,
+      "key": "_differential_taxation",
+      "value": "no"
+    },
+    {
+      "id": 207122,
+      "key": "_gzd_version",
+      "value": "3.20.2"
+    },
+    {
+      "id": 344717,
+      "key": "_unit_price_regular",
+      "value": ""
+    },
+    {
+      "id": 344718,
+      "key": "_unit_price_sale",
+      "value": ""
+    },
+    {
+      "id": 344719,
+      "key": "_unit_price",
+      "value": ""
+    },
+    {
+      "id": 344720,
+      "key": "_defect_description",
+      "value": ""
+    }
+  ],
+  "stock_status": "outofstock",
+  "has_options": true,
+  "post_password": "",
+  "global_unique_id": "",
+  "hs_code": "",
+  "customs_description": "",
+  "manufacture_country": "DE",
+  "shipping_dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "unit": [],
+  "unit_price": {
+    "base": "",
+    "product": "",
+    "price_auto": false,
+    "price": "",
+    "price_regular": "",
+    "price_sale": "",
+    "price_html": ""
+  },
+  "mini_desc": "",
+  "defect_description": "",
+  "min_age": "",
+  "gtin": "",
+  "mpn": "",
+  "sale_price_label": [],
+  "sale_price_regular_label": [],
+  "manufacturer": [],
+  "safety_attachment_ids": [],
+  "safety_instructions": "",
+  "delivery_time": [],
+  "country_specific_delivery_times": [],
+  "free_shipping": false,
+  "wireless_electronic_device": false,
+  "device_contains_power_supply": false,
+  "device_charging_supports_usb_pd": false,
+  "device_charging_watt_min": "",
+  "device_charging_watt_max": "",
+  "service": false,
+  "used_good": false,
+  "defective_copy": false,
+  "photovoltaic_system": false,
+  "differential_taxation": false,
+  "warranty_attachment_id": "",
+  "is_food": false,
+  "food": {
+    "deposit_type": [],
+    "deposit_quantity": 1,
+    "deposit": 0,
+    "ingredients": "",
+    "nutrient_reference_value": "",
+    "nutri_score": "",
+    "alcohol_content": "",
+    "allergen_ids": [],
+    "nutrient_ids": [
+      {
+        "term": 0,
+        "value": "",
+        "ref_value": ""
+      }
+    ],
+    "net_filling_quantity": "",
+    "drained_weight": "",
+    "description": "",
+    "distributor": "",
+    "place_of_origin": ""
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/12655",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

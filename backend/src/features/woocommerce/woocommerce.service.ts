@@ -8,6 +8,7 @@ import { FunctionResponse } from './models/FunctionResponse';
 import { WooTag } from './models/WooTag';
 import { AiService } from '../ai/ai.service';
 import { Tags } from 'node_modules/woocommerce-rest-ts-api/dist/src/typesANDinterfaces';
+import { WooAttribute } from './models/WooAttribute';
 import { WooProductVariation } from './models/WooProductVariation';
 @Injectable()
 export class WoocommerceService {
@@ -257,6 +258,20 @@ export class WoocommerceService {
     }
   }
 
+  async deleteProduct(productId: number) {
+    try {
+      await this.api.delete(
+        `products/${productId}`,
+        { force: true },
+        { id: productId },
+      );
+      return { data: true };
+    } catch (e) {
+      console.error(e);
+      return { errors: ['Error deleting Product', JSON.stringify(e)] };
+    }
+  }
+
   //   async createProductVariation(): Promise<FunctionResponse<Products>> {
   //     try {
   //       const product = await this.api.(data);
@@ -380,9 +395,97 @@ export class WoocommerceService {
       return { data: variation.data };
     } catch (e) {
       console.error(e);
-      return {
-        errors: ['Error updating Product Variation', JSON.stringify(e)],
-      };
+      return { errors: ['Error creating Attribute', JSON.stringify(e)] };
+    }
+  }
+  async getOrCreateAttribute(
+    name: string,
+  ): Promise<FunctionResponse<Partial<WooAttribute> | undefined>> {
+    //https://woocommerce.github.io/woocommerce-rest-api-docs/#attributes
+    try {
+      const existingAttributes = await this.api.get<WooAttribute[]>(
+        'products/attributes',
+        { per_page: 100 },
+      );
+      const attributes: WooAttribute[] = existingAttributes.data || [];
+      if (attributes.length) {
+        const foundAttribute = attributes.find(
+          (attr) => attr.name.toLowerCase() === name.toLowerCase(),
+        );
+        if (foundAttribute) {
+          return { data: foundAttribute };
+        }
+      }
+      const createdAttribute = await this.api.post<{
+        id: number;
+        name: string;
+      }>('products/attributes', {
+        name: name,
+      });
+      return { data: createdAttribute.data as Partial<WooAttribute> };
+    } catch (e) {
+      console.error(e);
+      return { errors: ['Error creating Attribute', JSON.stringify(e)] };
+    }
+  }
+
+  async updateOrCreateVariation(
+    productId: string,
+    variationData: Partial<WooProductVariation>,
+  ): Promise<FunctionResponse<WooProductVariation | undefined>> {
+    try {
+      const existingVariations = await this.api.get<WooProductVariation[]>(
+        `products/${productId}/variations`,
+        { per_page: 100 },
+      );
+      if (variationData.sku) {
+        const foundVariation = existingVariations.data.find(
+          (variation) => variation.sku === variationData.sku,
+        );
+        if (foundVariation) {
+          console.log('found existing variation, updating', variationData.sku);
+          const updatedVariation = await this.api.put<WooProductVariation>(
+            `products/${productId}/variations/${foundVariation.id}`,
+            variationData,
+          );
+          return { data: updatedVariation.data };
+        }
+      }
+      const createdVariation = await this.api.post<WooProductVariation>(
+        `products/${productId}/variations`,
+        variationData,
+      );
+      console.log('created new variation', createdVariation.data.sku);
+      return { data: createdVariation.data };
+    } catch (e) {
+      console.error(e);
+      return { errors: ['Error creating Variation', JSON.stringify(e)] };
+    }
+  }
+
+  async getVariation(
+    productId: string,
+    variationId: string,
+  ): Promise<FunctionResponse<WooProductVariation | undefined>> {
+    try {
+      const variation = await this.api.get<WooProductVariation>(
+        `products/${productId}/variations/${variationId}`,
+      );
+      return { data: variation.data };
+    } catch (e) {
+      console.error(e);
+      return { errors: ['Error fetching Variation', JSON.stringify(e)] };
+    }
+  }
+
+  async getProduct(
+    id: number,
+  ): Promise<FunctionResponse<Products | undefined>> {
+    try {
+      return this.api.getProduct(id);
+    } catch (e) {
+      console.error(e);
+      return { errors: ['Error fetching Product', JSON.stringify(e)] };
     }
   }
 }

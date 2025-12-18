@@ -1,0 +1,436 @@
+{
+  "id": 5243,
+  "name": "Wikinger Tunika aus Baumwolle, dunkelbraun",
+  "slug": "",
+  "permalink": "https://die-handelsgilde.de/?post_type=product&p=5243",
+  "date_created": "2025-10-09T22:15:19",
+  "date_created_gmt": "2025-10-09T20:15:19",
+  "date_modified": "2025-10-14T20:00:40",
+  "date_modified_gmt": "2025-10-14T18:00:40",
+  "type": "variable",
+  "status": "draft",
+  "featured": false,
+  "catalog_visibility": "visible",
+  "description": "<h1>Wikinger Tunika aus Baumwolle, dunkelbraun</h1>\n<p>Unsere Wikinger Tunika bietet eine authentische Optik für historische Darstellungen und ist in mehrere Größen und Farben erhältlich.</p>\n<h3>Historischer Kontext</h3>\n<p>Diese Tunika ist inspiriert von frühmittelalterlichen Gewändern, wie sie im 8. bis 11. Jahrhundert in Nordeuropa getragen wurden. Typisch für Wikinger, bot sie Bewegungsfreiheit und Schutz im rauen Klima.</p>\n<h3>Material &amp; Verarbeitung</h3>\n<p>Die Tunika besteht aus 100% Baumwolle und ist mit einer Polyesterbordüre verziert. Sie ist weit geschnitten und wird traditionell mit einem Gürtel tailliert. Maschinenwaschbar bei 40°C im Schonwaschgang.</p>\n<ul>\n<li>Verfügbar in den Größen S, M, L, XL, XXL</li>\n<li>Gesamtlänge bei Größe L: ca. 99 cm</li>\n<li>Farbe: dunkelbraun, alternativ auch in beige und dunkelrot</li>\n<li>Pflege: nicht für den Trockner geeignet</li>\n</ul>\n",
+  "short_description": "<p>&#8211; Frühmittelalterliche Tunika<br />\n&#8211; Ideal für Reenactment, Wikinger-Darstellung<br />\n&#8211; 100% Baumwolle, Polyesterbordüre<br />\n&#8211; Dreiviertellange Ärmel<br />\n&#8211; In mehreren Größen und Farben erhältlich</p>\n",
+  "sku": "1216201060",
+  "price": "34.99",
+  "regular_price": "",
+  "sale_price": "",
+  "date_on_sale_from": null,
+  "date_on_sale_from_gmt": null,
+  "date_on_sale_to": null,
+  "date_on_sale_to_gmt": null,
+  "on_sale": false,
+  "purchasable": true,
+  "total_sales": 0,
+  "virtual": false,
+  "downloadable": false,
+  "downloads": [],
+  "download_limit": -1,
+  "download_expiry": -1,
+  "external_url": "",
+  "button_text": "",
+  "tax_status": "taxable",
+  "tax_class": "",
+  "manage_stock": true,
+  "stock_quantity": 0,
+  "backorders": "no",
+  "backorders_allowed": false,
+  "backordered": false,
+  "low_stock_amount": null,
+  "sold_individually": false,
+  "weight": "0.5",
+  "dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "shipping_required": true,
+  "shipping_taxable": true,
+  "shipping_class": "",
+  "shipping_class_id": 0,
+  "reviews_allowed": true,
+  "average_rating": "0.00",
+  "rating_count": 0,
+  "upsell_ids": [],
+  "cross_sell_ids": [],
+  "parent_id": 0,
+  "purchase_note": "",
+  "categories": [
+    {
+      "id": 63,
+      "name": "Wikinger-Tuniken",
+      "slug": "wikinger-tuniken"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 160,
+      "name": "Baumwolle",
+      "slug": "baumwolle"
+    },
+    {
+      "id": 193,
+      "name": "Tunika",
+      "slug": "tunika"
+    },
+    {
+      "id": 237,
+      "name": "Wikinger",
+      "slug": "wikinger"
+    },
+    {
+      "id": 364,
+      "name": "wikingertunika",
+      "slug": "wikingertunika"
+    }
+  ],
+  "images": [
+    {
+      "id": 5237,
+      "date_created": "2025-10-10T00:14:36",
+      "date_created_gmt": "2025-10-09T20:14:36",
+      "date_modified": "2025-10-10T00:15:19",
+      "date_modified_gmt": "2025-10-09T20:15:19",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060b_wikinger_tunika_tunic_gewandung.webp",
+      "name": "Wikinger Tunika aus Baumwolle, dunkelbraun",
+      "alt": "Wikinger Tunika aus Baumwolle, dunkelbraun",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060b_wikinger_tunika_tunic_gewandung.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060b_wikinger_tunika_tunic_gewandung-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060b_wikinger_tunika_tunic_gewandung-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060b_wikinger_tunika_tunic_gewandung-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060b_wikinger_tunika_tunic_gewandung-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060b_wikinger_tunika_tunic_gewandung-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060b_wikinger_tunika_tunic_gewandung-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060b_wikinger_tunika_tunic_gewandung-500x600.webp"
+    },
+    {
+      "id": 5238,
+      "date_created": "2025-10-10T00:14:43",
+      "date_created_gmt": "2025-10-09T20:14:43",
+      "date_modified": "2025-10-10T00:15:19",
+      "date_modified_gmt": "2025-10-09T20:15:19",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060c_wikinger_tunika_tunic_gewandung.webp",
+      "name": "Wikinger Tunika aus Baumwolle, dunkelbraun",
+      "alt": "Wikinger Tunika aus Baumwolle, dunkelbraun",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060c_wikinger_tunika_tunic_gewandung.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060c_wikinger_tunika_tunic_gewandung-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060c_wikinger_tunika_tunic_gewandung-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060c_wikinger_tunika_tunic_gewandung-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060c_wikinger_tunika_tunic_gewandung-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060c_wikinger_tunika_tunic_gewandung-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060c_wikinger_tunika_tunic_gewandung-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060c_wikinger_tunika_tunic_gewandung-500x600.webp"
+    },
+    {
+      "id": 5239,
+      "date_created": "2025-10-10T00:14:50",
+      "date_created_gmt": "2025-10-09T20:14:50",
+      "date_modified": "2025-10-10T00:15:19",
+      "date_modified_gmt": "2025-10-09T20:15:19",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060d_wikinger_tunika_tunic_gewandung.webp",
+      "name": "Wikinger Tunika aus Baumwolle, dunkelbraun",
+      "alt": "Wikinger Tunika aus Baumwolle, dunkelbraun",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060d_wikinger_tunika_tunic_gewandung.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060d_wikinger_tunika_tunic_gewandung-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060d_wikinger_tunika_tunic_gewandung-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060d_wikinger_tunika_tunic_gewandung-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060d_wikinger_tunika_tunic_gewandung-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060d_wikinger_tunika_tunic_gewandung-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060d_wikinger_tunika_tunic_gewandung-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060d_wikinger_tunika_tunic_gewandung-500x600.webp"
+    },
+    {
+      "id": 5240,
+      "date_created": "2025-10-10T00:14:56",
+      "date_created_gmt": "2025-10-09T20:14:56",
+      "date_modified": "2025-10-10T00:15:19",
+      "date_modified_gmt": "2025-10-09T20:15:19",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060e_wikinger_tunika_tunic_gewandung.webp",
+      "name": "Wikinger Tunika aus Baumwolle, dunkelbraun",
+      "alt": "Wikinger Tunika aus Baumwolle, dunkelbraun",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060e_wikinger_tunika_tunic_gewandung.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060e_wikinger_tunika_tunic_gewandung-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060e_wikinger_tunika_tunic_gewandung-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060e_wikinger_tunika_tunic_gewandung-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060e_wikinger_tunika_tunic_gewandung-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060e_wikinger_tunika_tunic_gewandung-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060e_wikinger_tunika_tunic_gewandung-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060e_wikinger_tunika_tunic_gewandung-500x600.webp"
+    },
+    {
+      "id": 5241,
+      "date_created": "2025-10-10T00:15:03",
+      "date_created_gmt": "2025-10-09T20:15:03",
+      "date_modified": "2025-10-10T00:15:19",
+      "date_modified_gmt": "2025-10-09T20:15:19",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060f_wikinger_tunika_tunic_gewandung.webp",
+      "name": "Wikinger Tunika aus Baumwolle, dunkelbraun",
+      "alt": "Wikinger Tunika aus Baumwolle, dunkelbraun",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060f_wikinger_tunika_tunic_gewandung.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060f_wikinger_tunika_tunic_gewandung-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060f_wikinger_tunika_tunic_gewandung-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060f_wikinger_tunika_tunic_gewandung-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060f_wikinger_tunika_tunic_gewandung-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060f_wikinger_tunika_tunic_gewandung-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060f_wikinger_tunika_tunic_gewandung-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060f_wikinger_tunika_tunic_gewandung-500x600.webp"
+    },
+    {
+      "id": 5242,
+      "date_created": "2025-10-10T00:15:09",
+      "date_created_gmt": "2025-10-09T20:15:09",
+      "date_modified": "2025-10-10T00:15:19",
+      "date_modified_gmt": "2025-10-09T20:15:19",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060g_wikinger_tunika_tunic_gewandung.webp",
+      "name": "Wikinger Tunika aus Baumwolle, dunkelbraun",
+      "alt": "Wikinger Tunika aus Baumwolle, dunkelbraun",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060g_wikinger_tunika_tunic_gewandung.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060g_wikinger_tunika_tunic_gewandung-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060g_wikinger_tunika_tunic_gewandung-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060g_wikinger_tunika_tunic_gewandung-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060g_wikinger_tunika_tunic_gewandung-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060g_wikinger_tunika_tunic_gewandung-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060g_wikinger_tunika_tunic_gewandung-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216201060g_wikinger_tunika_tunic_gewandung-500x600.webp"
+    }
+  ],
+  "attributes": [
+    {
+      "id": 1,
+      "name": "Größe",
+      "slug": "pa_groesse",
+      "position": 0,
+      "visible": true,
+      "variation": true,
+      "options": [
+        "L",
+        "M",
+        "S",
+        "Xl",
+        "Xxl"
+      ]
+    }
+  ],
+  "default_attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "menu_order": 0,
+  "price_html": "",
+  "related_ids": [
+    504,
+    551,
+    387,
+    415,
+    586
+  ],
+  "meta_data": [
+    {
+      "id": 110871,
+      "key": "rank_math_internal_links_processed",
+      "value": "1"
+    },
+    {
+      "id": 110893,
+      "key": "generator",
+      "value": "importer-handelsgilde"
+    },
+    {
+      "id": 110894,
+      "key": "_unit",
+      "value": ""
+    },
+    {
+      "id": 110895,
+      "key": "_unit_price_auto",
+      "value": "no"
+    },
+    {
+      "id": 110896,
+      "key": "_sale_price_label",
+      "value": ""
+    },
+    {
+      "id": 110897,
+      "key": "_sale_price_regular_label",
+      "value": ""
+    },
+    {
+      "id": 110898,
+      "key": "_manufacturer_slug",
+      "value": ""
+    },
+    {
+      "id": 110899,
+      "key": "_warranty_attachment_id",
+      "value": ""
+    },
+    {
+      "id": 110900,
+      "key": "_safety_attachment_ids",
+      "value": []
+    },
+    {
+      "id": 110901,
+      "key": "_min_age",
+      "value": ""
+    },
+    {
+      "id": 110902,
+      "key": "_ts_gtin",
+      "value": ""
+    },
+    {
+      "id": 110903,
+      "key": "_ts_mpn",
+      "value": ""
+    },
+    {
+      "id": 110904,
+      "key": "_default_delivery_time",
+      "value": ""
+    },
+    {
+      "id": 110905,
+      "key": "_delivery_time_countries",
+      "value": []
+    },
+    {
+      "id": 110906,
+      "key": "_free_shipping",
+      "value": "no"
+    },
+    {
+      "id": 110907,
+      "key": "_service",
+      "value": "no"
+    },
+    {
+      "id": 110908,
+      "key": "_photovoltaic_system",
+      "value": "no"
+    },
+    {
+      "id": 110909,
+      "key": "_used_good",
+      "value": "no"
+    },
+    {
+      "id": 110910,
+      "key": "_defective_copy",
+      "value": "no"
+    },
+    {
+      "id": 110911,
+      "key": "_wireless_electronic_device",
+      "value": "no"
+    },
+    {
+      "id": 110912,
+      "key": "_device_contains_power_supply",
+      "value": "no"
+    },
+    {
+      "id": 110913,
+      "key": "_device_charging_supports_usb_pd",
+      "value": "no"
+    },
+    {
+      "id": 110914,
+      "key": "_is_food",
+      "value": "no"
+    },
+    {
+      "id": 110915,
+      "key": "_differential_taxation",
+      "value": "no"
+    },
+    {
+      "id": 110916,
+      "key": "_gzd_version",
+      "value": "3.20.2"
+    },
+    {
+      "id": 264868,
+      "key": "_unit_price_regular",
+      "value": ""
+    },
+    {
+      "id": 264869,
+      "key": "_unit_price_sale",
+      "value": ""
+    },
+    {
+      "id": 264870,
+      "key": "_unit_price",
+      "value": ""
+    },
+    {
+      "id": 264871,
+      "key": "_defect_description",
+      "value": ""
+    }
+  ],
+  "stock_status": "outofstock",
+  "has_options": true,
+  "post_password": "",
+  "global_unique_id": "",
+  "hs_code": "",
+  "customs_description": "",
+  "manufacture_country": "DE",
+  "shipping_dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "unit": [],
+  "unit_price": {
+    "base": "",
+    "product": "",
+    "price_auto": false,
+    "price": "",
+    "price_regular": "",
+    "price_sale": "",
+    "price_html": ""
+  },
+  "mini_desc": "",
+  "defect_description": "",
+  "min_age": "",
+  "gtin": "",
+  "mpn": "",
+  "sale_price_label": [],
+  "sale_price_regular_label": [],
+  "manufacturer": [],
+  "safety_attachment_ids": [],
+  "safety_instructions": "",
+  "delivery_time": [],
+  "country_specific_delivery_times": [],
+  "free_shipping": false,
+  "wireless_electronic_device": false,
+  "device_contains_power_supply": false,
+  "device_charging_supports_usb_pd": false,
+  "device_charging_watt_min": "",
+  "device_charging_watt_max": "",
+  "service": false,
+  "used_good": false,
+  "defective_copy": false,
+  "photovoltaic_system": false,
+  "differential_taxation": false,
+  "warranty_attachment_id": "",
+  "is_food": false,
+  "food": {
+    "deposit_type": [],
+    "deposit_quantity": 1,
+    "deposit": 0,
+    "ingredients": "",
+    "nutrient_reference_value": "",
+    "nutri_score": "",
+    "alcohol_content": "",
+    "allergen_ids": [],
+    "nutrient_ids": [
+      {
+        "term": 0,
+        "value": "",
+        "ref_value": ""
+      }
+    ],
+    "net_filling_quantity": "",
+    "drained_weight": "",
+    "description": "",
+    "distributor": "",
+    "place_of_origin": ""
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/5243",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

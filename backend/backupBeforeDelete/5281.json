@@ -1,0 +1,436 @@
+{
+  "id": 5281,
+  "name": "Mittelalterlicher Rock, weit ausgestellt, grün",
+  "slug": "",
+  "permalink": "https://die-handelsgilde.de/?post_type=product&p=5281",
+  "date_created": "2025-10-09T22:20:49",
+  "date_created_gmt": "2025-10-09T20:20:49",
+  "date_modified": "2025-10-14T20:01:58",
+  "date_modified_gmt": "2025-10-14T18:01:58",
+  "type": "variable",
+  "status": "draft",
+  "featured": false,
+  "catalog_visibility": "visible",
+  "description": "<h1>Mittelalterlicher Rock, weit ausgestellt, grün</h1>\n<p>Der grüne, weit ausgestellte Mittelalter-Rock mit Kordelzug und Holzperlen an den Enden sitzt lässig auf der Hüfte und bringt mit seiner Länge elegant die Beine zur Geltung. Zwei praktische Innentaschen bieten zusätzlichen Komfort.</p>\n<h3>Historischer Kontext</h3>\n<p>Mittelalterliche Kleidung zeichnete sich oft durch schlichte, weite Schnitte aus, die Bewegungsfreiheit boten. Solche Röcke wurden in vielen europäischen Regionen getragen und waren oft Teil einer praktischen und vielseitigen Alltagsgarderobe.</p>\n<h3>Material &amp; Verarbeitung</h3>\n<p>Handgefertigte Verarbeitungstechniken sorgen für robuste Nähte und langlebigen Tragekomfort. Holzperlen verleihen dem Rock eine authentische mittelalterliche Note.</p>\n<ul>\n<li>Bequemer Kordelzug für flexible Passform</li>\n<li>Gesamtlänge bei L: ca. 98 cm</li>\n<li>Verfügbar in Größen: S, M, L, XL, XXL</li>\n<li>Nur der Rock im Lieferumfang enthalten</li>\n</ul>\n",
+  "short_description": "<p>Mittelalterlicher Rock, weit ausgestellt<br />\nIdeal für historische Veranstaltungen und LARP<br />\n100% Baumwolle, hochwertig verarbeitet<br />\nMit dekorativen Holzperlen am Kordelzug<br />\nIn mehreren Farben und Größen erhältlich</p>\n",
+  "sku": "1216303070",
+  "price": "29.99",
+  "regular_price": "",
+  "sale_price": "",
+  "date_on_sale_from": null,
+  "date_on_sale_from_gmt": null,
+  "date_on_sale_to": null,
+  "date_on_sale_to_gmt": null,
+  "on_sale": false,
+  "purchasable": true,
+  "total_sales": 0,
+  "virtual": false,
+  "downloadable": false,
+  "downloads": [],
+  "download_limit": -1,
+  "download_expiry": -1,
+  "external_url": "",
+  "button_text": "",
+  "tax_status": "taxable",
+  "tax_class": "",
+  "manage_stock": true,
+  "stock_quantity": 0,
+  "backorders": "no",
+  "backorders_allowed": false,
+  "backordered": false,
+  "low_stock_amount": null,
+  "sold_individually": false,
+  "weight": "0.6",
+  "dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "shipping_required": true,
+  "shipping_taxable": true,
+  "shipping_class": "",
+  "shipping_class_id": 0,
+  "reviews_allowed": true,
+  "average_rating": "0.00",
+  "rating_count": 0,
+  "upsell_ids": [],
+  "cross_sell_ids": [],
+  "parent_id": 0,
+  "purchase_note": "",
+  "categories": [
+    {
+      "id": 344,
+      "name": "Röcke",
+      "slug": "roecke"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 160,
+      "name": "Baumwolle",
+      "slug": "baumwolle"
+    },
+    {
+      "id": 657,
+      "name": "Holzperlen",
+      "slug": "holzperlen"
+    },
+    {
+      "id": 499,
+      "name": "Mittelalter",
+      "slug": "mittelalter"
+    },
+    {
+      "id": 341,
+      "name": "Rock",
+      "slug": "rock"
+    }
+  ],
+  "images": [
+    {
+      "id": 5275,
+      "date_created": "2025-10-10T00:19:53",
+      "date_created_gmt": "2025-10-09T20:19:53",
+      "date_modified": "2025-10-10T00:20:49",
+      "date_modified_gmt": "2025-10-09T20:20:49",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070g_rock_mittelalterlich_ausgestellt_gruen_mittelalter.webp",
+      "name": "Mittelalterlicher Rock, weit ausgestellt, grün",
+      "alt": "Mittelalterlicher Rock, weit ausgestellt, grün",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070g_rock_mittelalterlich_ausgestellt_gruen_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070g_rock_mittelalterlich_ausgestellt_gruen_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070g_rock_mittelalterlich_ausgestellt_gruen_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070g_rock_mittelalterlich_ausgestellt_gruen_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070g_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070g_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070g_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070g_rock_mittelalterlich_ausgestellt_gruen_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5276,
+      "date_created": "2025-10-10T00:20:00",
+      "date_created_gmt": "2025-10-09T20:20:00",
+      "date_modified": "2025-10-10T00:20:49",
+      "date_modified_gmt": "2025-10-09T20:20:49",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070h_rock_mittelalterlich_ausgestellt_gruen_mittelalter.webp",
+      "name": "Mittelalterlicher Rock, weit ausgestellt, grün",
+      "alt": "Mittelalterlicher Rock, weit ausgestellt, grün",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070h_rock_mittelalterlich_ausgestellt_gruen_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070h_rock_mittelalterlich_ausgestellt_gruen_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070h_rock_mittelalterlich_ausgestellt_gruen_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070h_rock_mittelalterlich_ausgestellt_gruen_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070h_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070h_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070h_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070h_rock_mittelalterlich_ausgestellt_gruen_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5277,
+      "date_created": "2025-10-10T00:20:06",
+      "date_created_gmt": "2025-10-09T20:20:06",
+      "date_modified": "2025-10-10T00:20:49",
+      "date_modified_gmt": "2025-10-09T20:20:49",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070b_rock_mittelalterlich_ausgestellt_gruen_mittelalter.webp",
+      "name": "Mittelalterlicher Rock, weit ausgestellt, grün",
+      "alt": "Mittelalterlicher Rock, weit ausgestellt, grün",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070b_rock_mittelalterlich_ausgestellt_gruen_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070b_rock_mittelalterlich_ausgestellt_gruen_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070b_rock_mittelalterlich_ausgestellt_gruen_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070b_rock_mittelalterlich_ausgestellt_gruen_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070b_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070b_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070b_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070b_rock_mittelalterlich_ausgestellt_gruen_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5278,
+      "date_created": "2025-10-10T00:20:13",
+      "date_created_gmt": "2025-10-09T20:20:13",
+      "date_modified": "2025-10-10T00:20:49",
+      "date_modified_gmt": "2025-10-09T20:20:49",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070c_rock_mittelalterlich_ausgestellt_gruen_mittelalter.webp",
+      "name": "Mittelalterlicher Rock, weit ausgestellt, grün",
+      "alt": "Mittelalterlicher Rock, weit ausgestellt, grün",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070c_rock_mittelalterlich_ausgestellt_gruen_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070c_rock_mittelalterlich_ausgestellt_gruen_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070c_rock_mittelalterlich_ausgestellt_gruen_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070c_rock_mittelalterlich_ausgestellt_gruen_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070c_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070c_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070c_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070c_rock_mittelalterlich_ausgestellt_gruen_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5279,
+      "date_created": "2025-10-10T00:20:24",
+      "date_created_gmt": "2025-10-09T20:20:24",
+      "date_modified": "2025-10-10T00:20:49",
+      "date_modified_gmt": "2025-10-09T20:20:49",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070d_rock_mittelalterlich_ausgestellt_gruen_mittelalter.webp",
+      "name": "Mittelalterlicher Rock, weit ausgestellt, grün",
+      "alt": "Mittelalterlicher Rock, weit ausgestellt, grün",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070d_rock_mittelalterlich_ausgestellt_gruen_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070d_rock_mittelalterlich_ausgestellt_gruen_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070d_rock_mittelalterlich_ausgestellt_gruen_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070d_rock_mittelalterlich_ausgestellt_gruen_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070d_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070d_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070d_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070d_rock_mittelalterlich_ausgestellt_gruen_mittelalter-500x600.webp"
+    },
+    {
+      "id": 5280,
+      "date_created": "2025-10-10T00:20:35",
+      "date_created_gmt": "2025-10-09T20:20:35",
+      "date_modified": "2025-10-10T00:20:49",
+      "date_modified_gmt": "2025-10-09T20:20:49",
+      "src": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070e_rock_mittelalterlich_ausgestellt_gruen_mittelalter.webp",
+      "name": "Mittelalterlicher Rock, weit ausgestellt, grün",
+      "alt": "Mittelalterlicher Rock, weit ausgestellt, grün",
+      "srcset": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070e_rock_mittelalterlich_ausgestellt_gruen_mittelalter.webp 1500w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070e_rock_mittelalterlich_ausgestellt_gruen_mittelalter-214x300.webp 214w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070e_rock_mittelalterlich_ausgestellt_gruen_mittelalter-731x1024.webp 731w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070e_rock_mittelalterlich_ausgestellt_gruen_mittelalter-768x1075.webp 768w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070e_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1097x1536.webp 1097w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070e_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1463x2048.webp 1463w, https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070e_rock_mittelalterlich_ausgestellt_gruen_mittelalter-1000x1400.webp 1000w",
+      "sizes": "(max-width: 1500px) 100vw, 1500px",
+      "thumbnail": "https://die-handelsgilde.de/wp-content/uploads/2025/10/1216303070e_rock_mittelalterlich_ausgestellt_gruen_mittelalter-500x600.webp"
+    }
+  ],
+  "attributes": [
+    {
+      "id": 1,
+      "name": "Größe",
+      "slug": "pa_groesse",
+      "position": 0,
+      "visible": true,
+      "variation": true,
+      "options": [
+        "L",
+        "M",
+        "S",
+        "Xl",
+        "Xxl"
+      ]
+    }
+  ],
+  "default_attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "menu_order": 0,
+  "price_html": "",
+  "related_ids": [
+    628,
+    620,
+    465,
+    848,
+    680
+  ],
+  "meta_data": [
+    {
+      "id": 111275,
+      "key": "rank_math_internal_links_processed",
+      "value": "1"
+    },
+    {
+      "id": 111297,
+      "key": "generator",
+      "value": "importer-handelsgilde"
+    },
+    {
+      "id": 111298,
+      "key": "_unit",
+      "value": ""
+    },
+    {
+      "id": 111299,
+      "key": "_unit_price_auto",
+      "value": "no"
+    },
+    {
+      "id": 111300,
+      "key": "_sale_price_label",
+      "value": ""
+    },
+    {
+      "id": 111301,
+      "key": "_sale_price_regular_label",
+      "value": ""
+    },
+    {
+      "id": 111302,
+      "key": "_manufacturer_slug",
+      "value": ""
+    },
+    {
+      "id": 111303,
+      "key": "_warranty_attachment_id",
+      "value": ""
+    },
+    {
+      "id": 111304,
+      "key": "_safety_attachment_ids",
+      "value": []
+    },
+    {
+      "id": 111305,
+      "key": "_min_age",
+      "value": ""
+    },
+    {
+      "id": 111306,
+      "key": "_ts_gtin",
+      "value": ""
+    },
+    {
+      "id": 111307,
+      "key": "_ts_mpn",
+      "value": ""
+    },
+    {
+      "id": 111308,
+      "key": "_default_delivery_time",
+      "value": ""
+    },
+    {
+      "id": 111309,
+      "key": "_delivery_time_countries",
+      "value": []
+    },
+    {
+      "id": 111310,
+      "key": "_free_shipping",
+      "value": "no"
+    },
+    {
+      "id": 111311,
+      "key": "_service",
+      "value": "no"
+    },
+    {
+      "id": 111312,
+      "key": "_photovoltaic_system",
+      "value": "no"
+    },
+    {
+      "id": 111313,
+      "key": "_used_good",
+      "value": "no"
+    },
+    {
+      "id": 111314,
+      "key": "_defective_copy",
+      "value": "no"
+    },
+    {
+      "id": 111315,
+      "key": "_wireless_electronic_device",
+      "value": "no"
+    },
+    {
+      "id": 111316,
+      "key": "_device_contains_power_supply",
+      "value": "no"
+    },
+    {
+      "id": 111317,
+      "key": "_device_charging_supports_usb_pd",
+      "value": "no"
+    },
+    {
+      "id": 111318,
+      "key": "_is_food",
+      "value": "no"
+    },
+    {
+      "id": 111319,
+      "key": "_differential_taxation",
+      "value": "no"
+    },
+    {
+      "id": 111320,
+      "key": "_gzd_version",
+      "value": "3.20.2"
+    },
+    {
+      "id": 265075,
+      "key": "_unit_price_regular",
+      "value": ""
+    },
+    {
+      "id": 265076,
+      "key": "_unit_price_sale",
+      "value": ""
+    },
+    {
+      "id": 265077,
+      "key": "_unit_price",
+      "value": ""
+    },
+    {
+      "id": 265078,
+      "key": "_defect_description",
+      "value": ""
+    }
+  ],
+  "stock_status": "outofstock",
+  "has_options": true,
+  "post_password": "",
+  "global_unique_id": "",
+  "hs_code": "",
+  "customs_description": "",
+  "manufacture_country": "DE",
+  "shipping_dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "unit": [],
+  "unit_price": {
+    "base": "",
+    "product": "",
+    "price_auto": false,
+    "price": "",
+    "price_regular": "",
+    "price_sale": "",
+    "price_html": ""
+  },
+  "mini_desc": "",
+  "defect_description": "",
+  "min_age": "",
+  "gtin": "",
+  "mpn": "",
+  "sale_price_label": [],
+  "sale_price_regular_label": [],
+  "manufacturer": [],
+  "safety_attachment_ids": [],
+  "safety_instructions": "",
+  "delivery_time": [],
+  "country_specific_delivery_times": [],
+  "free_shipping": false,
+  "wireless_electronic_device": false,
+  "device_contains_power_supply": false,
+  "device_charging_supports_usb_pd": false,
+  "device_charging_watt_min": "",
+  "device_charging_watt_max": "",
+  "service": false,
+  "used_good": false,
+  "defective_copy": false,
+  "photovoltaic_system": false,
+  "differential_taxation": false,
+  "warranty_attachment_id": "",
+  "is_food": false,
+  "food": {
+    "deposit_type": [],
+    "deposit_quantity": 1,
+    "deposit": 0,
+    "ingredients": "",
+    "nutrient_reference_value": "",
+    "nutri_score": "",
+    "alcohol_content": "",
+    "allergen_ids": [],
+    "nutrient_ids": [
+      {
+        "term": 0,
+        "value": "",
+        "ref_value": ""
+      }
+    ],
+    "net_filling_quantity": "",
+    "drained_weight": "",
+    "description": "",
+    "distributor": "",
+    "place_of_origin": ""
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products/5281",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://die-handelsgilde.de/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}
