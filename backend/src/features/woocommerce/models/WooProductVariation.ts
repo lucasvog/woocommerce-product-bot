@@ -145,13 +145,13 @@ export interface WooVariationImage {
   /** Image ID. */
   id: number;
   /** 🔒 The date the image was created (local). */
-  readonly date_created: string;
+  readonly date_created?: string;
   /** 🔒 The date the image was created (GMT). */
-  readonly date_created_gmt: string;
+  readonly date_created_gmt?: string;
   /** 🔒 The date the image was last modified (local). */
-  readonly date_modified: string;
+  readonly date_modified?: string;
   /** 🔒 The date the image was last modified (GMT). */
-  readonly date_modified_gmt: string;
+  readonly date_modified_gmt?: string;
   /** Image URL. */
   src: string;
   /** Image name. */

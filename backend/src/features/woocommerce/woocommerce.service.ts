@@ -8,6 +8,7 @@ import { FunctionResponse } from './models/FunctionResponse';
 import { WooTag } from './models/WooTag';
 import { AiService } from '../ai/ai.service';
 import { Tags } from 'node_modules/woocommerce-rest-ts-api/dist/src/typesANDinterfaces';
+import { WooProductVariation } from './models/WooProductVariation';
 @Injectable()
 export class WoocommerceService {
   private api: WooCommerceRestApi<WooRestApiOptions>;
@@ -32,6 +33,9 @@ export class WoocommerceService {
   }
 
   async test() {
+    // const product = await this.getProductsBySku('ULF-HM-52');
+    // console.log(product);
+    // console.log(product?.map((e) => JSON.stringify(e.attributes)));
     //     const tags = await this.getAllTags();
     //     if (tags.data) {
     //       console.log(
@@ -312,5 +316,73 @@ export class WoocommerceService {
       }
     }
     return returningTags;
+  }
+
+  async createVariationIfNotExists(
+    productId: string,
+    variantSKu: string,
+    data: Partial<WooProductVariation>,
+  ): Promise<FunctionResponse<WooProductVariation>> {
+    const existingVariations = await this.getVariationsBySku(
+      productId,
+      variantSKu,
+    );
+    if (existingVariations && existingVariations.length > 0) {
+      console.log('Variation already exists for SKU', variantSKu);
+      return { data: existingVariations[0] };
+    }
+    const newVariation = await this.createVariantion(productId, data);
+    return newVariation;
+  }
+
+  async getVariationsBySku(productId: string, sku: string) {
+    try {
+      const response = await this.api.get<WooProductVariation[]>(
+        'products/' + productId + '/variations',
+        {
+          sku: sku,
+        },
+      );
+      return response.data;
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  async createVariantion(
+    productId: string,
+    data: Partial<WooProductVariation>,
+  ): Promise<FunctionResponse<WooProductVariation>> {
+    try {
+      const variation = await this.api.post<WooProductVariation>(
+        `products/${productId}/variations`,
+        data,
+      );
+      return { data: variation.data };
+    } catch (e) {
+      console.error(e);
+      return {
+        errors: ['Error creating Product Variation', JSON.stringify(e)],
+      };
+    }
+  }
+
+  async updateVariation(
+    productId: string,
+    variationId: number,
+    data: Partial<WooProductVariation>,
+  ): Promise<FunctionResponse<WooProductVariation>> {
+    try {
+      const variation = await this.api.put<WooProductVariation>(
+        `products/${productId}/variations/${variationId}`,
+        data,
+      );
+      return { data: variation.data };
+    } catch (e) {
+      console.error(e);
+      return {
+        errors: ['Error updating Product Variation', JSON.stringify(e)],
+      };
+    }
   }
 }
