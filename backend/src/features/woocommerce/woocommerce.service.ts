@@ -309,6 +309,7 @@ export class WoocommerceService {
     const newTagsToAdd: {
       name: string;
     }[] = [];
+
     for (const testTag of sortedTags.newTags) {
       const foundTag = tags.data.find((e) => e.name === testTag.name);
       if (foundTag) {
@@ -317,8 +318,13 @@ export class WoocommerceService {
         newTagsToAdd.push(testTag);
       }
     }
-
+    // console.log(
+    //   'existing Tags',
+    //   tags.data.map((e) => e.name),
+    // );
+    console.log('new Tags', newTagsToAdd);
     for (const newTag of newTagsToAdd) {
+      console.log('create tag', newTag.name);
       const newTagData = await this.createTag(newTag.name);
       if (newTagData.data) {
         console.log('created new Tag', newTag.name);

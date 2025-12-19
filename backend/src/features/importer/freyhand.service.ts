@@ -9,6 +9,8 @@ import { ImageService } from '../image/image.service';
 import { WoocommerceService } from '../woocommerce/woocommerce.service';
 import { AiService } from '../ai/ai.service';
 import { Images } from 'node_modules/woocommerce-rest-ts-api/dist/src/typesANDinterfaces';
+import { WooAttribute } from '../woocommerce/models/WooAttribute';
+import { WooVariationImage } from '../woocommerce/models/WooProductVariation';
 @Injectable()
 export class FreyhandImportService {
   errors: string[] = [];
@@ -88,7 +90,7 @@ export class FreyhandImportService {
         }
       }
       if (images.length <= 0) {
-        continue; //TODO: remive
+        continue; //skip products without image
       }
       const { longDescriptionHtml, shortDescription } =
         await this.getLongAndShortDescription(product.title, product.body_html);
@@ -106,32 +108,161 @@ export class FreyhandImportService {
         product.title,
         shortDescription,
       );
-      await this.wooCommerceService.createOrUpdateProduct({
-        name: product.title,
-        status: 'draft',
-        description: longDescriptionHtml,
-        short_description: shortDescription,
-        tax_status: 'taxable',
-        manage_stock: true,
+      //das ist sowas wie GRÖSSE oder FARBE
+      const uniqueAttributesOfVariations = product.options.map((e) =>
+        this.getAttributeTitle(e.name),
+      );
+      //Das ist sowas wie "Grün" oder "Blau"
+      const attributeOptionsOfVariations = product.variants.map((e) =>
+        this.getVariantTitle(e.title),
+      );
+      const attributes: Partial<WooAttribute>[] = [];
+      for (const attr of uniqueAttributesOfVariations) {
+        console.log('Attribute:', attr);
+        const newAttribute =
+          await this.wooCommerceService.getOrCreateAttribute(attr);
+        if (!newAttribute.data) {
+          console.log('Could not create attribute for', attr);
+          continue;
+        }
+        attributes.push(newAttribute.data);
+      }
+      const productResult = await this.wooCommerceService.createOrUpdateProduct(
+        {
+          name: product.title,
+          status: 'draft',
+          description: longDescriptionHtml,
+          short_description: shortDescription,
+          tax_status: 'taxable',
+          manage_stock: true,
+          stock_quantity: 0,
+          backorders: 'no',
+          dimensions: { length: '', width: '', height: '' },
+          categories: productCategories,
+          tags: tags,
+          images: images,
+          type: 'variable',
+          sku: this.getFreyhandSKU(product.id),
+          featured: false,
+          on_sale: false,
+          stock_status: 'instock',
+          meta_data: [
+            {
+              key: 'generator',
+              value: 'importer-handelsgilde',
+            },
+          ],
+          attributes: attributes.map((attr) => ({
+            id: attr.id,
+            name: attr.name,
+            variation: true,
+            visible: true,
+            options: attributeOptionsOfVariations, // <- Das ist entscheidend!
+          })),
+        },
+      );
+      if (!productResult.data) {
+        console.log(
+          'Error creating parent product:',
+          product.title,
+          productResult.errors,
+        );
+        if (productResult.errors) {
+          this.errors.push(...productResult.errors);
+        }
+        return;
+      }
+      //Next, add variants
+      for (const variant of product.variants) {
+        console.log(
+          'Adding Variant',
+          this.getVariantTitle(variant.title),
+          'to',
+          product.title,
+        );
+        await this.importProductVariant(
+          productResult.data.id.toString(),
+          product.title,
+          variant,
+          attributes,
+        );
+      }
+      return;
+    }
+  }
+
+  async importProductVariant(
+    parentProductId: string,
+    parentProductName: string,
+    variant: ShopifyJsonVariant,
+    attributes: Partial<WooAttribute>[],
+  ) {
+    let image: WooVariationImage | undefined;
+    if (variant.featured_image && variant.featured_image.src) {
+      const imageData = await this.wordpressService.getImageOrConvertAndUpload(
+        variant.featured_image.src,
+        {
+          fileName: this.imageService.getWebpFileNameFromUrl(
+            variant.featured_image.src,
+          ),
+          title:
+            parentProductName + ' - ' + this.getVariantTitle(variant.title),
+          alt_text:
+            parentProductName + ' - ' + this.getVariantTitle(variant.title),
+        },
+      );
+      if (imageData.data) {
+        image = {
+          id: imageData.data.id,
+          src: imageData.data.source_url,
+          alt: imageData.data.alt_text,
+          name: imageData.data.title.rendered,
+        };
+      }
+    }
+    const variationData = await this.wooCommerceService.updateOrCreateVariation(
+      parentProductId,
+      {
+        status: 'publish',
+        sku: this.getFreyhandSKU(variant.id),
+        price: variant.price,
+        regular_price: variant.compare_at_price || variant.price,
         stock_quantity: 0,
-        backorders: 'no',
-        dimensions: { length: '', width: '', height: '' },
-        categories: productCategories,
-        tags: tags,
-        images: images,
-        type: 'variable',
-        sku: this.getFreyhandSKU(product.id),
-        featured: false,
-        on_sale: false,
+        manage_stock: true,
         stock_status: 'instock',
+        image: image,
+        weight: variant.grams.toString(),
         meta_data: [
           {
             key: 'generator',
             value: 'importer-handelsgilde',
           },
         ],
-      });
-      return;
+        attributes: attributes
+          .map((attr) => {
+            if (attr.id && attr.name) {
+              return {
+                id: attr.id,
+                name: attr.name,
+                option: this.getVariantTitle(variant.title),
+                variation: true,
+              };
+            } else {
+              return undefined;
+            }
+          })
+          .filter((e) => e !== undefined),
+      },
+    );
+    if (variationData.errors) {
+      console.error(
+        'Could not create variation:',
+        this.getVariantTitle(variant.title),
+        'for',
+        parentProductName,
+        variationData.errors,
+      );
+      this.errors.push(...variationData.errors);
     }
   }
 
@@ -139,7 +270,30 @@ export class FreyhandImportService {
     return 'freyhand-' + productId.toString();
   }
 
-  async importProductVariant(data: ShopifyJsonVariant) {}
+  /**
+   * Returns the attribute Title, such as "Größe" or "Farbe"
+   * @param attributeName any
+   * @returns correct title
+   */
+  getAttributeTitle(attributeName: any) {
+    return typeof attributeName !== 'string' ||
+      attributeName === 'Title' ||
+      attributeName === ''
+      ? 'Auswahl'
+      : attributeName;
+  }
+  /**
+   * Variant title, such as "Blau" or "Grün"
+   * @param variantTitle any type
+   * @returns correct title of variant
+   */
+  getVariantTitle(variantTitle: any) {
+    return typeof variantTitle !== 'string' ||
+      variantTitle === 'Default Title' ||
+      variantTitle === ''
+      ? 'Standard'
+      : variantTitle;
+  }
 
   async getLongAndShortDescription(
     productName: string,
